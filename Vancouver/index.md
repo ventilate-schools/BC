@@ -97,7 +97,7 @@ title: Schools in ./Vancouver
 - [Shaughnessy Elementary](Shaughnessy_Elementary.md)
 - [South Hill Education Centre](South_Hill_Education_Centre.md)
 - [Southlands Elementary](Southlands_Elementary.md)
-- [staywate-n̓ Point Grey Secondary](staywate-n̓_Point_Grey_Secondary.md)
+- [staywate꞉n̓ Point Grey Secondary](staywate꞉n̓_Point_Grey_Secondary.md)
 - [Strathcona Elementary](Strathcona_Elementary.md)
 - [šxʷəxʷaʔəs Thunderbird Elementary](šxʷəxʷaʔəs_Thunderbird_Elementary.md)
 - [šxʷwəq̓ʷəθət Crosstown Elementary](šxʷwəq̓ʷəθət_Crosstown_Elementary.md)
