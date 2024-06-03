@@ -8,9 +8,9 @@ lsi: false
 markdown: kramdown
 future: true
 
-title : Connecticut Schools Ventilation Progress
+title : British Columbia Schools Ventilation Progress
 
-production_url : https://ventilate-schools.github.io/CT/
+production_url : https://ventilate-schools.github.io/BC/
 
 plugins:
   - jekyll-redirect-from
