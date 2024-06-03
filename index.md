@@ -27,9 +27,67 @@ Know that other diseases are airborne too: Measles (studies [1](https://www.ncbi
 
 # British Columbia School Districts:
 
+
+- Southeast Kootenay
+- Rocky Mountain
+- Kootenay Lake
+- Arrow Lakes
+- Revelstoke
+- Kootenay-Columbia
+- Vernon
+- Central Okanagan
+- Cariboo-Chilcotin
+- Quesnel
+- Chilliwack
+- Abbotsford
+- Langley
+- Surrey
+- Delta
+- Richmond
 - [Vancouver](Vancouver/): 109 schools
+- New Westminster
+- Burnaby
+- Maple Ridge-Pitt Meadows
+- Coquitlam
+- North Vancouver
+- West Vancouver
+- Sunshine Coast
+- Powell River
+- Sea to Sky
+- Central Coast
+- Haida Gwaii
+- [Boundary](Boundary/): 10 schools
+- Prince Rupert
+- Okanagan Similkameen
+- Bulkley Valley
+- Prince George
+- Nicola-Similkameen
+- Peace River South
+- Peace River North
+- Greater Victoria
+- Sooke
+- Saanich
+- Gulf Islands
+- Okanagan Skaha
+- Nanaimo-Ladysmith
+- Qualicum
+- Pacific Rim
+- Comox Valley
+- Campbell River
+- Kamloops/Thompson
+- Gold Trail
 - [Mission](Mission/): 16 schools
-- Others TODO
+- Fraser-Cascade
+- Cowichan Valley
+- Fort Nelson
+- Coast Mountains
+- North Okanagan-Shuswap
+- Vancouver Island West
+- Vancouver Island North
+- Stikine
+- Nechako Lakes
+- Nisga'a
+- Conseil scolaire francophone
 
 # Work announced for B.C. Schools:
 

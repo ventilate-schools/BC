@@ -13,109 +13,83 @@ import pandas as pd
 
 # After you generate the markdown from this script, also run `python3 make_grade_subtotals_and_totals.py`
 
-mission_schools = [
+boundary_bc_schools = [
     {
-        'school_name': 'Albert McMahon Elementary',
-        'address': '32865 Cherry Ave  Mission BC V2V 2V1',
-        'website': 'https://albertmcmahon.mpsd.ca',
-        'phone': '604 826-0274'
+        'school_name': 'Beaverdell Elementary School',
+        'address': '5873 Highway 33, Beaverdell, BC V0H 1A0',
+        'website': 'https://bes.sd51.bc.ca',
+        'phone': '250-484-5661',
+        'students': 15
     },
     {
-        'school_name': 'Cherry Hill Elementary',
-        'address': '32557 Best Ave  Mission BC V2V 2S5',
-        'website': 'https://cherryhill.mpsd.ca',
-        'phone': '604 826-9239'
+        'school_name': 'Big White Community School',
+        'address': '5010 Snow Pines Road, Kelowna, BC V1P 1P3',
+        'website': 'https://bwcs.sd51.bc.ca',
+        'phone': '250-491-5353',
+        'students': 41
     },
     {
-        'school_name': 'Deroche Elementary',
-        'address': '10340 N Deroche Rd  Deroche BC V0M 1G0',
-        'website': 'https://deroche.mpsd.ca',
-        'phone': '604 826-2360'
+        'school_name': 'Boundary Central Secondary School',
+        'address': '3575 Kettle Valley Rd S, Midway, BC V0H 1M0',
+        'website': 'https://bcss.sd51.bc.ca',
+        'phone': '250-449-2224',
+        'students': 140
     },
     {
-        'school_name': 'Dewdney Elementary',
-        'address': '37151 Hawkins-Pickle Rd B107  Dewdney BC V0M 1H0',
-        'website': 'https://dewdney.mpsd.ca',
-        'phone': '604 826-2516'
+        'school_name': 'Christina Lake Elementary School',
+        'address': '2821 5th St, Christina Lake, BC V0H 1E0',
+        'website': 'https://cles.sd51.bc.ca',
+        'phone': '250-447-9423',
+        'students': 57
     },
     {
-        'school_name': 'Ecole Christine Morrison Elementary',
-        'address': '32611 McRae Ave  Mission BC V2V 2L8',
-        'website': 'https://morrison.mpsd.ca',
-        'phone': '604 826-6528'
+        'school_name': 'Dr. D. A. Perley Elementary School',
+        'address': '1200 Central Ave, Grand Forks, BC V0H 1H0',
+        'website': 'https://ddp.sd51.bc.ca',
+        'phone': '250-442-2135',
+        'students': 295
     },
     {
-        'school_name': 'Ecole Mission Central Elementary',
-        'address': '7466 Welton St  Mission BC V2V 6L4',
-        'website': 'https://missioncentral.mpsd.ca',
-        'phone': '604 826-1414'
+        'school_name': 'Grand Forks Secondary School',
+        'address': '1331 Central Ave, Grand Forks, BC V0H 1H0',
+        'website': 'https://gfss.sd51.bc.ca',
+        'phone': '250-442-8285',
+        'students': 350
     },
     {
-        'school_name': 'Edwin S. Richards School',
-        'address': '33419 Cherry Ave   Mission BC V2V 2V5',
-        'website': 'https://esrichards.mpsd.ca',
-        'phone': '604-826-2834'
+        'school_name': 'Greenwood Elementary School',
+        'address': '266 North Kimberley Ave, Greenwood, BC V0H 1J0',
+        'website': 'https://ges.sd51.bc.ca',
+        'phone': '250-445-6616',
+        'students': 67
     },
     {
-        'school_name': 'Hatzic Elementary',
-        'address': '8465 Draper St  Mission BC V2V 5V6',
-        'website': 'https://hatzicel.mpsd.ca',
-        'phone': '604-826-2481'
+        'school_name': 'John A. Hutton Elementary School',
+        'address': '2575 Central Ave, Grand Forks, BC V0H 1H0',
+        'website': 'https://jah.sd51.bc.ca',
+        'phone': '250-442-8275',
+        'students': 220
     },
     {
-        'school_name': 'Hillside Academy',
-        'address': '33621 Best Ave  Mission BC V2V5Z3',
-        'website': 'https://hillside.mpsd.ca',
-        'phone': '604-826-4187'
+        'school_name': 'Walker Development Centre',
+        'address': '7250 5th St, Grand Forks, BC V0H 1H4',
+        'website': 'https://wdc.sd51.bc.ca',
+        'phone': '250-442-5313',
+        'students': 35
     },
     {
-        'school_name': 'Silverdale Elementary',
-        'address': '29715 Donatelli Ave  Mission BC V4S 1H6',
-        'website': 'https://silverdale.mpsd.ca',
-        'phone': '604 826-2526'
-    },
-    {
-        'school_name': 'Stave Falls Elementary',
-        'address': '30204 Brackley Ave  Mission BC V4S 1C2',
-        'website': 'https://stavefalls.mpsd.ca',
-        'phone': '604.462.9982'
-    },
-    {
-        'school_name': 'West Heights Community Elementary',
-        'address': '32065 Van Velzen Ave  Mission BC V2V 2G6',
-        'website': 'https://westheights.mpsd.ca',
-        'phone': '604 826-6401'
-    },
-    {
-        'school_name': 'Windebank Elementary',
-        'address': '33570 11th Ave  Mission BC V2V 6Z2',
-        'website': 'https://windebank.mpsd.ca',
-        'phone': '604-826-2213'
-    },
-    {
-        'school_name': 'Ecole Heritage Park Middle School',
-        'address': '33700 Prentis Ave  Mission BC V2V 7B1',
-        'website': 'https://hpms.mpsd.ca',
-        'phone': '604 820-4587'
-    },
-    {
-        'school_name': 'Hatzic Middle School',
-        'address': '34875 Moffat Avenue  Mission BC V2V 6S1',
-        'website': 'https://hms.mpsd.ca',
-        'phone': '604 826-3651'
-    },
-    {
-        'school_name': 'Ecole Mission Secondary',
-        'address': '32939 Seventh Ave  Mission BC V2V 2C5',
-        'website': 'https://mss.mpsd.ca/',
-        'phone': '604 826-7191'
+        'school_name': 'West Boundary Elementary School',
+        'address': '433 5th Ave, Rock Creek, BC V0H 1Y0',
+        'website': 'https://wbes.sd51.bc.ca',
+        'phone': '250-446-2267',
+        'students': 53
     }
 ]
 
 
 
 # Combine all school lists into one DataFrame
-all_schools = (mission_schools)
+all_schools = (boundary_bc_schools)
 schools_data = pd.DataFrame(all_schools)
 
 # Adjust the address column to replace "+" with ", "
@@ -127,7 +101,7 @@ os.makedirs(output_dir, exist_ok=True)
 
 # Adding district names to the DataFrame
 districts = [
-    ("Mission", mission_schools)
+    ("Boundary", boundary_bc_schools)
 ]
 
 # Assign district names to each row in the DataFrame
@@ -152,7 +126,7 @@ def generate_markdown_by_index(row):
     with open(file_path, 'w') as file:
         file.write(f"---\nlayout: page\ntitle: {row['school_name']}\n---\n")  # School Name
         file.write(
-            f"# Navigation\n\n[[All countries/states/provinces]](../../..) > [[All British Columbia Districts]](../..) > [[All In Mission]](..)\n\n")
+            f"# Navigation\n\n[[All countries/states/provinces]](../../..) > [[All British Columbia Districts]](../..) > [[All In Boundary]](..)\n\n")
 
         file.write(f"# {row['school_name']} ({row['district_name']})\n\n")  # School Name and area as header
 
