@@ -269,7 +269,7 @@ vancouver_schools = [
     {'school_name': 'Southlands Elementary', 'address': '5351 Camosun Street Vancouver,  V6N 2C4',
      'google_map': 'https://www.google.com/maps/place/5351+Camosun+Street+Vancouver,++V6N+2C4+++',
      'phone': '604-713-5414', 'website': 'https://www.vsb.bc.ca/southlands'},
-    {'school_name': 'staywate:n Point Grey Secondary', 'address': '5350 East Boulevard Vancouver,  V6M 3V2',
+    {'school_name': 'staywate-n̓ Point Grey Secondary', 'address': '5350 East Boulevard Vancouver,  V6M 3V2',
      'google_map': 'https://www.google.com/maps/place/5350+East+Boulevard+Vancouver,++V6M+3V2+++',
      'phone': '604-713-8220', 'website': 'https://www.vsb.bc.ca/point-grey'},
     {'school_name': 'Strathcona Elementary', 'address': '592 East Pender Street Vancouver,  V6A 1V5',
