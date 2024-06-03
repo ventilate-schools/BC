@@ -29,6 +29,11 @@ Know that other diseases are airborne too: Measles (studies [1](https://www.ncbi
 
 - [./Vancouver](./Vancouver/): 109 schools
 
+# Work announced for B.C. Schools:
+
+[Ventilation upgrades for schools across B.C.](https://www.canada.ca/en/office-infrastructure/news/2024/03/ventilation-upgrades-for-schools-across-bc.html)
+
+"The federal government is investing $3,376,941 through the COVID-19 Resilience Infrastructure Stream of the Investing in Canada Infrastructure Program. The provincial government is investing $844,235."
 
 # Site ownership
 

@@ -1,12 +1,12 @@
 ---
 layout: page
-title: staywate:n̓ Point Grey Secondary
+title: staywate:n Point Grey Secondary
 ---
 # Navigation
 
 [[All countries/states/provinces]](../../..) > [[All British Columbia Districts]](../..) > [[All In Vancouver]](..)
 
-# staywate:n̓ Point Grey Secondary (Vancouver)
+# staywate:n Point Grey Secondary (Vancouver)
 
 **Address**: 5350 East Boulevard Vancouver,  V6M 3V2
 
@@ -31,4 +31,4 @@ title: staywate:n̓ Point Grey Secondary
 **School's Wikidata URL**: TODO
 
 
-[Edit this page](https://github.com/ventilate-schools/BC/edit/main/././Vancouver/staywate:n̓_Point_Grey_Secondary.md). See also [rules for contribution](../../../contribution-rules/)
+[Edit this page](https://github.com/ventilate-schools/BC/edit/main/././Vancouver/staywate:n_Point_Grey_Secondary.md). See also [rules for contribution](../../../contribution-rules/)
