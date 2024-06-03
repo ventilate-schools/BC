@@ -1,0 +1,34 @@
+---
+layout: page
+title: Tecumseh Annex
+---
+# Navigation
+
+[[All countries/states/provinces]](../../..) > [[All British Columbia Districts]](../..) > [[All In Vancouver]](..)
+
+# Tecumseh Annex (Vancouver)
+
+**Address**: 1551 East 37th Avenue Vancouver,  V5P 1E4
+
+**Google Map**: <https://www.google.com/maps/place/1551+East+37th+Avenue+Vancouver,++V5P+1E4+++>
+
+**Phone**: 604-713-4890
+
+**Website**: <https://www.vsb.bc.ca/tecumseh-annex>
+
+**School's overall airborne virus protection grade (0-5)**: 0
+
+**Discord, Facebook, or WhatsApp group for discovery/advocacy for THIS school**: TODO
+
+**School's policy on Ventilation**: TODO
+
+**School's Ventilation Work Completion**: TODO
+
+**School's Air-Purification**: TODO
+
+**School's CO2 monitoring to actively drive ventilation and filtration**: TODO
+
+**School's Wikidata URL**: TODO
+
+
+[Edit this page](https://github.com/ventilate-schools/BC/edit/main/././Vancouver/Tecumseh_Annex.md). See also [rules for contribution](../../../contribution-rules/)

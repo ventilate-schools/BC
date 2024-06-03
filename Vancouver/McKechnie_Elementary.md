@@ -1,0 +1,34 @@
+---
+layout: page
+title: McKechnie Elementary
+---
+# Navigation
+
+[[All countries/states/provinces]](../../..) > [[All British Columbia Districts]](../..) > [[All In Vancouver]](..)
+
+# McKechnie Elementary (Vancouver)
+
+**Address**: 7455 Maple Street Vancouver,  V6P 5P8
+
+**Google Map**: <https://www.google.com/maps/place/7455+Maple+Street+Vancouver,++V6P+5P8+++>
+
+**Phone**: 604-713-4952
+
+**Website**: <https://www.vsb.bc.ca/dr-re-mckechnie>
+
+**School's overall airborne virus protection grade (0-5)**: 0
+
+**Discord, Facebook, or WhatsApp group for discovery/advocacy for THIS school**: TODO
+
+**School's policy on Ventilation**: TODO
+
+**School's Ventilation Work Completion**: TODO
+
+**School's Air-Purification**: TODO
+
+**School's CO2 monitoring to actively drive ventilation and filtration**: TODO
+
+**School's Wikidata URL**: TODO
+
+
+[Edit this page](https://github.com/ventilate-schools/BC/edit/main/././Vancouver/McKechnie_Elementary.md). See also [rules for contribution](../../../contribution-rules/)
