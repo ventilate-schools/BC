@@ -28,6 +28,10 @@ Know that other diseases are airborne too: Measles (studies [1](https://www.ncbi
 # British Columbia School Districts:
 
 - [Vancouver](Vancouver/): 109 schools
+- [Mission](Mission/): 16 schools
+- Others TODO
+
+# Work announced for B.C. Schools:
 
 [Ventilation upgrades for schools across B.C.](https://www.canada.ca/en/office-infrastructure/news/2024/03/ventilation-upgrades-for-schools-across-bc.html)
 
