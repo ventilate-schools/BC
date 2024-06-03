@@ -31,4 +31,4 @@ title: South Hill Education Centre
 **School's Wikidata URL**: TODO
 
 
-[Edit this page](https://github.com/ventilate-schools/BC/edit/main/././Vancouver/South_Hill_Education_Centre.md). See also [rules for contribution](../../../contribution-rules/)
+[Edit this page](https://github.com/ventilate-schools/BC/edit/main/./Vancouver/South_Hill_Education_Centre.md). See also [rules for contribution](../../../contribution-rules/)

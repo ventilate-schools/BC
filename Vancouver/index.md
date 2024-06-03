@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Schools in ./Vancouver
+title: Schools in Vancouver
 ---
 # Navigation
 
 [[All countries/states/provinces]](../..) > [[All B.C. districts]](..)
 
-# Schools in ./Vancouver
+# Schools in Vancouver
 
 {% include_relative grade.html %}
 

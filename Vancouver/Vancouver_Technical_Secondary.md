@@ -31,4 +31,4 @@ title: Vancouver Technical Secondary
 **School's Wikidata URL**: TODO
 
 
-[Edit this page](https://github.com/ventilate-schools/BC/edit/main/././Vancouver/Vancouver_Technical_Secondary.md). See also [rules for contribution](../../../contribution-rules/)
+[Edit this page](https://github.com/ventilate-schools/BC/edit/main/./Vancouver/Vancouver_Technical_Secondary.md). See also [rules for contribution](../../../contribution-rules/)

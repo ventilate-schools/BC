@@ -31,4 +31,4 @@ title: Norma Rose Point School
 **School's Wikidata URL**: TODO
 
 
-[Edit this page](https://github.com/ventilate-schools/BC/edit/main/././Vancouver/Norma_Rose_Point_School.md). See also [rules for contribution](../../../contribution-rules/)
+[Edit this page](https://github.com/ventilate-schools/BC/edit/main/./Vancouver/Norma_Rose_Point_School.md). See also [rules for contribution](../../../contribution-rules/)

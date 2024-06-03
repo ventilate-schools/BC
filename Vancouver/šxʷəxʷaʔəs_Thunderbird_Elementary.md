@@ -31,4 +31,4 @@ title: šxʷəxʷaʔəs Thunderbird Elementary
 **School's Wikidata URL**: TODO
 
 
-[Edit this page](https://github.com/ventilate-schools/BC/edit/main/././Vancouver/šxʷəxʷaʔəs_Thunderbird_Elementary.md). See also [rules for contribution](../../../contribution-rules/)
+[Edit this page](https://github.com/ventilate-schools/BC/edit/main/./Vancouver/šxʷəxʷaʔəs_Thunderbird_Elementary.md). See also [rules for contribution](../../../contribution-rules/)
