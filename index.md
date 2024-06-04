@@ -60,7 +60,7 @@ Know that other diseases are airborne too: Measles (studies [1](https://www.ncbi
 - [Prince Rupert](Prince_Rupert/): 9 schools
 - Okanagan Similkameen
 - Bulkley Valley
-- Prince George
+- [Prince George](Prince_George/): 4 schools
 - Nicola-Similkameen
 - Peace River South
 - Peace River North

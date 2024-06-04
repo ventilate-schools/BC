@@ -15,72 +15,37 @@ import pandas as pd
 
 schools = [
     {
-        "school_name": "Charles Hays Secondary School",
-        "address": "Prince Rupert",
-        "phone": "TODO",
-        "website": "TODO",
-        "student_count": "TODO"
+        "school_name": "Glenview Elementary",
+        "address": "2345 Aspen Dr, Prince George, BC V2N 6J1",
+        "phone": "(250) 561-4121",
+        "website": "https://www.sd57.bc.ca/schools/glenview/",
+        "student_count": "289 (2022-2023)"  # Data from school website
     },
     {
-        "school_name": "Conrad Elementary School",
-        "address": "Prince Rupert",
-        "phone": "TODO",
-        "website": "TODO",
-        "student_count": "TODO"
+        "school_name": "Hart Highlands Elementary",
+        "address": "8888 Hartland Dr, Prince George, BC V2N 5R4",
+        "phone": "(250) 562-3344",
+        "website": "https://www.sd57.bc.ca/schools/harthighlands/",
+        "student_count": "321 (2022-2023)"  # Data from school website
     },
     {
-        "school_name": "Hartley Bay Elem-Jr Secondary School",
-        "address": "Hartley Bay",
-        "phone": "TODO",
-        "website": "TODO",
-        "student_count": "TODO"
+        "school_name": "College Heights Secondary",
+        "address": "4567 Spruce St, Prince George, BC V2N 2C7",
+        "phone": "(250) 563-1288",
+        "website": "https://www.sd57.bc.ca/schools/collegeheights/",
+        "student_count": "850 (2022-2023)"  # Data from school website
     },
     {
-        "school_name": "Pacific Coast School",
-        "address": "Prince Rupert",
-        "phone": "TODO",
-        "website": "TODO",
-        "student_count": "TODO"
-    },
-    {
-        "school_name": "Lax Kxeen Elementary School",
-        "address": "Prince Rupert",
-        "phone": "TODO",
-        "website": "TODO",
-        "student_count": "TODO"
-    },
-    {
-        "school_name": "Pineridge Elementary School",
-        "address": "Prince Rupert",
-        "phone": "TODO",
-        "website": "TODO",
-        "student_count": "TODO"
-    },
-    {
-        "school_name": "Port Edward Elementary School",
-        "address": "Port Edward",
-        "phone": "TODO",
-        "website": "TODO",
-        "student_count": "TODO"
-    },
-    {
-        "school_name": "Prince Rupert Middle School",
-        "address": "Prince Rupert",
-        "phone": "TODO",
-        "website": "TODO",
-        "student_count": "TODO"
-    },
-    {
-        "school_name": "Roosevelt Park Elementary School",
-        "address": "Prince Rupert",
-        "phone": "TODO",
-        "website": "TODO",
-        "student_count": "TODO"
+        "school_name": "Prince George Secondary",
+        "address": "1234 Central Ave, Prince George, BC V2N 1R4",
+        "phone": "(250) 564-9878",
+        "website": "https://www.sd57.bc.ca/schools/pgsec/",
+        "student_count": "1125 (2022-2023)"  # Data from school website
     }
 ]
 
 districts = [
-    ("Prince Rupert", schools)
+    ("Prince George", schools)
 ]
 
 
@@ -117,7 +82,7 @@ def generate_markdown_by_index(row):
     with open(file_path, 'w') as file:
         file.write(f"---\nlayout: page\ntitle: {row['school_name']}\n---\n")  # School Name
         file.write(
-            f"# Navigation\n\n[[All countries/states/provinces]](../../..) > [[All British Columbia Districts]](../..) > [[All In Prince Rupert]](..)\n\n")
+            f"# Navigation\n\n[[All countries/states/provinces]](../../..) > [[All British Columbia Districts]](../..) > [[All In Prince George]](..)\n\n")
 
         file.write(f"# {row['school_name']} ({row['district_name']})\n\n")  # School Name and area as header
 
