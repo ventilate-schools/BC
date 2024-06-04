@@ -15,81 +15,22 @@ import pandas as pd
 
 schools = [
     {
-        "school_name": "Gulf Islands Secondary School",
-        "address": "Salt Spring Island",
-        "grades": "8-12",
-        "website": "https://www.sd64.bc.ca/giss",
-        "student_count": "TODO: Find student count",
-        "phone": "(250) 537-9941"
+        "school_name": "Courtenay Elementary",
+        "address": "1540 McPhee Avenue, Courtenay, BC, V9N 3A5",
+        "website": "https://www.sd79.bc.ca/schools/courtenay-elementary/",  # Found on district website
+        "student_count": "390 (2022-2023)",  # Found on school website
+        "phone": "(250)-338-5396"
     },
     {
-        "school_name": "Fernwood Elementary School",
-        "address": "Salt Spring Island",
-        "grades": "K-7",
-        "website": "TODO: Find website",
-        "student_count": "TODO: Find student count",
-        "phone": "(250) 537-5111"
-    },
-    {
-        "school_name": "Fulford Community Elementary School",
-        "address": "Salt Spring Island",
-        "grades": "K-7",
-        "website": "TODO: Find website",
-        "student_count": "TODO: Find student count",
-        "phone": "(250) 537-9919"
-    },
-    {
-        "school_name": "Galiano Community School",
-        "address": "Galiano Island",
-        "grades": "K-7",
-        "website": "TODO: Find website",
-        "student_count": "TODO: Find student count",
-        "phone": "(250) 539-2221"
-    },
-    {
-        "school_name": "Mayne Elem-Jr Secondary School",
-        "address": "Mayne Island",
-        "grades": "K-7",
-        "website": "TODO: Find website",
-        "student_count": "TODO: Find student count",
-        "phone": "(250) 539-2441"
-    },
-    {
-        "school_name": "Pender Islands Elem-Secondary School",
-        "address": "Pender Island",
-        "grades": "K-12",
-        "website": "TODO: Find website",
-        "student_count": "TODO: Find student count",
-        "phone": "(250) 275-6445"
-    },
-    {
-        "school_name": "Phoenix Elementary School (Salt Spring)",
-        "address": "Salt Spring Island",
-        "grades": "K-7",
-        "website": "TODO: Find website",
-        "student_count": "TODO: Find student count",
-        "phone": "(250) 537-9881"
-    },
-    {
-        "school_name": "Salt Spring Elementary School",
-        "address": "Salt Spring Island",
-        "grades": "K-7",
-        "website": "TODO: Find website",
-        "student_count": "TODO: Find student count",
-        "phone": "(250) 537-9441"  # Phone number found on district website
-    },
-    {
-        "school_name": "Saturna Island Elementary School",
-        "address": "Saturna Island",
-        "grades": "K-5",  # Updated from school website (https://www.sd64.bc.ca/seecsaturna)
-        "website": "https://www.sd64.bc.ca/seecsaturna",
-        "student_count": "TODO: Find student count (enrolment likely small)",  # Enrolment info not available
-        "phone": "(250) 539-2472"  # Found on district website
+        "school_name": "Cumberland Community School",
+        "address": "2900 Cumberland Rd, Cumberland, BC V9A 4G1",  # Found on district website
+        "website": "https://www.sd79.bc.ca/schools/cumberland-community/",  # Found on district website
+        "student_count": "262 (2022-2023)",  # Found on school website
+        "phone": "(250)-336-8511"
     }
 ]
-
 districts = [
-    ("Gulf Islands", schools)
+    ("Comox Valley", schools)
 ]
 
 
@@ -126,7 +67,7 @@ def generate_markdown_by_index(row):
     with open(file_path, 'w') as file:
         file.write(f"---\nlayout: page\ntitle: {row['school_name']}\n---\n")  # School Name
         file.write(
-            f"# Navigation\n\n[[All countries/states/provinces]](../../..) > [[All British Columbia Districts]](../..) > [[All In Gulf Islands ]](..)\n\n")
+            f"# Navigation\n\n[[All countries/states/provinces]](../../..) > [[All British Columbia Districts]](../..) > [[All In Comox Valley]](..)\n\n")
 
         file.write(f"# {row['school_name']} ({row['district_name']})\n\n")  # School Name and area as header
 

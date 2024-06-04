@@ -72,7 +72,7 @@ Know that other diseases are airborne too: Measles (studies [1](https://www.ncbi
 - Nanaimo-Ladysmith
 - Qualicum
 - Pacific Rim
-- Comox Valley
+- [Comox Valley](Comox_Valley/): 2 schools
 - Campbell River
 - Kamloops/Thompson
 - Gold Trail
