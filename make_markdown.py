@@ -14,226 +14,39 @@ import pandas as pd
 # After you generate the markdown from this script, also run `python3 make_grade_subtotals_and_totals.py`
 
 schools = [
-    {
-        "school_name": "Bankhead Elementary",
-        "address": "1280 Wilson Ave, Kelowna, BC V1Y 6Y6",
-        "website": "https://bke.sd23.bc.ca/",
-        "student_count": 308
-    },
-    {
-        "school_name": "Belgo Elementary",
-        "address": "125 Adventure Rd, Kelowna, BC V1X 1N3",
-        "website": "https://bge.sd23.bc.ca/",
-        "student_count": 333
-    },
-    {
-        "school_name": "Black Mountain Elementary",
-        "address": "1650 Gallagher Rd, Kelowna, BC V1P 1G7",
-        "website": "https://bme.sd23.bc.ca/",
-        "student_count": 399
-    },
-    {
-        "school_name": "Chute Lake Elementary",
-        "address": "5240 Lark St, Kelowna, BC V1W 4K8",
-        "website": "https://www.cle.sd23.bc.ca/",
-        "student_count": 440
-    },
-    {
-        "school_name": "Davidson Road Elementary",
-        "address": "2115 Davidson Rd, Lake Country, BC V4V 1R3",
-        "website": "https://www.dre.sd23.bc.ca/",
-        "student_count": 404
-    },
-    {
-        "school_name": "Dorothea Walker Elementary",
-        "address": "4346 Gordon Dr, Kelowna, BC V1W 1S5",
-        "website": "https://www.dwe.sd23.bc.ca/",
-        "student_count": 378
-    },
-    {
-        "school_name": "Ellison Elementary",
-        "address": "3735 Parkdale Rd, Kelowna, BC V1X 6K9",
-        "website": "https://ees.sd23.bc.ca/",
-        "student_count": 373
-    },
-    {
-        "school_name": "Glenmore Elementary",
-        "address": "960 Glenmore Dr, Kelowna, BC V1Y 4P1",
-        "website": "https://www.gme.sd23.bc.ca/",
-        "student_count": 545
-    },
-    {
-        "school_name": "Hudson Road Elementary",
-        "address": "1221 Hudson Rd, West Kelowna, BC V1Z 1J4",
-        "website": "https://www.hre.sd23.bc.ca/",
-        "student_count": 277
-    },
-    {
-        "school_name": "North Glenmore Elementary",
-        "address": "125 Snowsell St, Kelowna, BC V1V 2E2",
-        "website": "https://www.nge.sd23.bc.ca/",
-        "student_count": 556
-    },
-    {
-        "school_name": "Pearson Road Elementary",
-        "address": "700 Pearson Rd, Kelowna, BC V1X 5H8",
-        "website": "https://www.pre.sd23.bc.ca/",
-        "student_count": 407
-    },
-    {
-        "school_name": "Quigley Elementary",
-        "address": "705 Kitch Rd, Kelowna, BC V1X 5V8",
-        "website": "https://www.qge.sd23.bc.ca/",
-        "student_count": 323
-    },
-    {
-        "school_name": "Raymer Elementary",
-        "address": "657 Raymer Ave, Kelowna, BC V1Y 4Z6",
-        "website": "https://www.ray.sd23.bc.ca/",
-        "student_count": 233
-    },
-    {
-        "school_name": "Rose Valley Elementary",
-        "address": "1680 Westlake Rd, West Kelowna, BC V1Z 3G6",
-        "website": "https://www.rve.sd23.bc.ca/",
-        "student_count": 381
-    },
-    {
-        "school_name": "Rutland Elementary",
-        "address": "620 Webster Rd, Kelowna, BC V1X 4V5",
-        "website": "https://www.rle.sd23.bc.ca/",
-        "student_count": 459
-    },
-    {
-        "school_name": "Shannon Lake Elementary",
-        "address": "3044 Sandstone Dr, West Kelowna, BC V4T 1T2",
-        "website": "https://www.sle.sd23.bc.ca/",
-        "student_count": 485
-    },
-    {
-        "school_name": "South Kelowna Elementary",
-        "address": "4176 Spiers Rd, Kelowna, BC V1W 4B5",
-        "website": "https://www.ske.sd23.bc.ca/",
-        "student_count": 263
-    },
-    {
-        "school_name": "Watson Road Elementary",
-        "address": "475 Yates Rd, Kelowna, BC V1V 1R3",
-        "website": "https://www.wat.sd23.bc.ca/",
-        "student_count": 542
-    },
-    {
-        "school_name": "Anne McClymont Elementary",
-        "address": "4489 Lakeshore Rd, Kelowna, BC V1W 1W9",
-        "website": "https://www.ame.sd23.bc.ca/",
-        "student_count": 475
-    },
-    {
-        "school_name": "Constable Neil Bruce Middle",
-        "address": "2010 Daimler Dr, West Kelowna, BC V1Z 3Y4",
-        "website": "https://www.cnb.sd23.bc.ca/",
-        "student_count": 679
-    },
-    {
-        "school_name": "Dr. Knox Middle",
-        "address": "121 Drysdale Blvd, Kelowna, BC V1V 2X9",
-        "website": "https://www.drk.sd23.bc.ca/",
-        "student_count": 810
-    },
-    {
-        "school_name": "École Glenrosa Middle",
-        "address": "2974 Glen Abbey Pl, West Kelowna, BC V4T 2N1",
-        "website": "https://www.gms.sd23.bc.ca/",
-        "student_count": 467
-    },
-    {
-        "school_name": "KLO Middle",
-        "address": "3130 Gordon Dr, Kelowna, BC V1W 3M4",
-        "website": "https://www.klo.sd23.bc.ca/",
-        "student_count": 709
-    },
-    {
-        "school_name": "Okanagan Mission Secondary",
-        "address": "4544 Gordon Dr, Kelowna, BC V1W 1T4",
-        "website": "https://www.okm.sd23.bc.ca/",
-        "student_count": 1132
-    },
-    {
-        "school_name": "Rutland Middle",
-        "address": "715 Rutland Rd N, Kelowna, BC V1X 3B6",
-        "website": "https://www.rms.sd23.bc.ca/",
-        "student_count": 598
-    },
-    {
-        "school_name": "Springvalley Middle",
-        "address": "350 Ziprick Rd, Kelowna, BC V1X 4H3",
-        "website": "https://www.sms.sd23.bc.ca/",
-        "student_count": 580
-    },
-    {
-        "school_name": "George Elliot Secondary",
-        "address": "10241 Bottom Wood Lake Rd, Lake Country, BC V4V 1Y7",
-        "website": "https://www.ges.sd23.bc.ca/",
-        "student_count": 805
-    },
-    {
-        "school_name": "Kelowna Secondary",
-        "address": "1079 Raymer Ave, Kelowna, BC V1Y 4Z7",
-        "website": "https://www.kss.sd23.bc.ca/",
-        "student_count": 1777
-    },
-    {
-        "school_name": "Mount Boucherie Secondary",
-        "address": "2751 Cameron Rd, West Kelowna, BC V1Z 2T6",
-        "website": "https://www.mbs.sd23.bc.ca/",
-        "student_count": 1541
-    },
-    {
-        "school_name": "Rutland Senior Secondary",
-        "address": "705 Rutland Rd N, Kelowna, BC V1X 3B6",
-        "website": "https://www.rss.sd23.bc.ca/",
-        "student_count": 1203
-    }
+  {
+      "school_name": "Dease Lake School",
+    "address": "PO Box 28, Dease Lake, BC V0C 1L0",
+    "phone": "(250) 721-3781",
+    "website": "https://www.prn.bc.ca/schools/dease-lake/",
+    "student_count": 110
+  },
+  {
+    "school_name": "Atlin School",
+    "address": "PO Box 189, Atlin, BC V0G 1L0",
+    "phone": "(250) 651-7533",
+    "website": "https://www.prn.bc.ca/schools/atlin/",
+    "student_count": 30
+  },
+  {
+      "school_name": "Tahltan School",
+    "address": "PO Box 130, Telegraph Creek, BC V0G 1N0",
+    "phone": "(250) 677-1233",
+    "website": "https://www.prn.bc.ca/schools/tahltan/",
+    "student_count": 40
+  },
+  {
+      "school_name": "Denetia School",
+    "address": "PO Box 179, Iskut, BC V0J 1M0",
+    "phone": "(250) 842-5531",
+    "website": "https://www.prn.bc.ca/schools/denetia/",
+    "student_count": "TODO"
+  },
 ]
 
-school_phone_numbers = {
-    "Bankhead Elementary": "250-870-5114",
-    "Belgo Elementary": "250-870-5115",
-    "Black Mountain Elementary": "250-870-5143",
-    "Chute Lake Elementary": "250-870-5139",
-    "Davidson Road Elementary": "250-870-5117",
-    "Dorothea Walker Elementary": "250-870-5138",
-    "Ellison Elementary": "250-870-5140",
-    "Glenmore Elementary": "250-870-5137",
-    "Hudson Road Elementary": "250-870-5128",
-    "North Glenmore Elementary": "250-870-5129",
-    "Pearson Road Elementary": "250-870-5118",
-    "Quigley Elementary": "250-870-5131",
-    "Raymer Elementary": "250-870-5125",
-    "Rose Valley Elementary": "250-870-5136",
-    "Rutland Elementary": "250-870-5123",
-    "Shannon Lake Elementary": "250-870-5132",
-    "South Kelowna Elementary": "250-870-5127",
-    "Watson Road Elementary": "250-870-5135",
-    "Anne McClymont Elementary": "250-870-5121",
-    "Constable Neil Bruce Middle": "250-870-5177",
-    "Dr. Knox Middle": "250-870-5130",
-    "École Glenrosa Middle": "250-870-5176",
-    "KLO Middle": "250-870-5106",
-    "Okanagan Mission Secondary": "250-870-5000",
-    "Rutland Middle": "250-870-5141",
-    "Springvalley Middle": "250-870-5107",
-    "George Elliot Secondary": "250-870-5102",
-    "Kelowna Secondary": "250-870-5105",
-    "Mount Boucherie Secondary": "250-870-5101",
-    "Rutland Senior Secondary": "250-870-5119"
-}
-
-# Merging phone numbers into the schools list
-for school in schools:
-    school_name = school["school_name"]
-    if school_name in school_phone_numbers:
-        school["phone_number"] = school_phone_numbers[school_name]
+districts = [
+    ("Stikine", schools)
+]
 
 
 # Combine all school lists into one DataFrame
@@ -246,11 +59,6 @@ schools_data['address'] = schools_data['address'].str.replace('+', ', ', regex=F
 # Define the output directory for the markdown files
 output_dir = '.'
 os.makedirs(output_dir, exist_ok=True)
-
-# Adding district names to the DataFrame
-districts = [
-    ("Central Okanagan", schools)
-]
 
 # Assign district names to each row in the DataFrame
 schools_data['district_name'] = ""
@@ -274,7 +82,7 @@ def generate_markdown_by_index(row):
     with open(file_path, 'w') as file:
         file.write(f"---\nlayout: page\ntitle: {row['school_name']}\n---\n")  # School Name
         file.write(
-            f"# Navigation\n\n[[All countries/states/provinces]](../../..) > [[All British Columbia Districts]](../..) > [[All In Central Okanagan]](..)\n\n")
+            f"# Navigation\n\n[[All countries/states/provinces]](../../..) > [[All British Columbia Districts]](../..) > [[All In Stikine]](..)\n\n")
 
         file.write(f"# {row['school_name']} ({row['district_name']})\n\n")  # School Name and area as header
 

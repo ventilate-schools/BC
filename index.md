@@ -84,7 +84,7 @@ Know that other diseases are airborne too: Measles (studies [1](https://www.ncbi
 - North Okanagan-Shuswap
 - Vancouver Island West
 - Vancouver Island North
-- Stikine
+- [Stikine](Stikine/): 4 schools
 - Nechako Lakes
 - Nisga'a
 - Conseil scolaire francophone
