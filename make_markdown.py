@@ -14,40 +14,73 @@ import pandas as pd
 # After you generate the markdown from this script, also run `python3 make_grade_subtotals_and_totals.py`
 
 schools = [
-  {
-    "school_name": "Fort Nelson Secondary School",
-    "address": "5419 Simpson Trail",
-    "phone": "250-774-6958",
-    "website": "www.sd81.bc.ca/fnss"
-  },
-  {
-    "school_name": "G.W. Carlson Elementary School",
-    "address": "5617 51st Street",
-    "phone": "250-774-6941",
-    "website": "www.sd81.bc.ca/gwc"
-  },
-  {
-    "school_name": "J.S. Clark Elementary School",
-    "address": "5246 45th Street",
-    "phone": "250-774-3145",
-    "website": "www.sd81.bc.ca/jsc"
-  },
-  {
-    "school_name": "R.L. Angus Elementary School",
-    "address": "5501 Mountain View Dr.",
-    "phone": "250-774-2738",
-    "website": "www.sd81.bc.ca/rla"
-  },
-  {
-    "school_name": "Toad River School",
-    "address": "Mile 422 Alaska Hwy",
-    "phone": "250-232-5491",
-    "website": "https://www.canva.com/design/DAFNcrOxp48/c7-TwRPNHs33yJ5NDeOz8w/view?website#4:pac"
-  }
+    {
+        "school_name": "Charles Hays Secondary School",
+        "address": "Prince Rupert",
+        "phone": "TODO",
+        "website": "TODO",
+        "student_count": "TODO"
+    },
+    {
+        "school_name": "Conrad Elementary School",
+        "address": "Prince Rupert",
+        "phone": "TODO",
+        "website": "TODO",
+        "student_count": "TODO"
+    },
+    {
+        "school_name": "Hartley Bay Elem-Jr Secondary School",
+        "address": "Hartley Bay",
+        "phone": "TODO",
+        "website": "TODO",
+        "student_count": "TODO"
+    },
+    {
+        "school_name": "Pacific Coast School",
+        "address": "Prince Rupert",
+        "phone": "TODO",
+        "website": "TODO",
+        "student_count": "TODO"
+    },
+    {
+        "school_name": "Lax Kxeen Elementary School",
+        "address": "Prince Rupert",
+        "phone": "TODO",
+        "website": "TODO",
+        "student_count": "TODO"
+    },
+    {
+        "school_name": "Pineridge Elementary School",
+        "address": "Prince Rupert",
+        "phone": "TODO",
+        "website": "TODO",
+        "student_count": "TODO"
+    },
+    {
+        "school_name": "Port Edward Elementary School",
+        "address": "Port Edward",
+        "phone": "TODO",
+        "website": "TODO",
+        "student_count": "TODO"
+    },
+    {
+        "school_name": "Prince Rupert Middle School",
+        "address": "Prince Rupert",
+        "phone": "TODO",
+        "website": "TODO",
+        "student_count": "TODO"
+    },
+    {
+        "school_name": "Roosevelt Park Elementary School",
+        "address": "Prince Rupert",
+        "phone": "TODO",
+        "website": "TODO",
+        "student_count": "TODO"
+    }
 ]
 
 districts = [
-    ("Fort Nelson", schools)
+    ("Prince Rupert", schools)
 ]
 
 
@@ -84,7 +117,7 @@ def generate_markdown_by_index(row):
     with open(file_path, 'w') as file:
         file.write(f"---\nlayout: page\ntitle: {row['school_name']}\n---\n")  # School Name
         file.write(
-            f"# Navigation\n\n[[All countries/states/provinces]](../../..) > [[All British Columbia Districts]](../..) > [[All In Fort Nelson]](..)\n\n")
+            f"# Navigation\n\n[[All countries/states/provinces]](../../..) > [[All British Columbia Districts]](../..) > [[All In Prince Rupert]](..)\n\n")
 
         file.write(f"# {row['school_name']} ({row['district_name']})\n\n")  # School Name and area as header
 

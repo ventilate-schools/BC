@@ -57,7 +57,7 @@ Know that other diseases are airborne too: Measles (studies [1](https://www.ncbi
 - Central Coast
 - Haida Gwaii
 - [Boundary](Boundary/): 10 schools
-- Prince Rupert
+- [Prince Rupert](Prince_Rupert/): 9 schools
 - Okanagan Similkameen
 - Bulkley Valley
 - Prince George
