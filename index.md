@@ -35,7 +35,7 @@ Know that other diseases are airborne too: Measles (studies [1](https://www.ncbi
 - Revelstoke
 - Kootenay-Columbia
 - Vernon
-- Central Okanagan
+- [Central Okanagan](Central_Okanagan/): 30 schools
 - Cariboo-Chilcotin
 - Quesnel
 - Chilliwack
