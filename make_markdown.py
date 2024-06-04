@@ -41,7 +41,7 @@ def generate_markdown_by_index(row):
     with open(file_path, 'w') as file:
         file.write(f"---\nlayout: page\ntitle: {row['school_name']}\n---\n")  # School Name
         file.write(
-            f"# Navigation\n\n[[All countries/states/provinces]](../../..) > [[All British Columbia Districts]](../..) > [[All In North Vancouver]](..)\n\n")
+            f"# Navigation\n\n[[All countries/states/provinces]](../../..) > [[All British Columbia Districts]](../..) > [[All In {row['district_name']}]](..)\n\n")
 
         file.write(f"# {row['school_name']} ({row['district_name']})\n\n")  # School Name and area as header
 
@@ -140,7 +140,6 @@ def create_area_and_root_index():
     root_index_path = os.path.join(output_dir, "index.md")
     with open(root_index_path, 'w') as root_index_file:
         root_index_file.write(root_index_content)
-
 
 # Call the function to create index markdown files and root index
 create_area_and_root_index()
