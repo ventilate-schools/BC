@@ -15,37 +15,51 @@ import pandas as pd
 
 schools = [
     {
-        "school_name": "Glenview Elementary",
-        "address": "2345 Aspen Dr, Prince George, BC V2N 6J1",
-        "phone": "(250) 561-4121",
-        "website": "https://www.sd57.bc.ca/schools/glenview/",
-        "student_count": "289 (2022-2023)"  # Data from school website
+        "school_name": "Sooke Elementary",
+        "address": "6560 Sooke Rd, Sooke, BC V9Z 0A7",
+        "phone": "(250) 642-5431",
+        "website": "https://www.sd62.bc.ca/",
+        "student_count": "Approximately 110"
     },
     {
-        "school_name": "Hart Highlands Elementary",
-        "address": "8888 Hartland Dr, Prince George, BC V2N 5R4",
-        "phone": "(250) 562-3344",
-        "website": "https://www.sd57.bc.ca/schools/harthighlands/",
-        "student_count": "321 (2022-2023)"  # Data from school website
+        "school_name": "John Muir Elementary",
+        "address": "2100 Happy Valley Rd, Sooke, BC V9Z 1A3",
+        "phone": "(250) 642-5131",
+        "website": "https://www.sd62.bc.ca/schools/john-muir-elementary-school",
+        "student_count": "TODO"
     },
     {
-        "school_name": "College Heights Secondary",
-        "address": "4567 Spruce St, Prince George, BC V2N 2C7",
-        "phone": "(250) 563-1288",
-        "website": "https://www.sd57.bc.ca/schools/collegeheights/",
-        "student_count": "850 (2022-2023)"  # Data from school website
+        "school_name": "Poirier Elementary",
+        "address": "1770 Poirier St, Sooke, BC V9Z 1A1",
+        "phone": "(250) 642-1281",
+        "website": "https://poirier.web.sd62.bc.ca/",
+        "student_count": "TODO"
     },
     {
-        "school_name": "Prince George Secondary",
-        "address": "1234 Central Ave, Prince George, BC V2N 1R4",
-        "phone": "(250) 564-9878",
-        "website": "https://www.sd57.bc.ca/schools/pgsec/",
-        "student_count": "1125 (2022-2023)"  # Data from school website
+        "school_name": "Saseenos Elementary",
+        "address": "1220 Saseenos Rd, Sooke, BC V9Z 1M2",
+        "phone": "(250) 642-5621",
+        "website": "https://saseenos.web.sd62.bc.ca/",
+        "student_count": "TODO"
+    },
+    {
+        "school_name": "Journey Middle School",
+        "address": "2101 Otter Point Rd, Sooke, BC V9Z 1M2",
+        "phone": "(250) 642-1411",
+        "website": "https://journey.web.sd62.bc.ca/",
+        "student_count": "TODO"
+    },
+    {
+        "school_name": "Edward Milne Community School",
+        "address": "1230 Carnation Dr, Sooke, BC V9Z 0A8",
+        "phone": "(250) 642-5421",
+        "website": "https://emcs.web.sd62.bc.ca/",
+        "student_count": "TODO"
     }
 ]
 
 districts = [
-    ("Prince George", schools)
+    ("Sooke", schools)
 ]
 
 
@@ -82,7 +96,7 @@ def generate_markdown_by_index(row):
     with open(file_path, 'w') as file:
         file.write(f"---\nlayout: page\ntitle: {row['school_name']}\n---\n")  # School Name
         file.write(
-            f"# Navigation\n\n[[All countries/states/provinces]](../../..) > [[All British Columbia Districts]](../..) > [[All In Prince George]](..)\n\n")
+            f"# Navigation\n\n[[All countries/states/provinces]](../../..) > [[All British Columbia Districts]](../..) > [[All In Sooke ]](..)\n\n")
 
         file.write(f"# {row['school_name']} ({row['district_name']})\n\n")  # School Name and area as header
 

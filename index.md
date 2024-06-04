@@ -65,7 +65,7 @@ Know that other diseases are airborne too: Measles (studies [1](https://www.ncbi
 - Peace River South
 - Peace River North
 - Greater Victoria
-- Sooke
+- [Sooke](Sooke/): 6 schools
 - Saanich
 - Gulf Islands
 - Okanagan Skaha
