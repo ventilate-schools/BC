@@ -13,24 +13,146 @@ import pandas as pd
 
 # After you generate the markdown from this script, also run `python3 make_grade_subtotals_and_totals.py`
 
+
 schools = [
     {
-        "school_name": "Courtenay Elementary",
-        "address": "1540 McPhee Avenue, Courtenay, BC, V9N 3A5",
-        "website": "https://www.sd79.bc.ca/schools/courtenay-elementary/",  # Found on district website
-        "student_count": "390 (2022-2023)",  # Found on school website
-        "phone": "(250)-338-5396"
+        "school_name": "Carihi Secondary School",
+        "address": "350 Dogwood Street Campbell River, BC V9W 2X9",
+        "phone": "(250) 286.6282",
+        "website": "http://www.sd72.bc.ca/school/carihi/Pages/default.aspx",
+        "student_count": "900"
     },
     {
-        "school_name": "Cumberland Community School",
-        "address": "2900 Cumberland Rd, Cumberland, BC V9A 4G1",  # Found on district website
-        "website": "https://www.sd79.bc.ca/schools/cumberland-community/",  # Found on district website
-        "student_count": "262 (2022-2023)",  # Found on school website
-        "phone": "(250)-336-8511"
-    }
+        "school_name": "Cedar Elementary School",
+        "address": "261 Cedar Street Campbell River, BC V9W 2V3",
+        "phone": "(250) 287.8335",
+        "website": "TODO",
+        "student_count": "TODO"
+    },
+    {
+        "school_name": "Cortes Island School",
+        "address": "Box 179 Manson's Landing, BC V0P 1K0",
+        "phone": "(250) 935.6313",
+        "website": "TODO",
+        "student_count": "TODO"
+    },
+    {
+        "school_name": "École des Deux Mondes Elementary School",
+        "address": "851 7th Avenue Campbell River, BC V9W 4A3",
+        "phone": "(250) 286.0511",
+        "website": "TODO",
+        "student_count": "TODO"
+    },
+    {
+        "school_name": "École Phoenix Middle School",
+        "address": "400 7th Avenue Campbell River, BC V9W 3Z9",
+        "phone": "(250) 287.8346",
+        "website": "TODO",
+        "student_count": "TODO"
+    },
+    {
+        "school_name": "École Willow Point Elementary School",
+        "address": "250 Larwood Road Campbell River, BC V9W 1S4",
+        "phone": "(250) 923.4311",
+        "website": "TODO",
+        "student_count": "TODO"
+    },
+    {
+        "school_name": "Georgia Park Elementary School",
+        "address": "678 Hudson Road Campbell River, BC V9H 1T4",
+        "phone": "(250) 923.0735",
+        "website": "TODO",
+        "student_count": "TODO"
+    },
+    {
+        "school_name": "International Student Program",
+        "address": "425 Pinecrest Road Campbell River, BC V9W 3P2",
+        "phone": "(250) 830.2338",
+        "website": "http://www.sd72.bc.ca/Programs/international/Pages/default.aspx",
+        "student_count": "TODO"
+    },
+    {
+        "school_name": "Ocean Grove Elementary School",
+        "address": "3773 McLelan Road Campbell River, BC V9H 1K2",
+        "phone": "(250) 923.4266",
+        "website": "TODO",
+        "student_count": "TODO"
+    },
+    {
+        "school_name": "Penfield Elementary School",
+        "address": "525 Hilchey Road Campbell River, BC V9W 6S3",
+        "phone": "(250) 923.4251",
+        "website": "TODO",
+        "student_count": "TODO"
+    },
+    {
+        "school_name": "Pinecrest Elementary School",
+        "address": "300 S. Birch Street Campbell River, BC V9W 2S1",
+        "phone": "(250) 287.8805",
+        "website": "TODO",
+        "student_count": "TODO"
+    },
+    {
+        "school_name": "Quadra Elementary School",
+        "address": "678 Heriot Bay Road, Box 249 Quathiaski Cove, BC V0P 1N0",
+        "phone": "(250) 285.3385",
+        "website": "TODO",
+        "student_count": "TODO"
+    },
+    {
+        "school_name": "Ripple Rock Elementary School",
+        "address": "2001 Cheviot Road Campbell River, BC V9H 1R4",
+        "phone": "(250) 850.2035",
+        "website": "TODO",
+        "student_count": "TODO"
+    },
+    {
+        "school_name": "Robron Centre",
+        "address": "740 Robron Road Campbell River, BC V9W 6J7",
+        "phone": "(250) 923.4918",
+        "website": "TODO",
+        "student_count": "TODO"
+    },
+    {
+        "school_name": "Sandowne Elementary School",
+        "address": "699 Sandowne Drive Campbell River, BC V9W 5G9",
+        "phone": "(250) 923.4248",
+        "website": "TODO",
+        "student_count": "TODO"
+    },
+    {
+        "school_name": "Sayward School",
+        "address": "690 Kelsey Way Sayward, BC V0P 1R0",
+        "phone": "(250) 282.3314",
+        "website": "TODO",
+        "student_count": "TODO"
+    },
+    {
+        "school_name": "Southgate Middle School",
+        "address": "740 Holm Road Campbell River, BC V9W 1W6",
+        "phone": "(250) 923.4253",
+        "website": "TODO",
+        "student_count": "TODO"
+    },
+    {
+        "school_name": "Surge Narrows School",
+        "address": "425 Pinecrest Road Campbell River, BC V9W 3P2",
+        "phone": "(250) 830.2300",
+        "website": "TODO",
+        "student_count": "TODO"
+    },
+    {
+        "school_name": "Timberline Secondary School",
+        "address": "1681 S. Dogwood Street Campbell River, BC V9W 8C1",
+        "phone": "(250) 923.9500",
+        "website": "TODO",
+        "student_count": "TODO"
+    },
 ]
+
+
 districts = [
-    ("Comox Valley", schools)
+    ("Campbell River", schools)
 ]
 
 
@@ -67,7 +189,7 @@ def generate_markdown_by_index(row):
     with open(file_path, 'w') as file:
         file.write(f"---\nlayout: page\ntitle: {row['school_name']}\n---\n")  # School Name
         file.write(
-            f"# Navigation\n\n[[All countries/states/provinces]](../../..) > [[All British Columbia Districts]](../..) > [[All In Comox Valley]](..)\n\n")
+            f"# Navigation\n\n[[All countries/states/provinces]](../../..) > [[All British Columbia Districts]](../..) > [[All In Campbell River ]](..)\n\n")
 
         file.write(f"# {row['school_name']} ({row['district_name']})\n\n")  # School Name and area as header
 
