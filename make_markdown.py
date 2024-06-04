@@ -16,143 +16,324 @@ import pandas as pd
 
 schools = [
     {
-        "school_name": "Carihi Secondary School",
-        "address": "350 Dogwood Street Campbell River, BC V9W 2X9",
-        "phone": "(250) 286.6282",
-        "website": "http://www.sd72.bc.ca/school/carihi/Pages/default.aspx",
-        "student_count": "900"
+        "school_name":  "Argyle Secondary",
+        "grade_range": "8-12",
+        "address": "1131 Frederick Rd, North Vancouver, BC",
+        "website": "http://www.sd44.ca/school/argyle/Pages/default.aspx",
+        "student_count": "1445"
     },
     {
-        "school_name": "Cedar Elementary School",
-        "address": "261 Cedar Street Campbell River, BC V9W 2V3",
-        "phone": "(250) 287.8335",
-        "website": "TODO",
+        "school_name":  "Blueridge Elementary",
+        "grade_range": "K-7",
+        "address": "2650 Bronte Dr, North Vancouver, BC",
+        "website": "https://www.sd44.ca/school/blueridge/Pages/default.aspx",
         "student_count": "TODO"
     },
     {
-        "school_name": "Cortes Island School",
-        "address": "Box 179 Manson's Landing, BC V0P 1K0",
-        "phone": "(250) 935.6313",
-        "website": "TODO",
+        "school_name":  "Boundary Elementary",
+        "grade_range": "K-7",
+        "address": "750 26th St E, North Vancouver, BC",
+        "website": "https://www.sd44.ca/school/boundary/Pages/default.aspx",
         "student_count": "TODO"
     },
     {
-        "school_name": "École des Deux Mondes Elementary School",
-        "address": "851 7th Avenue Campbell River, BC V9W 4A3",
-        "phone": "(250) 286.0511",
-        "website": "TODO",
+        "school_name":  "Braemar Elementary",
+        "grade_range": "K-7",
+        "address": "3600 Mahon Ave, North Vancouver, BC",
+        "website": "https://www.sd44.ca/school/braemar/Pages/default.aspx",
         "student_count": "TODO"
     },
     {
-        "school_name": "École Phoenix Middle School",
-        "address": "400 7th Avenue Campbell River, BC V9W 3Z9",
-        "phone": "(250) 287.8346",
-        "website": "TODO",
+        "school_name":  "Brooksbank Elementary",
+        "grade_range": "K-7",
+        "address": "980 13th St E, North Vancouver, BC",
+        "website": "https://www.sd44.ca/school/brooksbank/Pages/default.aspx",
         "student_count": "TODO"
     },
     {
-        "school_name": "École Willow Point Elementary School",
-        "address": "250 Larwood Road Campbell River, BC V9W 1S4",
-        "phone": "(250) 923.4311",
-        "website": "TODO",
+        "school_name":  "Canyon Heights Elementary",
+        "grade_range": "K-7",
+        "address": "4501 Highland Blvd, North Vancouver, BC",
+        "website": "https://www.sd44.ca/school/canyonheights/Pages/default.aspx",
         "student_count": "TODO"
     },
     {
-        "school_name": "Georgia Park Elementary School",
-        "address": "678 Hudson Road Campbell River, BC V9H 1T4",
-        "phone": "(250) 923.0735",
-        "website": "TODO",
+        "school_name":  "Capilano Elementary",
+        "grade_range": "K-7",
+        "address": "1230 20th St W, North Vancouver, BC",
+        "website": "https://www.sd44.ca/school/capilano/Pages/default.aspx",
         "student_count": "TODO"
     },
     {
-        "school_name": "International Student Program",
-        "address": "425 Pinecrest Road Campbell River, BC V9W 3P2",
-        "phone": "(250) 830.2338",
-        "website": "http://www.sd72.bc.ca/Programs/international/Pages/default.aspx",
+        "school_name":  "Carisbrooke Elementary",
+        "grade_range": "K-7",
+        "address": "510 Carisbrooke Rd E, North Vancouver, BC",
+        "website": "https://www.sd44.ca/school/carisbrooke/Pages/default.aspx",
         "student_count": "TODO"
     },
     {
-        "school_name": "Ocean Grove Elementary School",
-        "address": "3773 McLelan Road Campbell River, BC V9H 1K2",
-        "phone": "(250) 923.4266",
-        "website": "TODO",
+        "school_name":  "Carson Graham Secondary",
+        "grade_range": "8-12",
+        "address": "2145 Jones Ave, North Vancouver, BC",
+        "website": "https://www.sd44.ca/school/carsongraham/Pages/default.aspx",
         "student_count": "TODO"
     },
     {
-        "school_name": "Penfield Elementary School",
-        "address": "525 Hilchey Road Campbell River, BC V9W 6S3",
-        "phone": "(250) 923.4251",
-        "website": "TODO",
+        "school_name":  "Cleveland Elementary",
+        "grade_range": "K-7",
+        "address": "1255 Eldon Rd, North Vancouver, BC",
+        "website": "https://www.sd44.ca/school/cleveland/Pages/default.aspx",
         "student_count": "TODO"
     },
     {
-        "school_name": "Pinecrest Elementary School",
-        "address": "300 S. Birch Street Campbell River, BC V9W 2S1",
-        "phone": "(250) 287.8805",
-        "website": "TODO",
+        "school_name":  "Cove Cliff Elementary",
+        "grade_range": "K-7",
+        "address": "1818 Banbury Rd, North Vancouver, BC",
+        "website": "https://www.sd44.ca/school/covecliff/Pages/default.aspx",
         "student_count": "TODO"
     },
     {
-        "school_name": "Quadra Elementary School",
-        "address": "678 Heriot Bay Road, Box 249 Quathiaski Cove, BC V0P 1N0",
-        "phone": "(250) 285.3385",
-        "website": "TODO",
+        "school_name":  "Dorothy Lynas Elementary",
+        "grade_range": "K-7",
+        "address": "4000 Inlet Cres, North Vancouver, BC",
+        "website": "https://www.sd44.ca/school/dorothylynas/Pages/default.aspx",
         "student_count": "TODO"
     },
     {
-        "school_name": "Ripple Rock Elementary School",
-        "address": "2001 Cheviot Road Campbell River, BC V9H 1R4",
-        "phone": "(250) 850.2035",
-        "website": "TODO",
+        "school_name":  "Eastview Elementary",
+        "grade_range": "K-7",
+        "address": "1801 Mountain Hwy, North Vancouver, BC",
+        "website": "https://www.sd44.ca/school/eastview/Pages/default.aspx",
         "student_count": "TODO"
     },
     {
-        "school_name": "Robron Centre",
-        "address": "740 Robron Road Campbell River, BC V9W 6J7",
-        "phone": "(250) 923.4918",
-        "website": "TODO",
+        "school_name":  "Handsworth Secondary",
+        "grade_range": "8-12",
+        "address": "1033 Handsworth Rd, North Vancouver, BC",
+        "website": "https://www.sd44.ca/school/handsworth/Pages/default.aspx",
         "student_count": "TODO"
     },
     {
-        "school_name": "Sandowne Elementary School",
-        "address": "699 Sandowne Drive Campbell River, BC V9W 5G9",
-        "phone": "(250) 923.4248",
-        "website": "TODO",
+        "school_name":  "Highlands Elementary",
+        "grade_range": "K-7",
+        "address": "3150 Colwood Dr, North Vancouver, BC",
+        "website": "https://www.sd44.ca/school/highlands/Pages/default.aspx",
         "student_count": "TODO"
     },
     {
-        "school_name": "Sayward School",
-        "address": "690 Kelsey Way Sayward, BC V0P 1R0",
-        "phone": "(250) 282.3314",
-        "website": "TODO",
+        "school_name":  "Larson Elementary",
+        "grade_range": "K-7",
+        "address": "2605 Larson Rd, North Vancouver, BC",
+        "website": "https://www.sd44.ca/school/larson/Pages/default.aspx",
         "student_count": "TODO"
     },
     {
-        "school_name": "Southgate Middle School",
-        "address": "740 Holm Road Campbell River, BC V9W 1W6",
-        "phone": "(250) 923.4253",
-        "website": "TODO",
+        "school_name":  "Lynn Valley Elementary",
+        "grade_range": "K-7",
+        "address": "3207 Institute Road, North Vancouver, BC",
+        "website": "https://www.sd44.ca/school/lynnvalley/Pages/default.aspx",
         "student_count": "TODO"
     },
     {
-        "school_name": "Surge Narrows School",
-        "address": "425 Pinecrest Road Campbell River, BC V9W 3P2",
-        "phone": "(250) 830.2300",
-        "website": "TODO",
+        "school_name":  "Lynnmour Elementary School",
+        "grade_range": "K-7",
+        "address": "800 Forsman Ave, North Vancouver, BC",
+        "website": "https://www.sd44.ca/school/lynnmour/Pages/default.aspx",
         "student_count": "TODO"
     },
     {
-        "school_name": "Timberline Secondary School",
-        "address": "1681 S. Dogwood Street Campbell River, BC V9W 8C1",
-        "phone": "(250) 923.9500",
-        "website": "TODO",
+        "school_name":  "Montroyal Elementary",
+        "grade_range": "K-7",
+        "address": "5310 Sonora Dr, North Vancouver, BC",
+        "website": "https://www.sd44.ca/school/montroyal/Pages/default.aspx",
         "student_count": "TODO"
     },
+    {
+        "school_name":  "Mountainside Secondary",
+        "grade_range": "9-12",
+        "address": "3365 Mahon Ave, North Vancouver, BC",
+        "website": "https://www.sd44.ca/school/mountainside/Pages/default.aspx",
+        "student_count": "TODO"
+    },
+    {
+        "school_name":  "Norgate Community Elementary",
+        "grade_range": "K-7",
+        "address": "1295 Sowden St, North Vancouver, BC",
+        "website": "https://www.sd44.ca/school/norgate/Pages/default.aspx",
+        "student_count": "TODO"
+    },
+    {
+        "school_name":  "Queen Mary Community Elementary",
+        "grade_range": "K-7",
+        "address": "230 Keith Rd W, North Vancouver, BC",
+        "website": "https://www.sd44.ca/school/queenmary/Pages/default.aspx",
+        "student_count": "TODO"
+    },
+    {
+        "school_name":  "Queensbury Elementary",
+        "grade_range": "K-7",
+        "address": "2020 Moody Ave, North Vancouver, BC",
+        "website": "https://www.sd44.ca/school/queensbury/Pages/default.aspx",
+        "student_count": "TODO"
+    },
+    {
+        "school_name":  "Ridgeway Elementary",
+        "grade_range": "K-7",
+        "address": "420 8th St E, North Vancouver, BC",
+        "website": "https://www.sd44.ca/school/ridgeway/Pages/default.aspx",
+        "student_count": "TODO"
+    },
+    {
+        "school_name":  "Ross Road Elementary",
+        "grade_range": "K-7",
+        "address": "2875 Bushnell Pl, North Vancouver, BC",
+        "website": "https://www.sd44.ca/school/rossroad/Pages/default.aspx",
+        "student_count": "TODO"
+    },
+    {
+        "school_name":  "Seycove Secondary Community",
+        "grade_range": "8-12",
+        "address": "1204 Caledonia Ave, North Vancouver, BC",
+        "website": "https://www.sd44.ca/school/seycove/Pages/default.aspx",
+        "student_count": "TODO"
+    },
+    {
+        "school_name":  "Seymour Heights Elementary",
+        "grade_range": "K-7",
+        "address": "2640 Carnation St, North Vancouver, BC",
+        "website": "https://www.sd44.ca/school/seymourheights/Pages/default.aspx",
+        "student_count": "TODO"
+    },
+    {
+        "school_name":  "Sherwood Park Elementary",
+        "grade_range": "K-7",
+        "address": "4085 Dollar Rd, North Vancouver, BC",
+        "website": "https://www.sd44.ca/school/sherwoodpark/Pages/default.aspx",
+        "student_count": "TODO"
+    },
+    {
+        "school_name":  "Sutherland Secondary",
+        "grade_range": "8-12",
+        "address": "1860 Sutherland Ave, North Vancouver, BC",
+        "website": "https://www.sd44.ca/school/sutherland/Pages/default.aspx",
+        "student_count": "TODO"
+    },
+    {
+        "school_name":  "Upper Lynn Elementary",
+        "grade_range": "K-7",
+        "address": "1540 Coleman St, North Vancouver, BC",
+        "website": "https://www.sd44.ca/school/upperlynn/Pages/default.aspx",
+        "student_count": "TODO"
+    },
+    {
+        "school_name":  "Westview Elementary",
+        "grade_range": "K-7",
+        "address": "641 17th St W, North Vancouver, BC",
+        "website": "https://www.sd44.ca/school/westview/Pages/default.aspx",
+        "student_count": "TODO"
+    },
+    {
+        "school_name":  "Windsor Secondary",
+        "grade_range": "8-12",
+        "address": "931 Broadview Dr, North Vancouver, BC",
+        "website": "https://www.sd44.ca/school/windsor/Pages/default.aspx",
+        "student_count": "TODO"
+    },
+    {
+        "school_name":  "Bodwell High School",
+        "grade_range": "8-12",
+        "address": "955 Harbourside Dr, North Vancouver, BC",
+        "website": "https://bodwell.edu",
+        "student_count": "TODO"
+    },
+    {
+        "school_name":  "Brockton Preparatory School",
+        "grade_range": "K-12",
+        "address": "3467 Duval Rd, North Vancouver, BC",
+        "website": "https://www.brocktonschool.com",
+        "student_count": "TODO"
+    },
+    {
+        "school_name":  "Cousteau L'école Francaise Internationale",
+        "grade_range": "K-9",
+        "address": "3657 Fromme Rd, North Vancouver, BC",
+        "website": "https://www.cousteauschool.org",
+        "student_count": "TODO"
+    },
+    {
+        "school_name":  "Holy Trinity School",
+        "grade_range": "K-7",
+        "address": "128 27th St W, North Vancouver, BC",
+        "website": "https://www.holytrinityschool.ca",
+        "student_count": "TODO"
+    },
+    {
+        "school_name":  "Kenneth Gordon",
+        "grade_range": "K-12",
+        "address": "420 Seymour River Pl, North Vancouver, BC",
+        "website": "https://kgms.ca",
+        "student_count": "TODO"
+    },
+    {
+        "school_name":  "Lions Gate Christian Academy",
+        "grade_range": "K-12",
+        "address": "919 Tollcross Rd, North Vancouver, BC",
+        "website": "https://www.lgca.ca",
+        "student_count": "TODO"
+    },
+    {
+        "school_name":  "North Star Montessori Elementary School",
+        "grade_range": "K-6",
+        "address": "1325 Keith Rd E, North Vancouver, BC",
+        "website": "https://northstarmontessori.ca",
+        "student_count": "TODO"
+    },
+    {
+        "school_name":  "Saplings Nature School",
+        "grade_range": "K-5",
+        "address": "1390 W22nd Street, North Vancouver, BC",
+        "website": "https://saplingsoutdoorschool.com",
+        "student_count": "TODO"
+    },
+    {
+        "school_name":  "St Alcuin College for the Liberal Arts",
+        "grade_range": "K-12",
+        "address": "200-1046 St. Georges Ave, North Vancouver, BC",
+        "website": "https://www.stalcuincollege.com",
+        "student_count": "TODO"
+    },
+    {
+        "school_name":  "St Edmund's",
+        "grade_range": "K-7",
+        "address": "535 Mahon Ave, North Vancouver, BC",
+        "website": "https://stedmunds.ca",
+        "student_count": "TODO"
+    },
+    {
+        "school_name":  "St Pius X Elementary School",
+        "grade_range": "K-7",
+        "address": "1150 Mt. Seymour Road, North Vancouver, BC",
+        "website": "https://www.saintpius.ca",
+        "student_count": "TODO"
+    },
+    {
+        "school_name":  "St Thomas Aquinas",
+        "grade_range": "8-12",
+        "address": "541 Keith Rd W, North Vancouver, BC",
+        "website": "https://www.aquinas.org",
+        "student_count": "TODO"
+    },
+    {
+        "school_name":  "Vancouver Waldorf School",
+        "grade_range": "K-12",
+        "address": "2725 St. Christopher's Rd, North Vancouver, BC",
+        "website": "https://vancouverwaldorfschool.ca",
+        "student_count": "TODO"
+    }
 ]
 
-
 districts = [
-    ("Campbell River", schools)
+    ("North Vancouver", schools)
 ]
 
 
@@ -189,7 +370,7 @@ def generate_markdown_by_index(row):
     with open(file_path, 'w') as file:
         file.write(f"---\nlayout: page\ntitle: {row['school_name']}\n---\n")  # School Name
         file.write(
-            f"# Navigation\n\n[[All countries/states/provinces]](../../..) > [[All British Columbia Districts]](../..) > [[All In Campbell River ]](..)\n\n")
+            f"# Navigation\n\n[[All countries/states/provinces]](../../..) > [[All British Columbia Districts]](../..) > [[All In North Vancouver]](..)\n\n")
 
         file.write(f"# {row['school_name']} ({row['district_name']})\n\n")  # School Name and area as header
 

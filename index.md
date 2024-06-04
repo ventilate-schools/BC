@@ -49,7 +49,7 @@ Know that other diseases are airborne too: Measles (studies [1](https://www.ncbi
 - Burnaby
 - Maple Ridge-Pitt Meadows
 - Coquitlam
-- North Vancouver
+- [North Vancouver](North_Vancouver/): 45 schools
 - West Vancouver
 - Sunshine Coast
 - Powell River
