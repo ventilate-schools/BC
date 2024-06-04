@@ -67,7 +67,7 @@ Know that other diseases are airborne too: Measles (studies [1](https://www.ncbi
 - Greater Victoria
 - [Sooke](Sooke/): 6 schools
 - Saanich
-- Gulf Islands
+- [Gulf Islands](Gulf_Islands/): 9 schools
 - Okanagan Skaha
 - Nanaimo-Ladysmith
 - Qualicum

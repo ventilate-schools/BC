@@ -15,51 +15,81 @@ import pandas as pd
 
 schools = [
     {
-        "school_name": "Sooke Elementary",
-        "address": "6560 Sooke Rd, Sooke, BC V9Z 0A7",
-        "phone": "(250) 642-5431",
-        "website": "https://www.sd62.bc.ca/",
-        "student_count": "Approximately 110"
+        "school_name": "Gulf Islands Secondary School",
+        "address": "Salt Spring Island",
+        "grades": "8-12",
+        "website": "https://www.sd64.bc.ca/giss",
+        "student_count": "TODO: Find student count",
+        "phone": "(250) 537-9941"
     },
     {
-        "school_name": "John Muir Elementary",
-        "address": "2100 Happy Valley Rd, Sooke, BC V9Z 1A3",
-        "phone": "(250) 642-5131",
-        "website": "https://www.sd62.bc.ca/schools/john-muir-elementary-school",
-        "student_count": "TODO"
+        "school_name": "Fernwood Elementary School",
+        "address": "Salt Spring Island",
+        "grades": "K-7",
+        "website": "TODO: Find website",
+        "student_count": "TODO: Find student count",
+        "phone": "(250) 537-5111"
     },
     {
-        "school_name": "Poirier Elementary",
-        "address": "1770 Poirier St, Sooke, BC V9Z 1A1",
-        "phone": "(250) 642-1281",
-        "website": "https://poirier.web.sd62.bc.ca/",
-        "student_count": "TODO"
+        "school_name": "Fulford Community Elementary School",
+        "address": "Salt Spring Island",
+        "grades": "K-7",
+        "website": "TODO: Find website",
+        "student_count": "TODO: Find student count",
+        "phone": "(250) 537-9919"
     },
     {
-        "school_name": "Saseenos Elementary",
-        "address": "1220 Saseenos Rd, Sooke, BC V9Z 1M2",
-        "phone": "(250) 642-5621",
-        "website": "https://saseenos.web.sd62.bc.ca/",
-        "student_count": "TODO"
+        "school_name": "Galiano Community School",
+        "address": "Galiano Island",
+        "grades": "K-7",
+        "website": "TODO: Find website",
+        "student_count": "TODO: Find student count",
+        "phone": "(250) 539-2221"
     },
     {
-        "school_name": "Journey Middle School",
-        "address": "2101 Otter Point Rd, Sooke, BC V9Z 1M2",
-        "phone": "(250) 642-1411",
-        "website": "https://journey.web.sd62.bc.ca/",
-        "student_count": "TODO"
+        "school_name": "Mayne Elem-Jr Secondary School",
+        "address": "Mayne Island",
+        "grades": "K-7",
+        "website": "TODO: Find website",
+        "student_count": "TODO: Find student count",
+        "phone": "(250) 539-2441"
     },
     {
-        "school_name": "Edward Milne Community School",
-        "address": "1230 Carnation Dr, Sooke, BC V9Z 0A8",
-        "phone": "(250) 642-5421",
-        "website": "https://emcs.web.sd62.bc.ca/",
-        "student_count": "TODO"
+        "school_name": "Pender Islands Elem-Secondary School",
+        "address": "Pender Island",
+        "grades": "K-12",
+        "website": "TODO: Find website",
+        "student_count": "TODO: Find student count",
+        "phone": "(250) 275-6445"
+    },
+    {
+        "school_name": "Phoenix Elementary School (Salt Spring)",
+        "address": "Salt Spring Island",
+        "grades": "K-7",
+        "website": "TODO: Find website",
+        "student_count": "TODO: Find student count",
+        "phone": "(250) 537-9881"
+    },
+    {
+        "school_name": "Salt Spring Elementary School",
+        "address": "Salt Spring Island",
+        "grades": "K-7",
+        "website": "TODO: Find website",
+        "student_count": "TODO: Find student count",
+        "phone": "(250) 537-9441"  # Phone number found on district website
+    },
+    {
+        "school_name": "Saturna Island Elementary School",
+        "address": "Saturna Island",
+        "grades": "K-5",  # Updated from school website (https://www.sd64.bc.ca/seecsaturna)
+        "website": "https://www.sd64.bc.ca/seecsaturna",
+        "student_count": "TODO: Find student count (enrolment likely small)",  # Enrolment info not available
+        "phone": "(250) 539-2472"  # Found on district website
     }
 ]
 
 districts = [
-    ("Sooke", schools)
+    ("Gulf Islands", schools)
 ]
 
 
@@ -96,7 +126,7 @@ def generate_markdown_by_index(row):
     with open(file_path, 'w') as file:
         file.write(f"---\nlayout: page\ntitle: {row['school_name']}\n---\n")  # School Name
         file.write(
-            f"# Navigation\n\n[[All countries/states/provinces]](../../..) > [[All British Columbia Districts]](../..) > [[All In Sooke ]](..)\n\n")
+            f"# Navigation\n\n[[All countries/states/provinces]](../../..) > [[All British Columbia Districts]](../..) > [[All In Gulf Islands ]](..)\n\n")
 
         file.write(f"# {row['school_name']} ({row['district_name']})\n\n")  # School Name and area as header
 
