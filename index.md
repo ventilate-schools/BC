@@ -79,7 +79,7 @@ Know that other diseases are airborne too: Measles (studies [1](https://www.ncbi
 - [Mission](Mission/): 16 schools
 - Fraser-Cascade
 - Cowichan Valley
-- Fort Nelson
+- [Fort Nelson](Fort_Nelson/): 5 schools
 - Coast Mountains
 - North Okanagan-Shuswap
 - Vancouver Island West

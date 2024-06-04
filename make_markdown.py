@@ -15,37 +15,39 @@ import pandas as pd
 
 schools = [
   {
-      "school_name": "Dease Lake School",
-    "address": "PO Box 28, Dease Lake, BC V0C 1L0",
-    "phone": "(250) 721-3781",
-    "website": "https://www.prn.bc.ca/schools/dease-lake/",
-    "student_count": 110
+    "school_name": "Fort Nelson Secondary School",
+    "address": "5419 Simpson Trail",
+    "phone": "250-774-6958",
+    "website": "www.sd81.bc.ca/fnss"
   },
   {
-    "school_name": "Atlin School",
-    "address": "PO Box 189, Atlin, BC V0G 1L0",
-    "phone": "(250) 651-7533",
-    "website": "https://www.prn.bc.ca/schools/atlin/",
-    "student_count": 30
+    "school_name": "G.W. Carlson Elementary School",
+    "address": "5617 51st Street",
+    "phone": "250-774-6941",
+    "website": "www.sd81.bc.ca/gwc"
   },
   {
-      "school_name": "Tahltan School",
-    "address": "PO Box 130, Telegraph Creek, BC V0G 1N0",
-    "phone": "(250) 677-1233",
-    "website": "https://www.prn.bc.ca/schools/tahltan/",
-    "student_count": 40
+    "school_name": "J.S. Clark Elementary School",
+    "address": "5246 45th Street",
+    "phone": "250-774-3145",
+    "website": "www.sd81.bc.ca/jsc"
   },
   {
-      "school_name": "Denetia School",
-    "address": "PO Box 179, Iskut, BC V0J 1M0",
-    "phone": "(250) 842-5531",
-    "website": "https://www.prn.bc.ca/schools/denetia/",
-    "student_count": "TODO"
+    "school_name": "R.L. Angus Elementary School",
+    "address": "5501 Mountain View Dr.",
+    "phone": "250-774-2738",
+    "website": "www.sd81.bc.ca/rla"
   },
+  {
+    "school_name": "Toad River School",
+    "address": "Mile 422 Alaska Hwy",
+    "phone": "250-232-5491",
+    "website": "https://www.canva.com/design/DAFNcrOxp48/c7-TwRPNHs33yJ5NDeOz8w/view?website#4:pac"
+  }
 ]
 
 districts = [
-    ("Stikine", schools)
+    ("Fort Nelson", schools)
 ]
 
 
@@ -82,7 +84,7 @@ def generate_markdown_by_index(row):
     with open(file_path, 'w') as file:
         file.write(f"---\nlayout: page\ntitle: {row['school_name']}\n---\n")  # School Name
         file.write(
-            f"# Navigation\n\n[[All countries/states/provinces]](../../..) > [[All British Columbia Districts]](../..) > [[All In Stikine]](..)\n\n")
+            f"# Navigation\n\n[[All countries/states/provinces]](../../..) > [[All British Columbia Districts]](../..) > [[All In Fort Nelson]](..)\n\n")
 
         file.write(f"# {row['school_name']} ({row['district_name']})\n\n")  # School Name and area as header
 
