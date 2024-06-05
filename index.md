@@ -77,9 +77,9 @@ Know that other diseases are airborne too: Measles (studies [1](https://www.ncbi
 * 53 [Okanagan-Similkameen](Okanagan-Similkameen/): 8 schools
 * 58 [Nicola-Similkameen](Nicola-Similkameen/): 10 schools
 * 67 [Okanagan-Skaha](Okanagan-Skaha/): 11 schools
-* 73 Kamloops-Thompson
-* 74 Gold Trail
-* 83 North Okanagan-Shuswap
+- 73 [Kamloops-Thompson](Kamloops-Thompson/): 9 schools
+- 74 [Gold Trail](Gold_Trail/): 8 schools
+- 83 [North Okanagan-Shuswap](North_Okanagan-Shuswap/): 25 schools
 
 ## Northern Region
 
