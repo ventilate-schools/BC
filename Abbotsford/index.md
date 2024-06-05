@@ -27,7 +27,7 @@ title: Schools in Abbotsford
 - [École Clearbrook Elementary](École_Clearbrook_Elementary.md)
 - [Godson Elementary](Godson_Elementary.md)
 - [Harry Sayers Elementary](Harry_Sayers_Elementary.md)
-- [Irene Kelleher Totí:ltawtxw](Irene_Kelleher_Totí:ltawtxw.md)
+- [Irene Kelleher Totí﹕ltawtxw](Irene_Kelleher_Totí﹕ltawtxw.md)
 - [Jackson Elementary](Jackson_Elementary.md)
 - [John Maclure Community School](John_Maclure_Community_School.md)
 - [King Traditional Elementary](King_Traditional_Elementary.md)

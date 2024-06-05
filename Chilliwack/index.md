@@ -34,7 +34,7 @@ title: Schools in Chilliwack
 - [Rosedale Traditional Community](Rosedale_Traditional_Community.md)
 - [Sardis Elementary](Sardis_Elementary.md)
 - [Sardis Secondary](Sardis_Secondary.md)
-- [Stitó:s Lá:lém Totí:lt](Stitó:s_Lá:lém_Totí:lt.md)
+- [Stitó﹕s Lá﹕lém Totí﹕lt](Stitó﹕s_Lá﹕lém_Totí﹕lt.md)
 - [Strathcona Elementary](Strathcona_Elementary.md)
 - [Tyson Elementary](Tyson_Elementary.md)
 - [Unsworth Elementary](Unsworth_Elementary.md)

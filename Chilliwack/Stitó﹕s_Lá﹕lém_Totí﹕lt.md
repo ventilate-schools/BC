@@ -1,18 +1,18 @@
 ---
 layout: page
-title: Stitó:s Lá:lém Totí:lt
+title: Stitó﹕s Lá﹕lém Totí﹕lt
 ---
 # Navigation
 
 [[All countries/states/provinces]](../../..) > [[All British Columbia Districts]](../..) > [[All In Chilliwack]](..)
 
-# Stitó:s Lá:lém Totí:lt (Chilliwack)
+# Stitó﹕s Lá﹕lém Totí﹕lt (Chilliwack)
 
 **Address**: 5337 Tyson Road, Chilliwack, BC
 
 **Phone**: 604-824-7450
 
-**Website**: <https://stito-s.sd33.bc.ca>
+**Website**: <https://stito-s.sd33.bc.caStitó
 
 **Students**: TODO
 
@@ -31,4 +31,4 @@ title: Stitó:s Lá:lém Totí:lt
 **School's Wikidata URL**: TODO
 
 
-[Edit this page](https://github.com/ventilate-schools/BC/edit/main/./Chilliwack/Stitó:s_Lá:lém_Totí:lt.md). See also [rules for contribution](../../../contribution-rules/)
+[Edit this page](https://github.com/ventilate-schools/BC/edit/main/./Chilliwack/Stitó﹕s_Lá﹕lém_Totí﹕lt.md). See also [rules for contribution](../../../contribution-rules/)`

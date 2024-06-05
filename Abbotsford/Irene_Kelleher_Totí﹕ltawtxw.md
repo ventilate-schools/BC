@@ -1,12 +1,14 @@
 ---
 layout: page
-title: Irene Kelleher Totí:ltawtxw
+title: Irene Kelleher Totí﹕ltawtxw
 ---
+
+:
 # Navigation
 
 [[All countries/states/provinces]](../../..) > [[All British Columbia Districts]](../..) > [[All In Abbotsford]](..)
 
-# Irene Kelleher Totí:ltawtxw (Abbotsford)
+# Irene Kelleher Totí﹕ltawtxw (Abbotsford)
 
 **Address**: 34671 Blueridge Dr, Abbotsford, BC V2T 5W2
 
@@ -31,4 +33,4 @@ title: Irene Kelleher Totí:ltawtxw
 **School's Wikidata URL**: TODO
 
 
-[Edit this page](https://github.com/ventilate-schools/BC/edit/main/./Abbotsford/Irene_Kelleher_Totí:ltawtxw.md). See also [rules for contribution](../../../contribution-rules/)
+[Edit this page](https://github.com/ventilate-schools/BC/edit/main/./Abbotsford/Irene_Kelleher_Totí﹕ltawtxw.md). See also [rules for contribution](../../../contribution-rules/)
