@@ -40,18 +40,18 @@ Know that other diseases are airborne too: Measles (studies [1](https://www.ncbi
 
 ## Metro Region
 
-* 36 Surrey
-* 37 Delta
-* 38 Richmond
+* 36 [Surrey](Surrey/): 47 schools
+- 37 [Delta](Delta/): 9 schools
+- 36 [Richmond](Richmond/): 11 schools
 * 39 [Vancouver](Vancouver/): 109 schools
-* 40 New Westminster
-* 41 Burnaby
-* 43 Coquitlam
+- 40 [New Westminster](New_Westminster/): 1 schools
+- 41 [Burnaby](Burnaby/): 2 schools
+- 43 [Coquitlam](Coquitlam/): 2 schools
 * 44 [North Vancouver](North_Vancouver/): 45 schools
 * 45 [West Vancouver](West_Vancouver/): 18 schools
-* 46 Sunshine Coast
-* 48 Sea To Sky
-* 93 Conseil Scolaire Francophone
+- 46 [Sunshine Coast](Sunshine_Coast/): 2 schools
+- 48 [Sea To Sky](Sea_To_Sky/): 2 schools
+- 93 [Conseil Scolaire Francophone](Conseil_Scolaire_Francophone/): 2 schools
 
 ## Vancouver Island Region
 
