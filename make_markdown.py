@@ -2,511 +2,865 @@ import os
 import pandas as pd
 
 schools = {
-    "Southeast Kootenay": [
+    "Cariboo-Chilcotin": [
         {
-            "school_name": "Amy Woodland Elementary",
-            "address": "911 6th St S, Cranbrook, BC",
-            "phone": "250-426-7258",
-            "website": "https://amywoodland.sd5.bc.ca",
+            "school_name": "100 Mile House Elementary",
+            "address": "Po Box 460, 100 Mile House, BC",
+            "phone": "250-395-2258",
+            "website": "https://100mile.sd27.bc.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Elkford Elementary Secondary",
-            "address": "Po Box 910, Elkford, BC",
-            "phone": "250-865-4674",
-            "website": "https://ees.sd5.bc.ca",
+            "school_name": "150 Mile Elementary",
+            "address": "Po Box 259, 150 Mile House, BC",
+            "phone": "250-296-3356",
+            "website": "https://150mile.sd27.bc.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Fernie Secondary",
-            "address": "Po Box 370, Fernie, BC",
-            "phone": "250-423-4471",
-            "website": "https://fses.sd5.bc.ca",
+            "school_name": "Alexis Creek Elementary/Secondary",
+            "address": "Po Box 199, Alexis Creek, BC",
+            "phone": "250-481-2228",
+            "website": "https://alexis.sd27.bc.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Frank J Mitchell Elementary",
-            "address": "Po Box 345, Sparwood, BC",
-            "phone": "250-425-7818",
-            "website": "https://fjmes.sd5.bc.ca",
+            "school_name": "Anahim Lake Elem-Jr Secondary",
+            "address": "Po Box 3350, Anahim Lake, BC",
+            "phone": "250-742-3333",
+            "website": "https://anahim.sd27.bc.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Gordon Terrace Elementary",
-            "address": "1200 5th Ave S, Cranbrook, BC",
-            "phone": "250-426-8248",
-            "website": "https://gter.sd5.bc.ca",
+            "school_name": "Big Lake Elementary",
+            "address": "Box 70, Big Lake, BC",
+            "phone": "250-243-2345",
+            "website": "https://biglake.sd27.bc.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Highlands Elementary",
-            "address": "3300 7th St S, Cranbrook, BC",
-            "phone": "250-489-4391",
-            "website": "https://highlands.sd5.bc.ca",
+            "school_name": "Cataline Elementary",
+            "address": "1175 Blair St, Williams Lake, BC",
+            "phone": "250-392-5255",
+            "website": "https://cataline.sd27.bc.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Isabella Dicken Elementary",
-            "address": "Po Box 1559, Fernie, BC",
-            "phone": "250-423-4651",
-            "website": "https://ides.sd5.bc.ca",
+            "school_name": "Chilcotin Road Elementary",
+            "address": "709 Lyne Rd, Williams Lake, BC",
+            "phone": "250-398-5778",
+            "website": "https://chilcotinroad.sd27.bc.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Jaffray Elem-Jr Secondary",
-            "address": "Po Box 378, Jaffray, BC",
-            "phone": "250-429-3211",
-            "website": "https://jes.sd5.bc.ca",
+            "school_name": "Columneetza Junior Secondary",
+            "address": "1045 Western Ave, Williams Lake, BC",
+            "phone": "250-392-4331",
+            "website": "https://columneetza.sd27.bc.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Kootenay Orchards Elementary",
-            "address": "1301 - 20th Ave S, Cranbrook, BC",
-            "phone": "250-426-5308",
-            "website": "https://koes.sd5.bc.ca",
+            "school_name": "Dog Creek Elem-Secondary",
+            "address": "General Delivery, Dog Creek, BC",
+            "phone": "250-440-5644",
+            "website": "https://dogcreek.sd27.bc.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Laurie Middle School",
-            "address": "1808 2nd St S, Cranbrook, BC",
-            "phone": "250-426-5291",
-            "website": "https://laurie.sd5.bc.ca",
+            "school_name": "Forest Grove Elementary",
+            "address": "Po Box 99, Forest Grove, BC",
+            "phone": "250-397-2962",
+            "website": "https://forestgrove.sd27.bc.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Mount Baker Secondary",
-            "address": "1410 Baker St, Cranbrook, BC",
-            "phone": "250-426-5241",
-            "website": "https://mbss.sd5.bc.ca",
+            "school_name": "Horse Lake Elementary",
+            "address": "6548 Ryall Rd, Lone Butte, BC",
+            "phone": "250-395-4572",
+            "website": "https://horselake.sd27.bc.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Parkland Middle School",
-            "address": "1115 2nd Ave S, Cranbrook, BC",
-            "phone": "250-426-3327",
-            "website": "https://parkland.sd5.bc.ca",
+            "school_name": "Horsefly Elem-Jr Secondary",
+            "address": "Po Box 39, Horsefly, BC",
+            "phone": "250-620-3438",
+            "website": "https://horsefly.sd27.bc.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Pinewood Elementary",
-            "address": "40 Pinewood Ave W, Cranbrook, BC",
-            "phone": "250-426-6201",
-            "website": "https://pinewood.sd5.bc.ca",
+            "school_name": "Lac La Hache Elementary",
+            "address": "Po Box 128, Lac La Hache, BC",
+            "phone": "250-396-7230",
+            "website": "https://laclahache.sd27.bc.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Rocky Mountain Elementary",
-            "address": "Po Box 460, Elkford, BC",
-            "phone": "250-865-4625",
-            "website": "https://rmes.sd5.bc.ca",
+            "school_name": "Lake City Secondary",
+            "address": "640 Carson Drive, Williams Lake, BC",
+            "phone": "250-392-5288",
+            "website": "https://lakecitysecondary.sd27.bc.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Sparwood Secondary",
-            "address": "Po Box 67, Sparwood, BC",
-            "phone": "250-425-6666",
-            "website": "https://sses.sd5.bc.ca",
+            "school_name": "Likely Elem-Jr Secondary",
+            "address": "Po Box 57, Likely, BC",
+            "phone": "250-790-2337",
+            "website": "https://likely.sd27.bc.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Steeples Elementary",
-            "address": "700 24th Ave N, Cranbrook, BC",
-            "phone": "250-426-3352",
-            "website": "https://steeples.sd5.bc.ca",
+            "school_name": "Marie Sharpe Elementary",
+            "address": "260 Cameron St, Williams Lake, BC",
+            "phone": "250-392-4104",
+            "website": "https://mariesharpe.sd27.bc.ca",
             "students": "TODO"
         },
         {
-            "school_name": "T M Roberts Elementary",
-            "address": "10 Wattsville Rd, Cranbrook, BC",
-            "phone": "250-489-4575",
-            "website": "https://tmres.sd5.bc.ca",
-            "students": "TODO"
-        }
-    ],
-    "Rocky Mountain": [
-        {
-            "school_name": "Alexander Park Elementary",
-            "address": "Po Box 464, Golden, BC",
-            "phone": "250-344-5513",
-            "website": "https://apes.sd6.bc.ca",
+            "school_name": "Mile 108 Elementary",
+            "address": "Po Box 27, 108 Mile Ranch, BC",
+            "phone": "250-791-5221",
+            "website": "https://mile108.sd27.bc.ca",
             "students": "TODO"
         },
         {
-            "school_name": "David Thompson Secondary",
-            "address": "1535 14th St Unit 1 Rr 4, Invermere, BC",
-            "phone": "250-342-9213",
-            "website": "https://dtss.sd6.bc.ca",
+            "school_name": "Mountview Elementary",
+            "address": "1222 Dog Creek Rd, Williams Lake, BC",
+            "phone": "250-392-7344",
+            "website": "https://mountview.sd27.bc.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Edgewater Elementary",
-            "address": "Po Box 69, Edgewater, BC",
-            "phone": "250-347-9543",
-            "website": "https://ees.sd6.bc.ca",
+            "school_name": "Naghtaneqed Elem-Jr Secondary",
+            "address": "Po Box 100, Nemaiah Valley, BC",
+            "phone": "250-468-5788",
+            "website": "https://naghtaneqed.sd27.bc.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Eileen Madson Primary School",
-            "address": "2001 15th Ave, Invermere, BC",
-            "phone": "250-342-9315",
-            "website": "https://emps.sd6.bc.ca",
+            "school_name": "Nesika Elementary",
+            "address": "1180 Moon Ave, Williams Lake, BC",
+            "phone": "250-398-7192",
+            "website": "https://nesika.sd27.bc.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Golden Alternate School",
-            "address": "Po Box 1350, Golden, BC",
-            "phone": "250-344-2160",
-            "website": "https://gas.sd6.bc.ca",
+            "school_name": "PSO Outback Storefront",
+            "address": "Po Box 910, 100 Mile House, BC",
+            "phone": "250-395-2461",
+            "website": "https://psooutback.sd27.bc.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Golden Secondary",
-            "address": "Po Box 1350, Golden, BC",
-            "phone": "250-344-2201",
-            "website": "https://gss.sd6.bc.ca",
+            "school_name": "Peter Skene Ogden Secondary",
+            "address": "Po Box 910, 100 Mile House, BC",
+            "phone": "250-395-2461",
+            "website": "https://peterskene.sd27.bc.ca",
             "students": "TODO"
         },
         {
-            "school_name": "J Alfred Laird Elementary",
-            "address": "1202 13th Avenue, Invermere, BC",
-            "phone": "250-342-6232",
-            "website": "https://jales.sd6.bc.ca",
+            "school_name": "Skyline Alternate School",
+            "address": "320 Second Ave N, Williams Lake, BC",
+            "phone": "250-398-5571",
+            "website": "https://skyline.sd27.bc.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Kimberley Alternate School",
-            "address": "405 Halpin St, Kimberley, BC",
-            "phone": "250-427-8011",
-            "website": "https://kas.sd6.bc.ca",
-            "students": "TODO"
-        },
-        {
-            "school_name": "Lady Grey Elementary",
-            "address": "Po Box 899, Golden, BC",
-            "phone": "250-344-6317",
-            "website": "https://lges.sd6.bc.ca",
-            "students": "TODO"
-        },
-        {
-            "school_name": "Lindsay Park Elementary",
-            "address": "602 Salmo St, Kimberley, BC",
-            "phone": "250-427-2255",
-            "website": "https://lpes.sd6.bc.ca",
-            "students": "TODO"
-        },
-        {
-            "school_name": "Martin Morigeau Elementary",
-            "address": "4891 Beatty Avenue, Canal Flats, BC",
-            "phone": "250-349-5665",
-            "website": "https://mmes.sd6.bc.ca",
-            "students": "TODO"
-        },
-        {
-            "school_name": "Marysville Elementary",
-            "address": "546 309 Ave, Kimberley, BC",
-            "phone": "250-427-2241",
-            "website": "https://mes.sd6.bc.ca",
-            "students": "TODO"
-        },
-        {
-            "school_name": "McKim Middle School",
-            "address": "689 Rotary Dr, Kimberley, BC",
-            "phone": "250-427-2283",
-            "website": "https://mms.sd6.bc.ca",
-            "students": "TODO"
-        },
-        {
-            "school_name": "Nicholson Elementary",
-            "address": "Po Box 331, Golden, BC",
-            "phone": "250-344-2370",
-            "website": "https://nes.sd6.bc.ca",
-            "students": "TODO"
-        },
-        {
-            "school_name": "Open Doors Alternate Education",
-            "address": "Po Box 430, Invermere, BC",
-            "phone": "250-342-6814",
-            "website": "https://odas.sd6.bc.ca",
-            "students": "TODO"
-        },
-        {
-            "school_name": "Selkirk Secondary School",
-            "address": "405 Halpin St, Kimberley, BC",
-            "phone": "250-427-4827",
-            "website": "https://sss.sd6.bc.ca",
-            "students": "TODO"
-        },
-        {
-            "school_name": "Windermere Elementary",
-            "address": "4747 Government St, Windermere, BC",
-            "phone": "250-342-6640",
-            "website": "https://wes.sd6.bc.ca",
+            "school_name": "Tatla Lake Elem-Jr Secondary",
+            "address": "Po Box 56, Tatla Lake, BC",
+            "phone": "250-476-1131",
+            "website": "https://tatlalake.sd27.bc.ca",
             "students": "TODO"
         }
     ],
-    "Kootenay Lake": [
+    "Quesnel": [
         {
-            "school_name": "Adam Robertson Elementary",
-            "address": "421 9 Ave N, Creston, BC",
-            "phone": "250-428-2051",
-            "website": "https://ares.sd8.bc.ca",
+            "school_name": "Barlow Creek Elementary",
+            "address": "816 Barkerville Hwy, Quesnel, BC",
+            "phone": "250-992-5134",
+            "website": "https://barlowcreek.sd28.bc.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Blewett Elementary",
-            "address": "2665 Blewett Rd, Nelson, BC",
-            "phone": "250-352-5314",
-            "website": "https://blewett.sd8.bc.ca",
+            "school_name": "Bouchie Lake Elementary",
+            "address": "2074 Blackwater Rd, Quesnel, BC",
+            "phone": "250-249-5880",
+            "website": "https://bouchielake.sd28.bc.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Brent Kennedy Elementary",
-            "address": "Po Box 40, Crescent Valley, BC",
-            "phone": "250-359-7292",
-            "website": "https://bkes.sd8.bc.ca",
+            "school_name": "Carson Elementary",
+            "address": "1255 Graham Ave, Quesnel, BC",
+            "phone": "250-992-6821",
+            "website": "https://carson.sd28.bc.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Canyon-Lister Elementary",
-            "address": "4575 Canyon-Lister Road, Canyon, BC",
-            "phone": "250-428-4161",
-            "website": "https://canyon.sd8.bc.ca",
+            "school_name": "Dragon Lake Elementary",
+            "address": "2671 Hydraulic Rd, Quesnel, BC",
+            "phone": "250-747-2097",
+            "website": "https://dragonlake.sd28.bc.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Crawford Bay Elementary-Secondary",
-            "address": "Po Box 100, Crawford Bay, BC",
-            "phone": "250-227-9218",
-            "website": "https://cbess.sd8.bc.ca",
+            "school_name": "École Red Bluff Lhtako Elementary",
+            "address": "1533 Maple Dr, Quesnel, BC",
+            "phone": "250-747-2634",
+            "website": "https://redbluff.sd28.bc.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Erickson Elementary",
-            "address": "Po Box 180, Erickson, BC",
-            "phone": "250-428-2325",
-            "website": "https://erickson.sd8.bc.ca",
+            "school_name": "Kersley Elementary",
+            "address": "2899 Arnoldus Rd, Quesnel, BC",
+            "phone": "250-747-2624",
+            "website": "https://kersley.sd28.bc.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Hume Elementary",
-            "address": "310 Nelson Ave, Nelson, BC",
-            "phone": "250-352-3186",
-            "website": "https://hume.sd8.bc.ca",
+            "school_name": "Lakeview Elementary",
+            "address": "1525 Beryl St, Quesnel, BC",
+            "phone": "250-747-2009",
+            "website": "https://lakeview.sd28.bc.ca",
             "students": "TODO"
         },
         {
-            "school_name": "J.V. Humphries Elementary-Secondary",
-            "address": "Po Box 577, Kaslo, BC",
-            "phone": "250-353-2227",
-            "website": "https://jvh.sd8.bc.ca",
+            "school_name": "Nazko Valley Elementary",
+            "address": "9560 Nazko Rd, Quesnel, BC",
+            "phone": "250-249-5600",
+            "website": "https://nazko.sd28.bc.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Jewett Elementary",
-            "address": "Po Box 39, Meadow Creek, BC",
-            "phone": "250-366-4223",
-            "website": "https://jewett.sd8.bc.ca",
+            "school_name": "Parkland Elementary",
+            "address": "5016 Bjornson Rd, Quesnel, BC",
+            "phone": "250-747-2003",
+            "website": "https://parkland.sd28.bc.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Kootenay River Secondary",
-            "address": "223 18th Ave S, Creston, BC",
-            "phone": "250-428-2274",
-            "website": "https://krs.sd8.bc.ca",
+            "school_name": "Riverview Elementary",
+            "address": "346 Hartley St, Quesnel, BC",
+            "phone": "250-992-7217",
+            "website": "https://riverview.sd28.bc.ca",
             "students": "TODO"
         },
         {
-            "school_name": "L.V. Rogers Secondary",
-            "address": "1004 Cottonwood Street, Nelson, BC",
-            "phone": "250-352-5538",
-            "website": "https://lvr.sd8.bc.ca",
+            "school_name": "Voyageur Elementary",
+            "address": "1337 Lark Ave, Quesnel, BC",
+            "phone": "250-992-2613",
+            "website": "https://voyageur.sd28.bc.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Mount Sentinel Secondary",
-            "address": "Po Box 99, South Slocan, BC",
-            "phone": "250-359-7219",
-            "website": "https://mtsentinel.sd8.bc.ca",
+            "school_name": "Wells Elementary",
+            "address": "Po Box 190, Wells, BC",
+            "phone": "250-994-3216",
+            "website": "https://wells.sd28.bc.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Redfish Elementary",
-            "address": "265 Bryan Rd, Nelson, BC",
-            "phone": "250-229-4211",
-            "website": "https://redfish.sd8.bc.ca",
+            "school_name": "Quesnel Junior School",
+            "address": "950 Mountain Ash Rd, Quesnel, BC",
+            "phone": "250-747-2103",
+            "website": "https://qjs.sd28.bc.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Rosemont Elementary",
-            "address": "1605 Crease Street, Nelson, BC",
-            "phone": "250-352-3027",
-            "website": "https://rosemont.sd8.bc.ca",
+            "school_name": "Correlieu Secondary",
+            "address": "850 Anderson Dr, Quesnel, BC",
+            "phone": "250-992-7007",
+            "website": "https://css.sd28.bc.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Salmo Elementary",
-            "address": "Po Drawer 220, Salmo, BC",
-            "phone": "250-357-2214",
-            "website": "https://ses.sd8.bc.ca",
-            "students": "TODO"
-        },
-        {
-            "school_name": "Salmo Secondary",
-            "address": "Po Box 310, Salmo, BC",
-            "phone": "250-357-2235",
-            "website": "https://salsec.sd8.bc.ca",
-            "students": "TODO"
-        },
-        {
-            "school_name": "South Nelson Elementary",
-            "address": "814 Latimer St, Nelson, BC",
-            "phone": "250-352-3252",
-            "website": "https://southnelson.sd8.bc.ca",
-            "students": "TODO"
-        },
-        {
-            "school_name": "Trafalgar Middle School",
-            "address": "1201 Josephine St, Nelson, BC",
-            "phone": "250-352-5538",
-            "website": "https://trafalgar.sd8.bc.ca",
-            "students": "TODO"
-        },
-        {
-            "school_name": "W.E. Graham Community School",
-            "address": "Po Box 10, Slocan, BC",
-            "phone": "250-355-2212",
-            "website": "https://weg.sd8.bc.ca",
-            "students": "TODO"
-        },
-        {
-            "school_name": "Winlaw Elementary",
-            "address": "Po Box 10, Winlaw, BC",
-            "phone": "250-226-7217",
-            "website": "https://winlaw.sd8.bc.ca",
+            "school_name": "McNaughton Centre",
+            "address": "241 Kinchant St, Quesnel, BC",
+            "phone": "250-992-5614",
+            "website": "https://mcnaughton.sd28.bc.ca",
             "students": "TODO"
         }
     ],
-    "Arrow Lakes": [
+    "Central Coast": [
         {
-            "school_name": "Burton Elementary School",
-            "address": "219 Burton School Rd, Burton, BC",
-            "phone": "250-265-3638 ext. 3998",
-            "website": "https://bes.sd10.bc.ca",
+            "school_name": "Bella Coola Elementary School",
+            "address": "Box 158, Bella Coola, BC",
+            "phone": "250-799-5312",
+            "website": "https://www.sd49.bc.ca/schools/bella-coola-elementary",
             "students": "TODO"
         },
         {
-            "school_name": "Edgewood Elementary School",
-            "address": "Po Box 129, Edgewood, BC",
-            "phone": "250-269-7212",
-            "website": "https://ees.sd10.bc.ca",
+            "school_name": "Nusatsum Elementary School",
+            "address": "Box 129, Hagensborg, BC",
+            "phone": "250-982-2696",
+            "website": "https://www.sd49.bc.ca/schools/nusatsum-elementary",
             "students": "TODO"
         },
         {
-            "school_name": "Lucerne Elementary Secondary School",
-            "address": "Po Box 130, New Denver, BC",
-            "phone": "250-358-7222",
-            "website": "https://less.sd10.bc.ca",
+            "school_name": "Sir Alexander Mackenzie Secondary School",
+            "address": "Box 800, Hagensborg, BC",
+            "phone": "250-982-2355",
+            "website": "https://www.sd49.bc.ca/schools/sir-alexander-mackenzie-secondary",
             "students": "TODO"
         },
         {
-            "school_name": "Nakusp Elementary School",
-            "address": "Po Box 250, Nakusp, BC",
-            "phone": "250-265-3638",
-            "website": "https://nes.sd10.bc.ca",
+            "school_name": "Shearwater Elementary School",
+            "address": "Box 80, Denny Island, BC",
+            "phone": "250-957-2427",
+            "website": "https://www.sd49.bc.ca/schools/shearwater-elementary",
             "students": "TODO"
         },
         {
-            "school_name": "Nakusp Secondary School",
-            "address": "Po Box 249, Nakusp, BC",
-            "phone": "250-265-3668",
-            "website": "https://nss.sd10.bc.ca",
+            "school_name": "Wuikinuxv Elementary School",
+            "address": "Box 59, Rivers Inlet, BC",
+            "phone": "250-396-7081",
+            "website": "https://www.sd49.bc.ca/schools/wuikinuxv-elementary",
             "students": "TODO"
         }
     ],
-    "Kootenay-Columbia": [
+    "Bulkley Valley": [
         {
-            "school_name": "Fruitvale Elementary",
-            "address": "1867 Columbia Gardens Rd, Fruitvale, BC",
-            "phone": "250-368-5528",
-            "website": "https://fes.sd20.bc.ca",
+            "school_name": "Muheim Elementary",
+            "address": "3659 3rd Ave, Smithers, BC",
+            "phone": "250-847-2688",
+            "website": "https://mme.sd54.bc.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Glenmerry Elementary",
-            "address": "3660 Carnation Dr, Trail, BC",
-            "phone": "250-364-1353",
-            "website": "https://ges.sd20.bc.ca",
+            "school_name": "Walnut Park Elementary",
+            "address": "4092 Mountainview Drive, Smithers, BC",
+            "phone": "250-847-4464",
+            "website": "https://wps.sd54.bc.ca",
             "students": "TODO"
         },
         {
-            "school_name": "James L Webster Elementary",
-            "address": "395 Schofield Hwy, Trail, BC",
-            "phone": "250-368-3242",
-            "website": "https://wes.sd20.bc.ca",
+            "school_name": "Telkwa Elementary",
+            "address": "PO Box 190, Telkwa, BC",
+            "phone": "250-846-5999",
+            "website": "https://tes.sd54.bc.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Kinnaird Elementary",
-            "address": "2273 10th Ave, Castlegar, BC",
-            "phone": "250-365-7227",
-            "website": "https://kesd20.com",
+            "school_name": "Silverthorne Elementary",
+            "address": "PO Box 430, Houston, BC",
+            "phone": "250-845-2228",
+            "website": "https://ses.sd54.bc.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Robson Community School",
-            "address": "2925 - Robson School Rd, Robson, BC",
-            "phone": "250-365-5924",
-            "website": "https://rcs.sd20.bc.ca",
+            "school_name": "Twain Sullivan Elementary",
+            "address": "PO Box 260, Houston, BC",
+            "phone": "250-845-2244",
+            "website": "https://tses.sd54.bc.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Twin Rivers Elementary",
-            "address": "743 - 7th Ave, Castlegar, BC",
-            "phone": "250-365-5744",
-            "website": "https://tr.sd20.bc.ca",
+            "school_name": "Smithers Secondary",
+            "address": "PO Box 848, Smithers, BC",
+            "phone": "250-847-2231",
+            "website": "https://sss.sd54.bc.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Rossland Summit School",
-            "address": "2875 St Paul St, Rossland, BC",
-            "phone": "250-362-7388",
-            "website": "https://rosslandsummit.org",
+            "school_name": "Houston Secondary",
+            "address": "PO Box 158, Houston, BC",
+            "phone": "250-845-7217",
+            "website": "https://hss.sd54.bc.ca",
             "students": "TODO"
         },
         {
-            "school_name": "J. Lloyd Crowe Secondary",
-            "address": "1300 Frances Moran Rd, Trail, BC",
-            "phone": "250-364-3395",
-            "website": "https://jlcrowe.org",
+            "school_name": "Bulkley Valley Learning Centre",
+            "address": "PO Box 849, Smithers, BC",
+            "phone": "250-877-3218",
+            "website": "https://bvlc.sd54.bc.ca",
+            "students": "TODO"
+        }
+    ],
+    "Peace River North": [
+        {
+            "school_name": "Alwin Holland Elementary",
+            "address": "10615 96th St, Fort St. John, BC",
+            "phone": "250-785-6125",
+            "website": "https://alwinholland.prn.bc.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Stanley Humphries Secondary",
-            "address": "720 - 7th Ave, Castlegar, BC",
-            "phone": "250-365-7735",
-            "website": "https://shsscastlegar.com",
+            "school_name": "Bert Ambrose Elementary",
+            "address": "9616 115 St, Fort St. John, BC",
+            "phone": "250-785-2321",
+            "website": "https://bertambrose.prn.bc.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Kootenay-Columbia Learning Centre",
-            "address": "2001 Third Ave, Trail, BC",
-            "phone": "250-364-1275",
-            "website": "https://kclc.sd20.bc.ca",
+            "school_name": "Baldonnel Elementary",
+            "address": "PO Box 90, Baldonnel, BC",
+            "phone": "250-789-3396",
+            "website": "https://baldonnel.prn.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Charlie Lake Elementary",
+            "address": "PO Box 68, Charlie Lake, BC",
+            "phone": "250-785-2025",
+            "website": "https://charlielake.prn.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Clearview Elementary-Jr Secondary",
+            "address": "PO Box 340, Clearview, BC",
+            "phone": "250-781-3333",
+            "website": "https://clearview.prn.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "CM Finch Elementary",
+            "address": "10904 106 St, Fort St. John, BC",
+            "phone": "250-785-8580",
+            "website": "https://cmfinch.prn.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Dr. Kearney Middle School",
+            "address": "10717 100 St, Fort St. John, BC",
+            "phone": "250-785-8378",
+            "website": "https://drkearney.prn.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Ecole Central Elementary",
+            "address": "10615 100th St, Fort St. John, BC",
+            "phone": "250-785-4511",
+            "website": "https://central.prn.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Fort St. John Secondary",
+            "address": "10215 99 Ave, Fort St. John, BC",
+            "phone": "250-785-4429",
+            "website": "https://fss.prn.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Hudson's Hope Elementary-Secondary",
+            "address": "PO Box 189, Hudson's Hope, BC",
+            "phone": "250-783-9994",
+            "website": "https://hudsonhope.prn.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Robert Ogilvie Elementary",
+            "address": "9907 86 St, Fort St. John, BC",
+            "phone": "250-785-3704",
+            "website": "https://roberttogilvie.prn.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Upper Pine Elementary-Jr Secondary",
+            "address": "PO Box 70, Rose Prairie, BC",
+            "phone": "250-827-3676",
+            "website": "TODO",
+            "students": "TODO"
+        }
+    ],
+    "Peace River South": [
+        {
+            "school_name": "Canalta Elementary",
+            "address": "1901 110 Ave, Dawson Creek, BC",
+            "phone": "250-782-8403",
+            "website": "https://canalta.sd59.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Chetwynd Secondary",
+            "address": "5000-46 Street, Chetwynd, BC",
+            "phone": "250-788-2267",
+            "website": "https://chetwyndsecondary.sd59.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Crescent Park Elementary",
+            "address": "9300 17 St, Dawson Creek, BC",
+            "phone": "250-782-8412",
+            "website": "https://crescentpark.sd59.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Dawson Creek Secondary (Central Campus)",
+            "address": "10701 10 St, Dawson Creek, BC",
+            "phone": "250-784-7676",
+            "website": "https://dcss.sd59.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Devereaux Elementary",
+            "address": "11600 7th St, Dawson Creek, BC",
+            "phone": "250-843-7300",
+            "website": "https://devereaux.sd59.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Don Titus Montessori",
+            "address": "Po Box 538, Chetwynd, BC",
+            "phone": "250-788-2531",
+            "website": "https://dontitus.sd59.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "École Frank Ross Elementary",
+            "address": "1000 92 Ave, Dawson Creek, BC",
+            "phone": "250-782-5206",
+            "website": "https://frankross.sd59.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Little Prairie Elementary",
+            "address": "Po Box 1600, Chetwynd, BC",
+            "phone": "250-788-1924",
+            "website": "https://littleprairie.sd59.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "McLeod Elementary Secondary",
+            "address": "Po Box 157, Groundbirch, BC",
+            "phone": "250-843-7374",
+            "website": "https://mcleod.sd59.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Moberly Lake Elementary",
+            "address": "6531 Lakeshore Drive, Moberly Lake, BC",
+            "phone": "250-788-2574",
+            "website": "https://moberlylake.sd59.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Parkland Elementary",
+            "address": "11600 7 St, Dawson Creek, BC",
+            "phone": "250-843-7777",
+            "website": "https://parkland.sd59.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Peace View School",
+            "address": "11600 7th St, Dawson Creek, BC",
+            "phone": "250-789-2280",
+            "website": "https://peaceview.sd59.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Pouce Coupe Elementary",
+            "address": "Po Box 7, Pouce Coupe, BC",
+            "phone": "250-786-5314",
+            "website": "https://pouce.sd59.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "South Peace Elementary",
+            "address": "11600 7th St, Dawson Creek, BC",
+            "phone": "778-299-2037",
+            "website": "https://southpeace.sd59.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Tremblay Elementary",
+            "address": "11311 13a St, Dawson Creek, BC",
+            "phone": "250-782-8147",
+            "website": "https://tremblay.sd59.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Tumbler Ridge Elementary",
+            "address": "Po Box 700, Tumbler Ridge, BC",
+            "phone": "250-242-5281",
+            "website": "https://tumbler.sd59.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Tumbler Ridge Secondary",
+            "address": "180 Southgate, Tumbler Ridge, BC",
+            "phone": "250-242-4227",
+            "website": "https://trs.sd59.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Windrem Elementary",
+            "address": "Po Box 210, Chetwynd, BC",
+            "phone": "250-788-2214",
+            "website": "https://windrem.sd59.bc.ca",
+            "students": "TODO"
+        }
+    ],
+    "Coast Mountains": [
+        {
+            "school_name": "Bear Valley (K-12)",
+            "address": "Box 218 824 Main Street, Stewart, BC V0T 1W0",
+            "phone": "250-636-2238",
+            "website": "http://bearvalley.cmsd.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Caledonia Secondary (10-12)",
+            "address": "3605 Munroe Street, Terrace, BC V8G 3C4",
+            "phone": "250-635-6531",
+            "website": "http://caledonia.cmsd.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Cassie Hall Elementary (K-6)",
+            "address": "2620 Eby Street, Terrace, BC V8G 2X3",
+            "phone": "250-635-5646",
+            "website": "http://cassiehall.cmsd.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Ecole Mountainview (K-6)",
+            "address": "3505 Bailey Street, Terrace, BC V8G 5P5",
+            "phone": "250-635-3115",
+            "website": "http://mountainview.cmsd.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Hazelton Secondary (8-12)",
+            "address": "Box 300 2725 Highway 62, Hazelton, BC V0J 1Y0",
+            "phone": "250-842-5214",
+            "website": "http://hazeltonsec.cmsd.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Kildala Elementary (K-6)",
+            "address": "803 Columbia Street, Kitimat, BC V8C 1V7",
+            "phone": "250-632-6194",
+            "website": "http://kildala.cmsd.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Kitimat City High",
+            "address": "1426 Cormorant Street, Kitimat, BC V8C 1R8",
+            "phone": "250-632-2811",
+            "website": "http://kitimatcityhigh.cmsd.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Kitwanga Elementary (K-7)",
+            "address": "Box 88 3650 School Road, Kitwanga, BC V0J 2A0",
+            "phone": "250-849-5484",
+            "website": "http://kitwanga.cmsd.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Majagaleehl Gali Aks Elementary (K-7)",
+            "address": "Box 240 3990 John Field Road, Hazelton, BC V0J 1Y0",
+            "phone": "250-842-5313",
+            "website": "http://majagaleehl.cmsd.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Mount Elizabeth Middle/Secondary (7-12)",
+            "address": "1491 Kingfisher Avenue, Kitimat, BC V8C 1E9",
+            "phone": "250-632-6174",
+            "website": "http://mountelizabeth.cmsd.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Nechako Elementary (K-6)",
+            "address": "61 Nightingale Street, Kitimat, BC V8C 1M9",
+            "phone": "250-632-2912",
+            "website": "http://nechako.cmsd.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "New Hazelton Elementary (K-7)",
+            "address": "Box 220 3275 Bowser Street, New Hazelton, BC V0J 2J0",
+            "phone": "250-842-5777",
+            "website": "http://newhazelton.cmsd.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Northwest Trades & Employment Training Centre",
+            "address": "3120 Highway 16, Terrace, BC",
+            "phone": "250-635-7944",
+            "website": "http://ncdes.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Parkside Secondary",
+            "address": "3824 Eby Street, Terrace, BC",
+            "phone": "250-635-5778",
+            "website": "http://parkside.cmsd.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Skeena Middle School (7-9)",
+            "address": "3411 Munroe Street, Terrace, BC V8G 3C1",
+            "phone": "250-635-9136",
+            "website": "http://skeena.cmsd.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Suwilaawks Community School (K-6)",
+            "address": "3430 Sparks Street, Terrace, BC V8G 2V3",
+            "phone": "250-635-5624",
+            "website": "http://suwilaawks.cmsd.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Thornhill Elementary (4-6)",
+            "address": "3210 Highway 16 East, Thornhill, BC V8G 4R7",
+            "phone": "250-635-5082",
+            "website": "http://thornhill.cmsd.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Thornhill Primary (K-3)",
+            "address": "3480 Paquette Avenue, Thornhill, BC V8G 4E9",
+            "phone": "250-635-5081",
+            "website": "http://thornhill.cmsd.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Uplands Elementary (K-6)",
+            "address": "4110 Thomas Street, Terrace, BC V8G 4L7",
+            "phone": "250-635-2721",
+            "website": "http://uplands.cmsd.bc.ca",
+            "students": "TODO"
+        }
+    ],
+    "Nechako Lakes": [
+        {
+            "school_name": "Babine Elementary-Secondary",
+            "address": "Po Box 250, Granisle, BC",
+            "phone": "250-697-2291",
+            "website": "https://babine.sd91.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "David Hoy Elementary",
+            "address": "Po Box 880, Fort St James, BC",
+            "phone": "250-996-8246",
+            "website": "https://davidhoy.sd91.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Decker Lake Elementary",
+            "address": "6710 Decker Lake Frtg Rd, Burns Lake, BC",
+            "phone": "250-698-7301",
+            "website": "https://deckerlake.sd91.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Evelyn Dickson Elementary",
+            "address": "Po Box 1970, Vanderhoof, BC",
+            "phone": "250-567-5544",
+            "website": "https://evelyndickson.sd91.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Fort St James Secondary",
+            "address": "Po Box 220, Fort St James, BC",
+            "phone": "250-996-7017",
+            "website": "https://fsjss.sd91.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Francois Lake Elementary",
+            "address": "860 Francois Lake Road, Burns Lake, BC",
+            "phone": "250-695-6641",
+            "website": "https://francoislake.sd91.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Fraser Lake Elementary-Secondary",
+            "address": "Po Bag Service 1002, Fraser Lake, BC",
+            "phone": "250-699-6233",
+            "website": "https://fraserlake.sd91.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Grassy Plains School",
+            "address": "34310 Keefes Landing Rd, Burns Lake, BC",
+            "phone": "250-694-3683",
+            "website": "https://grassyplains.sd91.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Lakes District Secondary",
+            "address": "Box 3000, Burns Lake, BC",
+            "phone": "250-692-7733",
+            "website": "https://ldss.sd91.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Mapes Elementary",
+            "address": "14907 Mapes Rd, Vanderhoof, BC",
+            "phone": "250-567-4393",
+            "website": "https://mapes.sd91.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Mouse Mountain Elementary",
+            "address": "Postal Bag 3001, Fraser Lake, BC",
+            "phone": "250-699-6747",
+            "website": "https://mousemountain.sd91.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Nechako Valley Secondary",
+            "address": "Po Box 950, Vanderhoof, BC",
+            "phone": "250-567-2291",
+            "website": "https://nvss.sd91.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Sinkutview Elementary",
+            "address": "3348 Sinkut View Rd, Vanderhoof, BC",
+            "phone": "250-567-2267",
+            "website": "https://sinkutview.sd91.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "W L Mcleod Elementary",
+            "address": "Po Box 559, Vanderhoof, BC",
+            "phone": "250-567-2261",
+            "website": "https://wlmcleod.sd91.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "William Konkin Elementary",
+            "address": "Box 7000, Burns Lake, BC",
+            "phone": "250-692-3146",
+            "website": "https://wke.sd91.bc.ca",
+            "students": "TODO"
+        }
+    ],
+    "Nisga’a": [
+        {
+            "school_name": "Nisga'a Elementary Secondary School",
+            "address": "5000 Skateen Avenue, PO Box 239, New Aiyansh, BC V0J 1A0",
+            "phone": "250-633-2225",
+            "website": "https://ness.nisgaa.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Gitwinksihlkw Elementary School",
+            "address": "PO Box 120, Gitwinksihlkw, BC V0J 3T0",
+            "phone": "250-633-2657",
+            "website": "https://ges.nisgaa.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Alvin A. McKay Elementary School",
+            "address": "311 Church St., PO Box 220, Laxgalts’ap, BC V0J 1X0",
+            "phone": "250-621-3277",
+            "website": "https://aames.nisgaa.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Nathan Barton Elementary School",
+            "address": "1310 Volunteer St., Gingolx, BC V0V 1B0",
+            "phone": "250-326-4206",
+            "website": "https://nbes.nisgaa.bc.ca",
             "students": "TODO"
         }
     ]
 }
-
-
-
-
-
-
-
-
-
-
-
 
 # Combine all school lists into one DataFrame
 schools_data = pd.DataFrame([school for district in schools.values() for school in district])

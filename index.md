@@ -83,20 +83,20 @@ Know that other diseases are airborne too: Measles (studies [1](https://www.ncbi
 
 ## Northern Region
 
-* 27 Cariboo-Chilcotin
-* 28 Quesnel
-* 49 Central Coast
+* 27 [Cariboo-Chilcotin](Cariboo-Chilcotin/): 24 schools
+* 28 [Quesnel](Quesnel/): 14 schools
+* 49 [Central Coast](Central_Coast/): 5 schools
 * 50 [Haida Gwaii - Queen Charlotte](Haida_Gwaii_-_Queen_Charlotte/): 6 schools
 * 52 [Prince Rupert](Prince_Rupert/): 9 schools
-* 54 Bulkley Valley
+* 54 [Bulkley Valley](Bulkley_Valley/): 8 schools
 * 57 [Prince George](Prince_George/): 4 schools
-* 59 Peace River South
-* 60 Peace River North
+* 59 [Peace River South](Peace_River_South/): 19 schools
+* 60 [Peace River North](Peace_River_North/): 12 schools
 * 81 [Fort Nelson](Fort_Nelson/): 5 schools
-* 82 Coast Mountains
+* 82 [Coast Mountains](Coast_Mountains/): 19 schools
 * 87 [Stikine](Stikine/): 4 schools
-* 91 Nechako Lakes
-* 92 Nisga’a
+* 91 [Nechako Lakes](Nechako_Lakes/): 15 schools
+* 92 [Nisga’a](Nisga’a/): 4 schools
 
 ## Kootenay-Boundary Region
 
