@@ -29,7 +29,7 @@ Know that other diseases are airborne too: Measles (studies [1](https://www.ncbi
 
 ![](https://www.researchgate.net/profile/Jennifer-Gruno/publication/358021582/figure/fig1/AS:1129980738187266@1646419810397/British-Columbia-School-District-Regions-Province-of-British-Columbia-2021a.png)
 
-## Fraser Valley Region
+## Fraser Valley
 
 * 33 [Chilliwack](Chilliwack/): 30 schools
 * 34 [Abbotsford](Abbotsford/): 25 schools
@@ -53,7 +53,7 @@ Know that other diseases are airborne too: Measles (studies [1](https://www.ncbi
 - 48 [Sea To Sky](Sea_To_Sky/): 2 schools
 - 93 [Conseil Scolaire Francophone](Conseil_Scolaire_Francophone/): 2 schools
 
-## Vancouver Island Region
+## Vancouver Island
 
 * 47 [Powell River](Powell_River/): 1 schools
 * 61 [Greater Victoria](Greater_Victoria/): 3 schools
