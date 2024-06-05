@@ -29,32 +29,30 @@ Know that other diseases are airborne too: Measles (studies [1](https://www.ncbi
 
 <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
   <g>
-    <path d="M100 300 L150 250 L200 300 L150 350 Z" fill="none" stroke="black" />
-    <text x="150" y="325" text-anchor="middle">Fraser Valley Region</text>
+    <path d="M100 310 L110 300 L120 290 L130 280 L140 270 L150 260 L160 270 L170 280 L180 290 L190 300 L200 310 L190 320 L180 330 L170 340 L160 350 L150 360 L140 350 L130 340 L120 330 L110 320 Z" fill="none" stroke="black" />
+    <text x="150" y="335" text-anchor="middle">Fraser Valley Region</text>
   </g>
   <g>
-    <path d="M250 100 L350 100 L400 200 L300 200 Z" fill="none" stroke="black" />
+    <path d="M250 100 L260 100 L270 100 L280 100 L290 100 L300 100 L310 100 L320 100 L330 100 L340 100 L350 100 L360 110 L370 120 L380 130 L390 140 L400 150 L400 160 L400 170 L400 180 L400 190 L400 200 L390 200 L380 200 L370 200 L360 200 L350 200 L340 200 L330 200 L320 200 L310 200 L300 200 L290 200 Z" fill="none" stroke="black" />
     <text x="325" y="175" text-anchor="middle">Metro Region</text>
   </g>
   <g>
-    <path d="M50 200 L150 150 L250 250 L150 350 L50 300 Z" fill="none" stroke="black" />
+    <path d="M50 200 L60 190 L70 180 L80 170 L90 160 L100 150 L110 140 L120 130 L130 120 L140 110 L150 100 L160 110 L170 120 L180 130 L190 140 L200 150 L210 160 L220 170 L230 180 L240 190 L250 200 L250 210 L250 220 L250 230 L250 240 L250 250 L240 260 L230 270 L220 280 L210 290 L200 300 L190 310 L180 320 L170 330 L160 340 L150 350 L140 340 L130 330 L120 320 L110 310 L100 300 L90 290 L80 280 L70 270 L60 260 Z" fill="none" stroke="black" />
     <text x="150" y="275" text-anchor="middle">Vancouver Island Region</text>
   </g>
   <g>
-    <path d="M300 250 L400 300 L350 400 L250 350 Z" fill="none" stroke="black" />
+    <path d="M300 250 L310 260 L320 270 L330 280 L340 290 L350 300 L360 310 L370 320 L380 330 L390 340 L400 350 L400 360 L400 370 L400 380 L400 390 L390 390 L380 390 L370 390 L360 390 L350 390 L340 390 L330 390 L320 390 L310 390 L300 390 L290 380 L280 370 L270 360 L260 350 Z" fill="none" stroke="black" />
     <text x="325" y="350" text-anchor="middle">Thompson-Okanagan Region</text>
   </g>
   <g>
-    <path d="M100 400 L200 500 L300 450 L200 400 Z" fill="none" stroke="black" />
+    <path d="M100 400 L110 410 L120 420 L130 430 L140 440 L150 450 L160 460 L170 470 L180 480 L190 490 L200 500 L210 490 L220 480 L230 470 L240 460 L250 450 L260 440 L270 430 L280 420 L290 410 L300 400 L290 390 L280 380 L270 370 L260 360 L250 350 L240 340 L230 330 L220 320 L210 310 L200 300 L190 310 L180 320 L170 330 L160 340 L150 350 L140 360 L130 370 L120 380 L110 390 Z" fill="none" stroke="black" />
     <text x="200" y="475" text-anchor="middle">Northern Region</text>
   </g>
   <g>
-    <path d="M350 450 L450 400 L400 350 L300 400 Z" fill="none" stroke="black" />
+    <path d="M350 450 L360 440 L370 430 L380 420 L390 410 L400 400 L410 390 L420 380 L430 370 L440 360 L450 350 L450 360 L450 370 L450 380 L450 390 L440 400 L430 410 L420 420 L410 430 L400 440 L390 450 L380 460 L370 460 L360 460 L350 460 L340 450 L330 440 L320 430 Z" fill="none" stroke="black" />
     <text x="375" y="425" text-anchor="middle">Kootenay-Boundary Region</text>
   </g>
 </svg>
-
-
 
 ## Fraser Valley Region
 
