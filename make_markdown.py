@@ -2,230 +2,728 @@ import os
 import pandas as pd
 
 schools = {
-    "Revelstoke": [
+    "Chilliwack": [
         {
-            "school_name": "Columbia Park Elementary School",
-            "address": "120 Colbeck Road, Revelstoke, BC V0E 2S0",
-            "phone": "250-837-4744",
-            "website": "https://columbiapark.sd19.bc.ca",
+            "school_name": "A D Rundle Middle School",
+            "address": "45660 Hocking Ave, Chilliwack, BC",
+            "phone": "604-792-4257",
+            "website": "https://adrundle.sd33.bc.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Arrow Heights Elementary School",
-            "address": "1950 Park Drive, Revelstoke, BC V0E 2S1",
-            "phone": "250-837-6360",
-            "website": "https://arrowheights.sd19.bc.ca",
+            "school_name": "Bernard Elementary",
+            "address": "45465 Bernard Ave, Chilliwack, BC",
+            "phone": "604-795-7840",
+            "website": "https://bernard.sd33.bc.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Begbie View Elementary School",
-            "address": "1001 Mackenzie Avenue, Revelstoke, BC V0E 2S0",
-            "phone": "250-837-3085",
-            "website": "https://begbieview.sd19.bc.ca",
+            "school_name": "Cheam Elementary",
+            "address": "9895 Banford Rd, Chilliwack, BC",
+            "phone": "604-792-1416",
+            "website": "https://cheam.sd33.bc.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Revelstoke Secondary School",
-            "address": "1007 Vernon Avenue, Revelstoke, BC V0E 2S0",
-            "phone": "250-837-2173",
-            "website": "https://revelstokesecondary.sd19.bc.ca",
+            "school_name": "Chilliwack Central Elementary Community",
+            "address": "9435 Young Rd, Chilliwack, BC",
+            "phone": "604-792-8537",
+            "website": "https://central.sd33.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Chilliwack Middle School",
+            "address": "46354 Yale Rd, Chilliwack, BC",
+            "phone": "604-795-5781",
+            "website": "https://cms.sd33.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Chilliwack Secondary",
+            "address": "46363 Yale Rd, Chilliwack, BC",
+            "phone": "604-795-7295",
+            "website": "https://css.sd33.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Cultus Lake Community School",
+            "address": "71 Sunnyside Blvd, Cultus Lake, BC",
+            "phone": "604-858-6266",
+            "website": "https://cultuslake.sd33.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "East Chilliwack Elementary",
+            "address": "49190 Chilliwack Central Rd, Chilliwack, BC",
+            "phone": "604-794-7533",
+            "website": "https://eastchilliwack.sd33.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Evans Elementary",
+            "address": "7600 Evans Rd, Chilliwack, BC",
+            "phone": "604-858-3057",
+            "website": "https://evans.sd33.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "G.W. Graham Secondary",
+            "address": "45955 Thomas Rd, Chilliwack, BC",
+            "phone": "604-847-0772",
+            "website": "https://gwgraham.sd33.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Greendale Elementary",
+            "address": "6621 Sumas Prairie Rd, Chilliwack, BC",
+            "phone": "604-823-6738",
+            "website": "https://greendale.sd33.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Imagine High Integrated Arts/Technology",
+            "address": "45669 Yale Rd, Chilliwack, BC",
+            "phone": "604-792-9277",
+            "website": "https://imaginehigh.sd33.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Kw'íyeqel Secondary",
+            "address": "8855 Elm Dr, Chilliwack, BC",
+            "phone": "604-792-9277",
+            "website": "https://kwiyekel.sd33.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Leary Integrated Arts & Technology",
+            "address": "9320 Walden St, Chilliwack, BC",
+            "phone": "604-792-1281",
+            "website": "https://fgleary.sd33.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Little Mountain Elementary",
+            "address": "9900 Carleton St, Chilliwack, BC",
+            "phone": "604-792-0681",
+            "website": "https://littlemountain.sd33.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "McCammon Elementary",
+            "address": "9601 Hamilton St, Chilliwack, BC",
+            "phone": "604-795-7000",
+            "website": "https://mccammon.sd33.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Mount Slesse Middle School",
+            "address": "5871 Tyson Rd, Chilliwack, BC",
+            "phone": "604-824-7481",
+            "website": "https://msms.sd33.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Promontory Heights Community Elementary",
+            "address": "46200 Stoneview Dr, Chilliwack, BC",
+            "phone": "604-824-4885",
+            "website": "https://promontory.sd33.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Robertson Elementary",
+            "address": "46106 Southlands Cres, Chilliwack, BC",
+            "phone": "604-795-5312",
+            "website": "https://robertson.sd33.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Rosedale Traditional Community",
+            "address": "50850 Yale Rd, Rosedale, BC",
+            "phone": "604-794-7651",
+            "website": "https://rosedale.sd33.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Sardis Elementary",
+            "address": "45775 Manuel Rd, Chilliwack, BC",
+            "phone": "604-858-7145",
+            "website": "https://sardis.sd33.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Sardis Secondary",
+            "address": "45460 Stevenson Rd, Chilliwack, BC",
+            "phone": "604-858-9424",
+            "website": "https://sardissecondary.sd33.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Stitó:s Lá:lém Totí:lt",
+            "address": "5337 Tyson Road, Chilliwack, BC",
+            "phone": "604-824-7450",
+            "website": "https://stito-s.sd33.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Strathcona Elementary",
+            "address": "46375 Strathcona Rd, Chilliwack, BC",
+            "phone": "604-792-9301",
+            "website": "https://strathcona.sd33.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Tyson Elementary",
+            "address": "45170 S Sumas Rd, Chilliwack, BC",
+            "phone": "604-858-3057",
+            "website": "https://tyson.sd33.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Unsworth Elementary",
+            "address": "5685 Unsworth Rd, Chilliwack, BC",
+            "phone": "604-858-4510",
+            "website": "https://unsworth.sd33.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Vedder Elementary",
+            "address": "45850 Promontory Rd, Chilliwack, BC",
+            "phone": "604-858-4759",
+            "website": "https://vedder.sd33.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Vedder Middle School",
+            "address": "45560 South Sumas Rd, Chilliwack, BC",
+            "phone": "604-858-7141",
+            "website": "https://veddermiddle.sd33.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Watson Elementary",
+            "address": "45305 Watson Rd, Chilliwack, BC",
+            "phone": "604-858-9477",
+            "website": "https://watson.sd33.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Yarrow Community School",
+            "address": "4605 Wilson Rd, Chilliwack, BC",
+            "phone": "604-823-4408",
+            "website": "https://yarrow.sd33.bc.ca",
             "students": "TODO"
         }
     ],
-    "Vernon": [
+    "Abbotsford": [
         {
-            "school_name": "Alexis Park Elementary School",
-            "address": "4200 35th St, Vernon, BC V1T 6C5",
-            "phone": "250-545-7289",
-            "website": "https://www.sd22.bc.ca/school/alexispark",
+            "school_name": "Abbotsford School of Integrated Arts (ASIA) - North Poplar",
+            "address": "32749 Cherry Ave, Mission, BC V2V 2T8",
+            "phone": "604-826-2015",
+            "website": "https://northpoplar.abbyschools.ca",
             "students": "TODO"
         },
         {
-            "school_name": "BX Elementary School",
-            "address": "5849 Silver Star Rd, Vernon, BC V1B 3P5",
-            "phone": "250-542-4013",
-            "website": "https://www.sd22.bc.ca/school/bx",
+            "school_name": "Aberdeen Elementary",
+            "address": "2975 Bradner Rd, Abbotsford, BC V4X 1K8",
+            "phone": "604-856-7636",
+            "website": "https://aberdeen.abbyschools.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Beairsto Elementary School",
-            "address": "3302 27th St, Vernon, BC V1T 4W7",
-            "phone": "250-542-1388",
-            "website": "https://www.sd22.bc.ca/school/beairsto",
+            "school_name": "Alexander Elementary",
+            "address": "2250 Lobban Rd, Abbotsford, BC V2S 3W1",
+            "phone": "604-853-3918",
+            "website": "https://alexander.abbyschools.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Charles Bloom Secondary School",
-            "address": "1935 Bessette St, Lumby, BC V0E 2G0",
-            "phone": "250-547-2191",
-            "website": "https://www.sd22.bc.ca/school/charlesbloom",
+            "school_name": "Auguston Traditional Elementary",
+            "address": "36367 Stephen Leacock Dr, Abbotsford, BC V3G 2Z6",
+            "phone": "604-557-0422",
+            "website": "https://auguston.abbyschools.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Cherryville Elementary School",
-            "address": "1128 Hwy 6, Cherryville, BC V0E 2G2",
-            "phone": "250-547-9334",
-            "website": "https://www.sd22.bc.ca/school/cherryville",
+            "school_name": "Barrowtown Elementary",
+            "address": "5137 Tolmie Rd, Abbotsford, BC V3G 2V4",
+            "phone": "604-854-5990",
+            "website": "https://barrowtown.abbyschools.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Clarence Fulton Secondary School",
-            "address": "2301 Fulton Rd, Vernon, BC V1H 1Y1",
-            "phone": "250-545-1348",
-            "website": "https://www.sd22.bc.ca/school/clarencefulton",
+            "school_name": "BlueJay Elementary",
+            "address": "30995 Southern Dr, Abbotsford, BC V2T 5H9",
+            "phone": "604-852-0685",
+            "website": "https://bluejay.abbyschools.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Coldstream Elementary School",
-            "address": "10104 Kalamalka Rd, Coldstream, BC V1B 1L7",
-            "phone": "250-545-1944",
-            "website": "https://www.sd22.bc.ca/school/coldstream",
+            "school_name": "Bradner Elementary",
+            "address": "5291 Bradner Rd, Abbotsford, BC V4X 2P1",
+            "phone": "604-856-3304",
+            "website": "https://bradner.abbyschools.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Crossroads Alternate School",
-            "address": "2001 Bessette St, Lumby, BC V0E 2G0",
-            "phone": "250-547-9812",
-            "website": "https://www.sd22.bc.ca/school/crossroads",
+            "school_name": "Dave Kandal Elementary",
+            "address": "3351 Crestview Ave, Abbotsford, BC V2T 6T5",
+            "phone": "604-853-7491",
+            "website": "https://davekandal.abbyschools.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Ellison Elementary School",
-            "address": "2400 Fulton Rd, Vernon, BC V1H 1Y1",
-            "phone": "250-542-0271",
-            "website": "https://www.sd22.bc.ca/school/ellison",
+            "school_name": "Dormick Park Elementary",
+            "address": "32161 Dormick Ave, Abbotsford, BC V2T 1J6",
+            "phone": "604-859-3700",
+            "website": "https://dormickpark.abbyschools.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Harwood Elementary School",
-            "address": "4320 20th St, Vernon, BC V1T 4E3",
-            "phone": "250-542-5385",
-            "website": "https://www.sd22.bc.ca/school/harwood",
+            "school_name": "Dr. Roberta Bondar Elementary",
+            "address": "32736 Huntingdon Rd, Abbotsford, BC V2T 5Z1",
+            "phone": "604-859-3101",
+            "website": "https://bondar.abbyschools.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Hillview Elementary School",
-            "address": "6901 Harvest Rd, Vernon, BC V1B 3P2",
-            "phone": "250-545-5541",
-            "website": "https://www.sd22.bc.ca/school/hillview",
+            "school_name": "Dr. Thomas A. Swift Elementary",
+            "address": "34800 Dewdney Trunk Rd, Mission, BC V2V 6Y3",
+            "phone": "604-826-2481",
+            "website": "https://swift.abbyschools.ca",
             "students": "TODO"
         },
         {
-            "school_name": "J W Inglis Elementary School",
-            "address": "2287 Shuswap Ave, Lumby, BC V0E 2G0",
-            "phone": "250-547-9231",
-            "website": "https://www.sd22.bc.ca/school/jwinglis",
+            "school_name": "École Centennial Park Elementary",
+            "address": "2527 Gladwin Rd, Abbotsford, BC V2T 3N8",
+            "phone": "604-853-9148",
+            "website": "https://centennialpark.abbyschools.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Kalamalka Secondary School",
-            "address": "7900 McClounie Rd, Coldstream, BC V1B 1P8",
-            "phone": "250-545-1396",
-            "website": "https://www.sd22.bc.ca/school/kalamalka",
+            "school_name": "École Clearbrook Elementary",
+            "address": "3614 Clearbrook Rd, Abbotsford, BC V2T 6N3",
+            "phone": "604-859-3134",
+            "website": "https://clearbrook.abbyschools.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Kidston Elementary School",
-            "address": "1212 Kidston Rd, Coldstream, BC V1B 1H3",
-            "phone": "250-545-1109",
-            "website": "https://www.sd22.bc.ca/school/kidston",
+            "school_name": "Godson Elementary",
+            "address": "33130 Bevan Ave, Abbotsford, BC V2S 1T6",
+            "phone": "604-853-2756",
+            "website": "https://godson.abbyschools.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Lavington Elementary School",
-            "address": "9715 School Rd, Coldstream, BC V1B 3G4",
-            "phone": "250-545-3516",
-            "website": "https://www.sd22.bc.ca/school/lavington",
+            "school_name": "Harry Sayers Elementary",
+            "address": "31321 Blueridge Dr, Abbotsford, BC V2T 6W2",
+            "phone": "604-852-9665",
+            "website": "https://harrysayers.abbyschools.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Mission Hill Elementary School",
-            "address": "1510 36th St, Vernon, BC V1T 6C4",
-            "phone": "250-545-0639",
-            "website": "https://www.sd22.bc.ca/school/missionhill",
+            "school_name": "Irene Kelleher Totí:ltawtxw",
+            "address": "34671 Blueridge Dr, Abbotsford, BC V2T 5W2",
+            "phone": "604-859-3051",
+            "website": "https://irenekelleher.abbyschools.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Okanagan Landing Elementary School",
-            "address": "9435 Okanagan Landing Rd, Vernon, BC V1H 1M5",
-            "phone": "250-542-1181",
-            "website": "https://www.sd22.bc.ca/school/okanaganlanding",
+            "school_name": "Jackson Elementary",
+            "address": "33130 Bevan Ave, Abbotsford, BC V2S 1T6",
+            "phone": "604-853-2756",
+            "website": "https://jackson.abbyschools.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Open Door School",
-            "address": "1801 35th St, Vernon, BC V1T 6C1",
-            "phone": "250-545-1506",
-            "website": "https://www.sd22.bc.ca/school/opendoor",
+            "school_name": "John Maclure Community School",
+            "address": "2990 Oriole Cres, Abbotsford, BC V2T 4E1",
+            "phone": "604-859-3114",
+            "website": "https://johnmaclure.abbyschools.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Silver Star Elementary School",
-            "address": "1404 35th Ave, Vernon, BC V1T 2R6",
-            "phone": "250-545-4409",
-            "website": "https://www.sd22.bc.ca/school/silverstar",
+            "school_name": "King Traditional Elementary",
+            "address": "28776 King Rd, Abbotsford, BC V4X 1C1",
+            "phone": "604-857-0903",
+            "website": "https://kingtraditional.abbyschools.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Vernon Secondary School",
-            "address": "2100 15th St, Vernon, BC V1T 8Z8",
-            "phone": "250-545-0701",
-            "website": "https://www.sd22.bc.ca/school/vernonsecondary",
+            "school_name": "Margaret Stenersen Elementary",
+            "address": "3060 Old Clayburn Rd, Abbotsford, BC V2S 4G5",
+            "phone": "604-852-9665",
+            "website": "https://stenersen.abbyschools.ca",
             "students": "TODO"
         },
         {
-            "school_name": "W L Seaton Secondary School",
-            "address": "2701 41st Ave, Vernon, BC V1T 6X3",
-            "phone": "250-542-3361",
-            "website": "https://www.sd22.bc.ca/school/wlseaton",
+            "school_name": "Mathxwí Elementary",
+            "address": "2548 Bourquin Crescent W, Abbotsford, BC V2S 6Z7",
+            "phone": "604-853-2994",
+            "website": "https://mathxwi.abbyschools.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "McMillan Elementary",
+            "address": "34830 Oakhill Dr, Abbotsford, BC V2S 7R4",
+            "phone": "604-859-0126",
+            "website": "https://mcmillan.abbyschools.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Mountain Elementary",
+            "address": "2299 Mountain Dr, Abbotsford, BC V3G 1E6",
+            "phone": "604-852-8525",
+            "website": "https://mountain.abbyschools.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Mt. Lehman Elementary",
+            "address": "28776 King Rd, Abbotsford, BC V4X 1C1",
+            "phone": "604-856-3304",
+            "website": "https://mtlehman.abbyschools.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Prince Charles Elementary",
+            "address": "35410 McKee Rd, Abbotsford, BC V3G 3B1",
+            "phone": "604-852-9323",
+            "website": "https://princecharles.abbyschools.ca",
             "students": "TODO"
         }
     ],
-    "Haida Gwaii - Queen Charlotte": [
+    "Langley": [
         {
-            "school_name": "Agnes L Mathers Elementary Secondary",
-            "address": "PO Box 227, Sandspit, BC",
-            "phone": "250-637-5403",
-            "website": "https://sd50.bc.ca/school/agnes-l-mathers",
+            "school_name": "Alex Hope Elementary",
+            "address": "21150 85 Ave, Langley, BC V1M 2M4",
+            "phone": "604-888-7109",
+            "website": "https://alexhope.sd35.bc.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Gidgalang Kuuyas Naay Secondary",
-            "address": "PO Box 70, Queen Charlotte, BC",
-            "phone": "250-559-8889",
-            "website": "https://sd50.bc.ca/school/gidgalang-kuuyas-naay",
+            "school_name": "Alice Brown Elementary",
+            "address": "20011 44 Ave, Langley, BC V3A 6L8",
+            "phone": "604-534-0744",
+            "website": "https://alicebrown.sd35.bc.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Gudangaay Tlaats'gaa Naay Secondary",
-            "address": "PO Box 208, Masset, BC",
-            "phone": "250-626-3226",
-            "website": "https://sd50.bc.ca/school/gudangaay-tlaats-gaa-naay",
+            "school_name": "Belmont Elementary",
+            "address": "20390 40 Ave, Langley, BC V3A 2X1",
+            "phone": "604-533-3641",
+            "website": "https://belmont.sd35.bc.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Port Clements Elementary",
-            "address": "PO Box 288, Port Clements, BC",
-            "phone": "250-557-4344",
-            "website": "https://sd50.bc.ca/school/port-clements",
+            "school_name": "Blacklock Fine Arts Elementary",
+            "address": "5100 206 St, Langley, BC V3A 2E5",
+            "phone": "604-530-3188",
+            "website": "https://blacklock.sd35.bc.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Sk'aadgaa Naay Elementary",
-            "address": "PO Box 1252, Queen Charlotte, BC",
-            "phone": "250-559-8473",
-            "website": "https://sd50.bc.ca/school/skaadgaa-naay",
+            "school_name": "Coghlan Fundamental Elementary",
+            "address": "4452 256 St, Langley, BC V4W 1J3",
+            "phone": "604-856-8539",
+            "website": "https://coghlan.sd35.bc.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Tahayghen Elementary",
-            "address": "PO Box 290, Masset, BC",
-            "phone": "250-626-5572",
-            "website": "https://sd50.bc.ca/school/tahayghen",
+            "school_name": "Dorothy Peacock Elementary",
+            "address": "20292 91A Ave, Langley, BC V1M 2G2",
+            "phone": "604-888-3397",
+            "website": "https://dorothypeacock.sd35.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Douglas Park Community Elementary",
+            "address": "5409 206 St, Langley, BC V3A 2C5",
+            "phone": "604-533-4491",
+            "website": "https://douglaspark.sd35.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Glenwood Elementary",
+            "address": "20785 24 Ave, Langley, BC V2Z 2B4",
+            "phone": "604-530-3188",
+            "website": "https://glenwood.sd35.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "James Hill Elementary",
+            "address": "22144 Old Yale Rd, Langley, BC V2Z 1B5",
+            "phone": "604-530-0231",
+            "website": "https://jameshill.sd35.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Langley Fundamental Elementary",
+            "address": "21789 50 Ave, Langley, BC V3A 3T2",
+            "phone": "604-530-9973",
+            "website": "https://lfes.sd35.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Langley Fine Arts School",
+            "address": "9096 Trattle St, Fort Langley, BC V1M 2S6",
+            "phone": "604-888-3113",
+            "website": "https://lfas.sd35.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Noel Booth Elementary",
+            "address": "20202 35 Ave, Langley, BC V2Z 1A2",
+            "phone": "604-530-9747",
+            "website": "https://noelbooth.sd35.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "North Otter Elementary",
+            "address": "5370 248 St, Langley, BC V4W 1A5",
+            "phone": "604-856-3355",
+            "website": "https://northotter.sd35.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Peterson Road Elementary",
+            "address": "23422 47 Ave, Langley, BC V2Z 2S1",
+            "phone": "604-534-7921",
+            "website": "https://peterson.sd35.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "R.C. Garnett Demonstration Elementary",
+            "address": "7096 201 St, Langley, BC V2Y 2Y1",
+            "phone": "604-532-7814",
+            "website": "https://rcgarnett.sd35.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Simonds Elementary",
+            "address": "20190 48 Ave, Langley, BC V3A 3L4",
+            "phone": "604-533-3643",
+            "website": "https://simonds.sd35.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Topham Elementary",
+            "address": "21555 91 Ave, Langley, BC V1M 2E4",
+            "phone": "604-888-3041",
+            "website": "https://topham.sd35.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Uplands Elementary",
+            "address": "4471 207A St, Langley, BC V3A 5V8",
+            "phone": "604-533-1285",
+            "website": "https://uplands.sd35.bc.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Walnut Grove Secondary",
+            "address": "8919 Walnut Grove Dr, Langley, BC V1M 2N7",
+            "phone": "604-882-0220",
+            "website": "https://walnutgrove.sd35.bc.ca",
+            "students": "TODO"
+        }
+    ],
+    "Fraser-Cascade": [
+        {
+            "school_name": "Agassiz Centre for Education",
+            "address": "PO Box 69, Agassiz, BC",
+            "phone": "604-796-2225",
+            "website": "https://sd78.bc.ca/school/agassiz-centre-for-education",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Agassiz Elementary-Secondary School",
+            "address": "PO Box 1100, Agassiz, BC",
+            "phone": "604-796-2238",
+            "website": "https://sd78.bc.ca/school/agassiz-elementary-secondary",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Boston Bar Elementary-Secondary School",
+            "address": "PO Box 160, Boston Bar, BC",
+            "phone": "604-867-9222",
+            "website": "https://sd78.bc.ca/school/boston-bar-elementary-secondary",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Coquihalla Elementary School",
+            "address": "PO Box 969, Hope, BC",
+            "phone": "604-869-9904",
+            "website": "https://sd78.bc.ca/school/coquihalla-elementary",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Harrison Hot Springs Elementary School",
+            "address": "PO Box 310, Harrison Hot Springs, BC",
+            "phone": "604-796-2838",
+            "website": "https://sd78.bc.ca/school/harrison-hot-springs-elementary",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Hope Secondary School",
+            "address": "PO Box 249, Hope, BC",
+            "phone": "604-869-9971",
+            "website": "https://sd78.bc.ca/school/hope-secondary",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Kent Elementary School",
+            "address": "7285 McCullough Rd, Agassiz, BC",
+            "phone": "604-796-2161",
+            "website": "https://sd78.bc.ca/school/kent-elementary",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Silver Creek Elementary School",
+            "address": "PO Box 670, Hope, BC",
+            "phone": "604-869-5212",
+            "website": "https://sd78.bc.ca/school/silver-creek-elementary",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Two Rivers Education Centre",
+            "address": "PO Box 108, Hope, BC",
+            "phone": "604-869-2411",
+            "website": "https://sd78.bc.ca/school/two-rivers-education-centre",
+            "students": "TODO"
+        }
+    ],
+    "Maple Ridge – Pitt Meadows": [
+        {
+            "school_name": "Albion Elementary",
+            "address": "10031 240th St, Maple Ridge, BC",
+            "phone": "604-467-0033",
+            "website": "https://albion.sd42.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Alexander Robinson Elementary",
+            "address": "11849 238b St, Maple Ridge, BC",
+            "phone": "604-466-5760",
+            "website": "https://alexanderrobinson.sd42.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Alouette Elementary",
+            "address": "22155 Isaac Cres, Maple Ridge, BC",
+            "phone": "604-463-8730",
+            "website": "https://alouette.sd42.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Blue Mountain Elementary",
+            "address": "12453 248 St, Maple Ridge, BC",
+            "phone": "604-463-6414",
+            "website": "https://bluemountain.sd42.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Davie Jones Elementary",
+            "address": "12030 Blakely Rd, Pitt Meadows, BC",
+            "phone": "604-465-4920",
+            "website": "https://daviejones.sd42.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Edith McDermott Elementary",
+            "address": "12178 Bonson Rd, Pitt Meadows, BC",
+            "phone": "604-465-5441",
+            "website": "https://edithmcdermott.sd42.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Eric Langton Elementary",
+            "address": "12138 Edge St, Maple Ridge, BC",
+            "phone": "604-463-3810",
+            "website": "https://ericlangton.sd42.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Fairview Elementary",
+            "address": "12209 206 St, Maple Ridge, BC",
+            "phone": "604-465-9331",
+            "website": "https://fairview.sd42.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Golden Ears Elementary",
+            "address": "23124 118 Ave, Maple Ridge, BC",
+            "phone": "604-463-9513",
+            "website": "https://goldenears.sd42.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Hammond Elementary",
+            "address": "11520 203 St, Maple Ridge, BC",
+            "phone": "604-465-5828",
+            "website": "https://hammond.sd42.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Harry Hooge Elementary",
+            "address": "12280 230 St, Maple Ridge, BC",
+            "phone": "604-463-3920",
+            "website": "https://harryhooge.sd42.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Highland Park Elementary",
+            "address": "18961 Advent Rd, Pitt Meadows, BC",
+            "phone": "604-465-6737",
+            "website": "https://highlandpark.sd42.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Kanaka Creek Elementary",
+            "address": "11120 234a St, Maple Ridge, BC",
+            "phone": "604-463-9804",
+            "website": "https://kanakacreek.sd42.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Laity View Elementary",
+            "address": "21023 123 Ave, Maple Ridge, BC",
+            "phone": "604-463-9823",
+            "website": "https://laityview.sd42.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Maple Ridge Elementary",
+            "address": "20820 River Rd, Maple Ridge, BC",
+            "phone": "604-463-5003",
+            "website": "https://mapleridge.sd42.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Pitt Meadows Elementary",
+            "address": "11941 Harris Rd, Pitt Meadows, BC",
+            "phone": "604-465-5828",
+            "website": "https://pittmeadows.sd42.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Westview Secondary",
+            "address": "20905 Wicklund Ave, Maple Ridge, BC",
+            "phone": "604-467-3481",
+            "website": "https://westview.sd42.ca",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Yennadon Elementary",
+            "address": "23347 128 Ave, Maple Ridge, BC",
+            "phone": "604-467-5551",
+            "website": "https://yennadon.sd42.ca",
             "students": "TODO"
         }
     ]
 }
+
+
+
+
 
 
 

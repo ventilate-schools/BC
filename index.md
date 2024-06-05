@@ -31,12 +31,12 @@ Know that other diseases are airborne too: Measles (studies [1](https://www.ncbi
 
 ## Fraser Valley Region
 
-* 33 Chilliwack
-* 34 Abbotsford
-* 35 Langley
-* 42 Maple Ridge – Pitt Meadows
+* 33 [Chilliwack](Chilliwack/): 30 schools
+* 34 [Abbotsford](Abbotsford/): 25 schools
+* 35 [Langley](Langley/): 19 schools
+* 42 [Maple Ridge – Pitt Meadows](Maple_Ridge_–_Pitt_Meadows/): 18 schools
 * 75 [Mission](Mission/): 16 schools
-* 78 Fraser-Cascade
+* 78 [Fraser-Cascade](Fraser-Cascade/): 9 schools
 
 ## Metro Region
 
