@@ -100,11 +100,11 @@ Know that other diseases are airborne too: Measles (studies [1](https://www.ncbi
 
 ## Kootenay-Boundary Region
 
-* 5 Southeast Kootenay
-* 6 Rocky Mountain
-* 8 Kootenay Lakes
-* 10 Arrow Lakes
-* 20 Kootenay-Columbia
+* 5 [Southeast Kootenay](Southeast_Kootenay/): 17 schools
+* 6 [Rocky Mountain](Rocky_Mountain/): 17 schools
+* 8 [Kootenay Lake](Kootenay_Lake/): 20 schools
+* 10 [Arrow Lakes](Arrow_Lakes/): 5 schools
+* 20 [Kootenay-Columbia](Kootenay-Columbia/): 10 schools
 * 51 [Boundary](Boundary/): 10 schools
 
 # Work announced for B.C. Schools:
