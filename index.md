@@ -27,27 +27,7 @@ Know that other diseases are airborne too: Measles (studies [1](https://www.ncbi
 
 # British Columbia School Districts:
 
-<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
-  <!-- Fraser Valley Region -->
-  <polygon points="200,300 205,295 210,290 215,285 220,280 225,275 230,270 235,265 240,260 245,255 250,250 255,255 260,260 265,265 270,270 275,275 280,280 285,285 290,290 295,295 300,300 295,305 290,310 285,315 280,320 275,325 270,330 265,335 260,340 255,345 250,350 245,345 240,340 235,335 230,330 225,325 220,320 215,315 210,310 205,305" fill="none" stroke="black"/>
-  <text x="220" y="310" font-family="Verdana" font-size="12" fill="black">Fraser Valley Region</text>
-  <!-- Metro Region -->
-  <polygon points="100,300 105,295 110,290 115,285 120,280 125,275 130,270 135,265 140,260 145,255 150,250 155,255 160,260 165,265 170,270 175,275 180,280 185,285 190,290 195,295 200,300 195,305 190,310 185,315 180,320 175,325 170,330 165,335 160,340 155,345 150,350 145,345 140,340 135,335 130,330 125,325 120,320 115,315 110,310 105,305" fill="none" stroke="black"/>
-  <text x="120" y="310" font-family="Verdana" font-size="12" fill="black">Metro Region</text>
-  <!-- Vancouver Island Region -->
-  <polygon points="50,400 55,395 60,390 65,385 70,380 75,375 80,370 85,365 90,360 95,355 100,350 105,355 110,360 115,365 120,370 125,375 130,380 135,385 140,390 145,395 150,400 145,405 140,410 135,415 130,420 125,425 120,430 115,435 110,440 105,445 100,450 95,445 90,440 85,435 80,430 75,425 70,420 65,415 60,410 55,405" fill="none" stroke="black"/>
-  <text x="60" y="410" font-family="Verdana" font-size="12" fill="black">Vancouver Island Region</text>
-  <!-- Thompson-Okanagan Region -->
-  <polygon points="300,200 305,195 310,190 315,185 320,180 325,175 330,170 335,165 340,160 345,155 350,150 355,155 360,160 365,165 370,170 375,175 380,180 385,185 390,190 395,195 400,200 395,205 390,210 385,215 380,220 375,225 370,230 365,235 360,240 355,245 350,250 345,245 340,240 335,235 330,230 325,225 320,220 315,215 310,210 305,205" fill="none" stroke="black"/>
-  <text x="320" y="210" font-family="Verdana" font-size="12" fill="black">Thompson-Okanagan Region</text>
-  <!-- Northern Region -->
-  <polygon points="200,100 205,95 210,90 215,85 220,80 225,75 230,70 235,65 240,60 245,55 250,50 255,55 260,60 265,65 270,70 275,75 280,80 285,85 290,90 295,95 300,100 295,105 290,110 285,115 280,120 275,125 270,130 265,135 260,140 255,145 250,150 245,145 240,140 235,135 230,130 225,125 220,120 215,115 210,110 205,105" fill="none" stroke="black"/>
-  <text x="220" y="110" font-family="Verdana" font-size="12" fill="black">Northern Region</text>
-  <!-- Kootenay-Boundary Region -->
-  <polygon points="400,300 405,295 410,290 415,285 420,280 425,275 430,270 435,265 440,260 445,255 450,250 455,255 460,260 465,265 470,270 475,275 480,280 485,285 490,290 495,295 500,300 495,305 490,310 485,315 480,320 475,325 470,330 465,335 460,340 455,345 450,350 445,345 440,340 435,335 430,330 425,325 420,320 415,315 410,310 405,305" fill="none" stroke="black"/>
-  <text x="420" y="310" font-family="Verdana" font-size="12" fill="black">Kootenay-Boundary Region</text>
-</svg>
-
+![](https://www.researchgate.net/profile/Jennifer-Gruno/publication/358021582/figure/fig1/AS:1129980738187266@1646419810397/British-Columbia-School-District-Regions-Province-of-British-Columbia-2021a.png)
 
 ## Fraser Valley Region
 
