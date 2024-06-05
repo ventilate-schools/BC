@@ -27,73 +27,119 @@ Know that other diseases are airborne too: Measles (studies [1](https://www.ncbi
 
 # British Columbia School Districts:
 
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <g>
+    <path d="M100 100 L200 100 L200 200 L100 200 Z" fill="none" stroke="black" />
+    <text x="150" y="175" text-anchor="middle">Fraser Valley Region</text>
+  </g>
+  <g>
+    <path d="M250 100 L350 100 L350 200 L250 200 Z" fill="none" stroke="black" />
+    <text x="300" y="175" text-anchor="middle">Metro Region</text>
+  </g>
+  <g>
+    <path d="M100 250 L200 250 L200 350 L100 350 Z" fill="none" stroke="black" />
+    <text x="150" y="325" text-anchor="middle">Vancouver Island Region</text>
+  </g>
+  <g>
+    <path d="M250 250 L350 250 L350 350 L250 350 Z" fill="none" stroke="black" />
+    <text x="300" y="325" text-anchor="middle">Thompson-Okanagan Region</text>
+  </g>
+  <g>
+    <path d="M100 400 L200 400 L200 500 L100 500 Z" fill="none" stroke="black" />
+    <text x="150" y="475" text-anchor="middle">Northern Region</text>
+  </g>
+  <g>
+    <path d="M250 400 L350 400 L350 500 L250 500 Z" fill="none" stroke="black" />
+    <text x="300" y="475" text-anchor="middle">Kootenay-Boundary Region</text>
+  </g>
+</svg>
 
-- Southeast Kootenay
-- Rocky Mountain
-- Kootenay Lake
-- Arrow Lakes
-- Revelstoke
-- Kootenay-Columbia
-- Vernon
-- [Central Okanagan](Central_Okanagan/): 30 schools
-- Cariboo-Chilcotin
-- Quesnel
-- Chilliwack
-- Abbotsford
-- Langley
-- Surrey
-- Delta
-- Richmond
-- [Vancouver](Vancouver/): 109 schools
-- New Westminster
-- Burnaby
-- Maple Ridge-Pitt Meadows
-- Coquitlam
-- [North Vancouver](North_Vancouver/): 45 schools
-- West Vancouver
-- Sunshine Coast
-- Powell River
-- Sea to Sky
-- Central Coast
-- Haida Gwaii
-- [Boundary](Boundary/): 10 schools
-- [Prince Rupert](Prince_Rupert/): 9 schools
-- Okanagan Similkameen
-- Bulkley Valley
-- [Prince George](Prince_George/): 4 schools
-- Nicola-Similkameen
-- Peace River South
-- Peace River North
-- Greater Victoria
-- [Sooke](Sooke/): 6 schools
-- Saanich
-- [Gulf Islands](Gulf_Islands/): 9 schools
-- Okanagan Skaha
-- Nanaimo-Ladysmith
-- Qualicum
-- Pacific Rim
-- [Comox Valley](Comox_Valley/): 2 schools
-- [Campbell River](Campbell_River/): 19 schools
-- Kamloops/Thompson
-- Gold Trail
-- [Mission](Mission/): 16 schools
-- Fraser-Cascade
-- Cowichan Valley
-- [Fort Nelson](Fort_Nelson/): 5 schools
-- Coast Mountains
-- North Okanagan-Shuswap
-- Vancouver Island West
-- Vancouver Island North
-- [Stikine](Stikine/): 4 schools
-- Nechako Lakes
-- Nisga'a
-- Conseil scolaire francophone
+
+## Fraser Valley Region
+
+* 33 Chilliwack
+* 34 Abbotsford
+* 35 Langley
+* 42 Maple Ridge – Pitt Meadows
+* 75 [Mission](Mission/): 16 schools
+* 78 Fraser-Cascade
+
+## Metro Region
+
+* 36 Surrey
+* 37 Delta
+* 38 Richmond
+* 39 [Vancouver](Vancouver/): 109 schools
+* 40 New Westminster
+* 41 Burnaby
+* 43 Coquitlam
+* 44 [North Vancouver](North_Vancouver/): 45 schools
+* 45 [West Vancouver](West_Vancouver/): 18 schools
+* 46 Sunshine Coast
+* 48 Sea To Sky
+* 93 Conseil Scolaire Francophone
+
+## Vancouver Island Region
+
+* 47 Powell River
+* 61 Greater Victoria
+* 62 [Sooke](Sooke/): 6 schools
+* 63 Saanich
+* 64 [Gulf Islands](Gulf_Islands/): 9 schools
+* 68 Nanaimo-Ladysmith
+* 69 Qualicum
+* 70 Pacific Rim
+* 71 [Comox Valley](Comox_Valley/): 2 schools
+* 72 [Campbell River](Campbell_River/): 19 schools
+* 79 Cowichan Valley
+* 84 Vancouver Island West
+* 85 Vancouver Island North
+
+## Thompson-Okanagan Region
+
+* 19 Revelstoke
+* 22 Vernon
+* 23 [Central Okanagan](Central_Okanagan/): 30 schools
+* 53 Okanagan-Similkameen
+* 58 Nicola-Similkameen
+* 67 Okanagan-Skaha
+* 73 Kamloops-Thompson
+* 74 Gold Trail
+* 83 North Okanagan-Shuswap
+
+## Northern Region
+
+* 27 Cariboo-Chilcotin
+* 28 Quesnel
+* 49 Central Coast
+* 50 Queen Charlotte – Haida Gwaii
+* 52 [Prince Rupert](Prince_Rupert/): 9 schools
+* 54 Bulkley Valley
+* 57 [Prince George](Prince_George/): 4 schools
+* 59 Peace River South
+* 60 Peace River North
+* 81 [Fort Nelson](Fort_Nelson/): 5 schools
+* 82 Coast Mountains
+* 87 [Stikine](Stikine/): 4 schools
+* 91 Nechako Lakes
+* 92 Nisga’a
+
+## Kootenay-Boundary Region
+
+* 5 Southeast Kootenay
+* 6 Rocky Mountain
+* 8 Kootenay Lakes
+* 10 Arrow Lakes
+* 20 Kootenay-Columbia
+* 51 [Boundary](Boundary/): 10 schools
 
 # Work announced for B.C. Schools:
 
 [Ventilation upgrades for schools across B.C.](https://www.canada.ca/en/office-infrastructure/news/2024/03/ventilation-upgrades-for-schools-across-bc.html)
 
 "The federal government is investing $3,376,941 through the COVID-19 Resilience Infrastructure Stream of the Investing in Canada Infrastructure Program. The provincial government is investing $844,235."
+
+Site [Schools Safety BC](https://www.schoolsafetybc.ca/) doesn't have any advice on aitborne transmission of SARS-CoV-2 (COVID-19) though.
 
 # Site ownership
 
