@@ -29,30 +29,31 @@ Know that other diseases are airborne too: Measles (studies [1](https://www.ncbi
 
 <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
   <g>
-    <path d="M100 100 L200 100 L200 200 L100 200 Z" fill="none" stroke="black" />
-    <text x="150" y="175" text-anchor="middle">Fraser Valley Region</text>
+    <path d="M100 300 L150 250 L200 300 L150 350 Z" fill="none" stroke="black" />
+    <text x="150" y="325" text-anchor="middle">Fraser Valley Region</text>
   </g>
   <g>
-    <path d="M250 100 L350 100 L350 200 L250 200 Z" fill="none" stroke="black" />
-    <text x="300" y="175" text-anchor="middle">Metro Region</text>
+    <path d="M250 100 L350 100 L400 200 L300 200 Z" fill="none" stroke="black" />
+    <text x="325" y="175" text-anchor="middle">Metro Region</text>
   </g>
   <g>
-    <path d="M100 250 L200 250 L200 350 L100 350 Z" fill="none" stroke="black" />
-    <text x="150" y="325" text-anchor="middle">Vancouver Island Region</text>
+    <path d="M50 200 L150 150 L250 250 L150 350 L50 300 Z" fill="none" stroke="black" />
+    <text x="150" y="275" text-anchor="middle">Vancouver Island Region</text>
   </g>
   <g>
-    <path d="M250 250 L350 250 L350 350 L250 350 Z" fill="none" stroke="black" />
-    <text x="300" y="325" text-anchor="middle">Thompson-Okanagan Region</text>
+    <path d="M300 250 L400 300 L350 400 L250 350 Z" fill="none" stroke="black" />
+    <text x="325" y="350" text-anchor="middle">Thompson-Okanagan Region</text>
   </g>
   <g>
-    <path d="M100 400 L200 400 L200 500 L100 500 Z" fill="none" stroke="black" />
-    <text x="150" y="475" text-anchor="middle">Northern Region</text>
+    <path d="M100 400 L200 500 L300 450 L200 400 Z" fill="none" stroke="black" />
+    <text x="200" y="475" text-anchor="middle">Northern Region</text>
   </g>
   <g>
-    <path d="M250 400 L350 400 L350 500 L250 500 Z" fill="none" stroke="black" />
-    <text x="300" y="475" text-anchor="middle">Kootenay-Boundary Region</text>
+    <path d="M350 450 L450 400 L400 350 L300 400 Z" fill="none" stroke="black" />
+    <text x="375" y="425" text-anchor="middle">Kootenay-Boundary Region</text>
   </g>
 </svg>
+
 
 
 ## Fraser Valley Region
