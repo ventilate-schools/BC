@@ -2,572 +2,144 @@ import os
 import pandas as pd
 
 schools = {
-    "Surrey": [
+    "Nanaimo-Ladysmith": [
         {
-            "school_name": "Johnston Heights Secondary",
-            "address": "15350 99 Ave, Surrey, BC V3R 0R9",
-            "phone": "604-581-5500",
-            "website": "https://www.surreyschools.ca/schools/johnstonheights",
-            "students": 1400
-        },
-        {
-            "school_name": "Semiahmoo Secondary",
-            "address": "1785 148 St, Surrey, BC V4A 4M6",
-            "phone": "604-536-2131",
-            "website": "https://www.surreyschools.ca/schools/semiahmoo",
-            "students": 1600
-        },
-        {
-            "school_name": "All Hallows Catholic School",
-            "address": "TODO",
-            "phone": "TODO",
-            "website": "TODO",
+            "school_name": "Nanaimo District Secondary School",
+            "address": "355 Wakesiah Ave, Nanaimo, BC V9R 3K5",
+            "phone": "250-753-6331",
+            "website": "https://nd.schools.sd68.bc.ca/",
             "students": "TODO"
         },
         {
-            "school_name": "Ash Manor School",
-            "address": "TODO",
-            "phone": "TODO",
-            "website": "TODO",
+            "school_name": "Dover Bay Secondary School",
+            "address": "6135 McGirr Rd, Nanaimo, BC V9V 1M1",
+            "phone": "250-756-4573",
+            "website": "https://doverb.schools.sd68.bc.ca/",
             "students": "TODO"
         },
         {
-            "school_name": "Blenheim High School",
-            "address": "TODO",
-            "phone": "TODO",
-            "website": "TODO",
-            "students": "TODO"
-        },
-        {
-            "school_name": "Broadwater School",
-            "address": "TODO",
-            "phone": "TODO",
-            "website": "TODO",
-            "students": "TODO"
-        },
-        {
-            "school_name": "Christ's College, Guildford",
-            "address": "TODO",
-            "phone": "TODO",
-            "website": "TODO",
-            "students": "TODO"
-        },
-        {
-            "school_name": "Collingwood College",
-            "address": "TODO",
-            "phone": "TODO",
-            "website": "TODO",
-            "students": "TODO"
-        },
-        {
-            "school_name": "de Stafford School",
-            "address": "TODO",
-            "phone": "TODO",
-            "website": "TODO",
-            "students": "TODO"
-        },
-        {
-            "school_name": "Epsom and Ewell High School",
-            "address": "TODO",
-            "phone": "TODO",
-            "website": "TODO",
-            "students": "TODO"
-        },
-        {
-            "school_name": "Fullbrook School",
-            "address": "TODO",
-            "phone": "TODO",
-            "website": "TODO",
-            "students": "TODO"
-        },
-        {
-            "school_name": "George Abbot School",
-            "address": "TODO",
-            "phone": "TODO",
-            "website": "TODO",
-            "students": "TODO"
-        },
-        {
-            "school_name": "Glebelands School",
-            "address": "TODO",
-            "phone": "TODO",
-            "website": "TODO",
-            "students": "TODO"
-        },
-        {
-            "school_name": "Glyn School",
-            "address": "TODO",
-            "phone": "TODO",
-            "website": "TODO",
-            "students": "TODO"
-        },
-        {
-            "school_name": "Heathside School",
-            "address": "TODO",
-            "phone": "TODO",
-            "website": "TODO",
-            "students": "TODO"
-        },
-        {
-            "school_name": "Hinchley Wood School",
-            "address": "TODO",
-            "phone": "TODO",
-            "website": "TODO",
-            "students": "TODO"
-        },
-        {
-            "school_name": "Howard of Effingham School",
-            "address": "TODO",
-            "phone": "TODO",
-            "website": "TODO",
-            "students": "TODO"
-        },
-        {
-            "school_name": "Kings International College",
-            "address": "TODO",
-            "phone": "TODO",
-            "website": "TODO",
-            "students": "TODO"
-        },
-        {
-            "school_name": "Oakwood School",
-            "address": "TODO",
-            "phone": "TODO",
-            "website": "TODO",
-            "students": "TODO"
-        },
-        {
-            "school_name": "Oxted School",
-            "address": "TODO",
-            "phone": "TODO",
-            "website": "TODO",
-            "students": "TODO"
-        },
-        {
-            "school_name": "Reigate School",
-            "address": "TODO",
-            "phone": "TODO",
-            "website": "TODO",
-            "students": "TODO"
-        },
-        {
-            "school_name": "Rodborough Technology College",
-            "address": "TODO",
-            "phone": "TODO",
-            "website": "TODO",
-            "students": "TODO"
-        },
-        {
-            "school_name": "Rosebery School",
-            "address": "TODO",
-            "phone": "TODO",
-            "website": "TODO",
-            "students": "TODO"
-        },
-        {
-            "school_name": "Royal Alexandra and Albert School",
-            "address": "TODO",
-            "phone": "TODO",
-            "website": "TODO",
-            "students": "TODO"
-        },
-        {
-            "school_name": "Rydens Enterprise School and Sixth Form College",
-            "address": "TODO",
-            "phone": "TODO",
-            "website": "TODO",
-            "students": "TODO"
-        },
-        {
-            "school_name": "Salesian School, Chertsey",
-            "address": "TODO",
-            "phone": "TODO",
-            "website": "TODO",
-            "students": "TODO"
-        },
-        {
-            "school_name": "St Andrew's Catholic School",
-            "address": "TODO",
-            "phone": "TODO",
-            "website": "TODO",
-            "students": "TODO"
-        },
-        {
-            "school_name": "St Bede's School",
-            "address": "TODO",
-            "phone": "TODO",
-            "website": "TODO",
-            "students": "TODO"
-        },
-        {
-            "school_name": "St John the Baptist Catholic Comprehensive School, Woking",
-            "address": "TODO",
-            "phone": "TODO",
-            "website": "TODO",
-            "students": "TODO"
-        },
-        {
-            "school_name": "St Paul's Catholic College",
-            "address": "TODO",
-            "phone": "TODO",
-            "website": "TODO",
-            "students": "TODO"
-        },
-        {
-            "school_name": "St Peter's Catholic School",
-            "address": "TODO",
-            "phone": "TODO",
-            "website": "TODO",
-            "students": "TODO"
-        },
-        {
-            "school_name": "Sunbury Manor School",
-            "address": "TODO",
-            "phone": "TODO",
-            "website": "TODO",
-            "students": "TODO"
-        },
-        {
-            "school_name": "Thamesmead School",
-            "address": "TODO",
-            "phone": "TODO",
-            "website": "TODO",
-            "students": "TODO"
-        },
-        {
-            "school_name": "The Ashcombe School",
-            "address": "TODO",
-            "phone": "TODO",
-            "website": "TODO",
-            "students": "TODO"
-        },
-        {
-            "school_name": "The Beacon School",
-            "address": "TODO",
-            "phone": "TODO",
-            "website": "TODO",
-            "students": "TODO"
-        },
-        {
-            "school_name": "The Bishop David Brown School",
-            "address": "TODO",
-            "phone": "TODO",
-            "website": "TODO",
-            "students": "TODO"
-        },
-        {
-            "school_name": "The Bishop Wand Church of England School",
-            "address": "TODO",
-            "phone": "TODO",
-            "website": "TODO",
-            "students": "TODO"
-        },
-        {
-            "school_name": "The Magna Carta School",
-            "address": "TODO",
-            "phone": "TODO",
-            "website": "TODO",
-            "students": "TODO"
-        },
-        {
-            "school_name": "The Matthew Arnold School",
-            "address": "TODO",
-            "phone": "TODO",
-            "website": "TODO",
-            "students": "TODO"
-        },
-        {
-            "school_name": "The Priory Voluntary Aided School",
-            "address": "TODO",
-            "phone": "TODO",
-            "website": "TODO",
-            "students": "TODO"
-        },
-        {
-            "school_name": "The Warwick School",
-            "address": "TODO",
-            "phone": "TODO",
-            "website": "TODO",
-            "students": "TODO"
-        },
-        {
-            "school_name": "The Winston Churchill School A Specialist Sports College",
-            "address": "TODO",
-            "phone": "TODO",
-            "website": "TODO",
-            "students": "TODO"
-        },
-        {
-            "school_name": "Therfield School",
-            "address": "TODO",
-            "phone": "TODO",
-            "website": "TODO",
-            "students": "TODO"
-        },
-        {
-            "school_name": "Thomas Knyvett College",
-            "address": "TODO",
-            "phone": "TODO",
-            "website": "TODO",
-            "students": "TODO"
-        },
-        {
-            "school_name": "Warlingham School",
-            "address": "TODO",
-            "phone": "TODO",
-            "website": "TODO",
-            "students": "TODO"
-        },
-        {
-            "school_name": "Weydon School",
-            "address": "TODO",
-            "phone": "TODO",
-            "website": "TODO",
-            "students": "TODO"
-        },
-        {
-            "school_name": "Woolmer Hill School",
-            "address": "TODO",
-            "phone": "TODO",
-            "website": "TODO",
+            "school_name": "Ladysmith Secondary School",
+            "address": "410 Mackie Rd, Ladysmith, BC V9G 1E6",
+            "phone": "250-245-3258",
+            "website": "https://ladsec.sd68.bc.ca/",
             "students": "TODO"
         }
     ],
-    "Delta": [
+    "Qualicum": [
         {
-            "school_name": "Beach Grove Elementary",
-            "address": "5955 17a Ave, Delta, BC",
-            "phone": "TODO",
-            "website": "TODO",
-            "students": "TODO"
-        },
-        {
-            "school_name": "Brooke Elementary",
-            "address": "8718 Delwood Dr, Delta, BC",
-            "phone": "TODO",
-            "website": "TODO",
-            "students": "TODO"
-        },
-        {
-            "school_name": "Burnsview Secondary",
-            "address": "7658 112 St, Delta, BC",
-            "phone": "TODO",
-            "website": "TODO",
-            "students": "TODO"
-        },
-        {
-            "school_name": "Delta Secondary",
-            "address": "4615 51 St, Delta, BC",
-            "phone": "604-946-4194",
-            "website": "https://de.deltasd.bc.ca/",
-            "students": 1200
-        },
-        {
-            "school_name": "Delview Secondary",
-            "address": "9111 116 St, Delta, BC",
-            "phone": "TODO",
-            "website": "TODO",
-            "students": "TODO"
-        },
-        {
-            "school_name": "North Delta Secondary",
-            "address": "11447 82 Ave, Delta, BC",
-            "phone": "TODO",
-            "website": "TODO",
-            "students": "TODO"
-        },
-        {
-            "school_name": "Sands Secondary",
-            "address": "10840 82 Ave, Delta, BC",
-            "phone": "TODO",
-            "website": "TODO",
-            "students": "TODO"
-        },
-        {
-            "school_name": "Seaquam Secondary",
-            "address": "11584 Lyon Rd, Delta, BC",
-            "phone": "604-591-6166",
-            "website": "https://se.deltasd.bc.ca/",
-            "students": 1300
-        },
-        {
-            "school_name": "South Delta Secondary",
-            "address": "750 53 St, Delta, BC",
-            "phone": "TODO",
-            "website": "TODO",
+            "school_name": "Kwalikum Secondary School",
+            "address": "266 Village Way, Qualicum Beach, BC V9K 1L4",
+            "phone": "250-752-5651",
+            "website": "https://kss.sd69.bc.ca/",
             "students": "TODO"
         }
     ],
-    "Richmond": [
+    "Pacific Rim": [
         {
-            "school_name": "Christ's School",
-            "address": "Queen's Road, Richmond, TW10 6HW",
-            "phone": "020 8940 6982",
-            "website": "www.christs.richmond.sch.uk",
+            "school_name": "Ucluelet Secondary School",
+            "address": "1586 Peninsula Rd, Ucluelet, BC V0R 3A0",
+            "phone": "250-726-7708",
+            "website": "https://uclueletsecondary.ca/",
             "students": "TODO"
         },
         {
-            "school_name": "Grey Court School",
-            "address": "Ham Street, Ham, Richmond, TW10 7HN",
-            "phone": "020 8948 1173",
-            "website": "www.greycourt.richmond.sch.uk",
-            "students": "TODO"
-        },
-        {
-            "school_name": "Hampton High",
-            "address": "Hanworth Road, Hampton, TW12 3HB",
-            "phone": "020 8979 3399",
-            "website": "www.hamptonhigh.org.uk",
-            "students": "TODO"
-        },
-        {
-            "school_name": "Orleans Park School",
-            "address": "Richmond Road, Twickenham, TW1 3BB",
-            "phone": "020 8891 0187",
-            "website": "https://www.orleanspark.school/",
-            "students": "TODO"
-        },
-        {
-            "school_name": "Richmond Park Academy",
-            "address": "Park Avenue, London, SW14 8RG",
-            "phone": "020 8876 8891",
-            "website": "www.richmondparkacademy.org",
-            "students": "TODO"
-        },
-        {
-            "school_name": "St Richard Reynolds Catholic High School",
-            "address": "Clifden Road, Twickenham, TW1 4LT",
-            "phone": "020 8325 4630",
-            "website": "www.strichardreynolds.org.uk",
-            "students": "TODO"
-        },
-        {
-            "school_name": "Teddington School",
-            "address": "Broom Road, Teddington, TW11 9PJ",
-            "phone": "020 8943 0033",
-            "website": "www.teddingtonschool.org",
-            "students": "TODO"
-        },
-        {
-            "school_name": "The Richmond upon Thames School",
-            "address": "Egerton Road, Twickenham, TW2 7SJ",
-            "phone": "020 8891 2985",
-            "website": "www.richmonduponthamesschool.org.uk",
-            "students": "TODO"
-        },
-        {
-            "school_name": "Turing House School",
-            "address": "2 Queen's Road, Teddington, TW11 0LR",
-            "phone": "020 8069 6100",
-            "website": "www.turinghouseschool.org.uk",
-            "students": "TODO"
-        },
-        {
-            "school_name": "Twickenham School",
-            "address": "Percy Road, Twickenham, TW2 6JW",
-            "phone": "020 8894 4503",
-            "website": "www.twickenhamschool.org.uk",
-            "students": "TODO"
-        },
-        {
-            "school_name": "Waldegrave School",
-            "address": "Fifth Cross Road, Twickenham, TW2 5LH",
-            "phone": "020 8894 3244",
-            "website": "www.waldegrave.richmond.sch.uk",
+            "school_name": "Wickaninnish Community School",
+            "address": "800 Pearce St, Tofino, BC V0R 2Z0",
+            "phone": "250-725-3835",
+            "website": "https://wickaninnishcommunityschool.com/",
             "students": "TODO"
         }
     ],
-    "Burnaby": [
+    "Powell River": [
         {
-            "school_name": "Burnaby North Secondary",
-            "address": "751 Hammarskjold Dr, Burnaby, BC V5B 4A1",
-            "phone": "604-296-6875",
-            "website": "https://north.burnabyschools.ca/",
-            "students": 1800
-        },
-        {
-            "school_name": "Burnaby South Secondary",
-            "address": "5455 Rumble St, Burnaby, BC V5J 2B7",
-            "phone": "604-296-6880",
-            "website": "https://south.burnabyschools.ca/",
-            "students": 1700
+            "school_name": "Brooks Secondary School",
+            "address": "5800 Willingdon Ave, Powell River, BC V8A 4R3",
+            "phone": "604-483-3171",
+            "website": "https://brooks.sd47.bc.ca/",
+            "students": "TODO"
         }
     ],
-"Coquitlam": [
+    "Greater Victoria": [
         {
-            "school_name": "Centennial Secondary",
-            "address": "570 Poirier St, Coquitlam, BC V3J 6A8",
-            "phone": "604-936-7205",
-            "website": "https://www.sd43.bc.ca/school/centennial/",
-            "students": 1500
-        },
-        {
-            "school_name": "Gleneagle Secondary",
-            "address": "1195 Lansdowne Dr, Coquitlam, BC V3B 7Y8",
-            "phone": "604-464-5793",
-            "website": "https://www.sd43.bc.ca/school/gleneagle/",
-            "students": 1400
-        }
-    ],
-    "New Westminster": [
-        {
-            "school_name": "New Westminster Secondary",
-            "address": "820 Sixth St, New Westminster, BC V3M 3S9",
-            "phone": "604-517-6220",
-            "website": "https://nwss.ca/",
-            "students": 2000
-        }
-    ],
-"Sunshine Coast": [
-        {
-            "school_name": "Chatelech Secondary",
-            "address": "5904 Cowrie St, Sechelt, BC V0N 3A0",
-            "phone": "604-885-3216",
-            "website": "https://chatelech.sd46.bc.ca/",
-            "students": 600
-        },
-        {
-            "school_name": "Elphinstone Secondary",
-            "address": "840 Gibsons Way, Gibsons, BC V0N 1V7",
-            "phone": "604-886-2204",
-            "website": "https://elphinstone.sd46.bc.ca/",
-            "students": 500
-        }
-    ],
-    "Sea To Sky": [
-        {
-            "school_name": "Howe Sound Secondary",
-            "address": "38430 Buckley Ave, Squamish, BC V8B 0A1",
-            "phone": "604-892-5261",
-            "website": "https://www.sd48howesound.org/",
-            "students": 800
-        },
-        {
-            "school_name": "Whistler Secondary",
-            "address": "8000 Alpine Way, Whistler, BC V8E 0G5",
-            "phone": "604-932-5535",
-            "website": "https://www.sd48whistler.org/",
-            "students": 400
-        }
-    ],
-    "Conseil Scolaire Francophone": [
-        {
-            "school_name": "École des Pionniers-de-Maillardville",
-            "address": "3550 Wellington St, Port Coquitlam, BC V3B 3Y5",
-            "phone": "604-552-7915",
-            "website": "https://pionniers.csf.bc.ca/",
+            "school_name": "Esquimalt High School",
+            "address": "847 Colville Rd, Victoria, BC V9A 4N9",
+            "phone": "250-382-9231",
+            "website": "https://esquimalt.public.sd61.bc.ca/",
             "students": "TODO"
         },
         {
-            "school_name": "École Gabrielle-Roy",
-            "address": "6887 132 St, Surrey, BC V3W 4L9",
-            "phone": "604-597-5912",
-            "website": "https://gabrielle-roy.csf.bc.ca/",
+            "school_name": "Lambrick Park Secondary School",
+            "address": "4139 Torquay Dr, Victoria, BC V8N 3V4",
+            "phone": "250-477-0181",
+            "website": "https://lambrickpark.sd61.bc.ca/",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Mount Douglas Secondary School",
+            "address": "3370 Cedar Hill Rd, Victoria, BC V8P 3Z4",
+            "phone": "250-477-6962",
+            "website": "https://mountdouglas.sd61.bc.ca/",
+            "students": "TODO"
+        }
+    ],
+    "Cowichan Valley": [
+        {
+            "school_name": "Cowichan Secondary School",
+            "address": "2618 Beverley St, Duncan, BC V9L 2X8",
+            "phone": "250-746-4175",
+            "website": "https://cowichan.sd79.bc.ca/",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Chemainus Secondary School",
+            "address": "3305 Chemainus Rd, Chemainus, BC V0R 1K5",
+            "phone": "250-246-4711",
+            "website": "https://chemainus.sd79.bc.ca/",
+            "students": "TODO"
+        }
+    ],
+    "Vancouver Island West": [
+        {
+            "school_name": "Zeballos Elementary Secondary School",
+            "address": "157 Maquinna Ave, Zeballos, BC V0P 2A0",
+            "phone": "250-761-4224",
+            "website": "https://zess.sd84.bc.ca/",
+            "students": "TODO"
+        }
+    ],
+    "Vancouver Island North": [
+        {
+            "school_name": "Port Hardy Secondary School",
+            "address": "9350 Granville St, Port Hardy, BC V0N 2P0",
+            "phone": "250-949-7443",
+            "website": "https://phss.sd85.bc.ca/",
+            "students": "TODO"
+        },
+        {
+            "school_name": "North Island Secondary School",
+            "address": "7962 Guthrie Rd, Port McNeill, BC V0N 2R0",
+            "phone": "250-956-3394",
+            "website": "https://niss.sd85.bc.ca/",
+            "students": "TODO"
+        }
+    ],
+    "Saanich": [
+        {
+            "school_name": "Claremont Secondary School",
+            "address": "4980 Wesley Rd, Victoria, BC V8Y 1Y9",
+            "phone": "250-658-6672",
+            "website": "https://claremont.sd63.bc.ca/",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Stelly's Secondary School",
+            "address": "1627 Stelly's Cross Rd, Saanichton, BC V8M 1S8",
+            "phone": "250-652-4401",
+            "website": "https://stellys.sd63.bc.ca/",
             "students": "TODO"
         }
     ]
 }
-
 
 
 

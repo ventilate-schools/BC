@@ -40,7 +40,7 @@ Know that other diseases are airborne too: Measles (studies [1](https://www.ncbi
 
 ## Metro Region
 
-* 36 [Surrey](Surrey/): 47 schools
+* 36 Surrey
 - 37 [Delta](Delta/): 9 schools
 - 36 [Richmond](Richmond/): 11 schools
 * 39 [Vancouver](Vancouver/): 109 schools
@@ -55,19 +55,19 @@ Know that other diseases are airborne too: Measles (studies [1](https://www.ncbi
 
 ## Vancouver Island Region
 
-* 47 Powell River
-* 61 Greater Victoria
+* 47 [Powell River](Powell_River/): 1 schools
+* 61 [Greater Victoria](Greater_Victoria/): 3 schools
 * 62 [Sooke](Sooke/): 6 schools
-* 63 Saanich
+* 63 [Saanich](Saanich/): 2 schools
 * 64 [Gulf Islands](Gulf_Islands/): 9 schools
-* 68 Nanaimo-Ladysmith
-* 69 Qualicum
-* 70 Pacific Rim
+* 68 [Nanaimo-Ladysmith](Nanaimo-Ladysmith/): 3 schools
+* 69 [Qualicum](Qualicum/): 1 schools
+* 70 [Pacific Rim](Pacific_Rim/): 2 schools
 * 71 [Comox Valley](Comox_Valley/): 2 schools
 * 72 [Campbell River](Campbell_River/): 19 schools
-* 79 Cowichan Valley
-* 84 Vancouver Island West
-* 85 Vancouver Island North
+* 79 [Cowichan Valley](Cowichan_Valley/): 2 schools
+* 84 [Vancouver Island West](Vancouver_Island_West/): 1 schools
+* 85 [Vancouver Island North](Vancouver_Island_North/): 2 schools
 
 ## Thompson-Okanagan Region
 
