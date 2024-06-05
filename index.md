@@ -40,7 +40,7 @@ Know that other diseases are airborne too: Measles (studies [1](https://www.ncbi
 
 ## Metro Region
 
-* 36 Surrey
+* 36 [Surrey](Surrey/): 131 schools
 - 37 [Delta](Delta/): 9 schools
 - 36 [Richmond](Richmond/): 11 schools
 * 39 [Vancouver](Vancouver/): 109 schools
