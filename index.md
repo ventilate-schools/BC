@@ -74,9 +74,9 @@ Know that other diseases are airborne too: Measles (studies [1](https://www.ncbi
 * 19 Revelstoke
 * 22 Vernon
 * 23 [Central Okanagan](Central_Okanagan/): 30 schools
-* 53 Okanagan-Similkameen
-* 58 Nicola-Similkameen
-* 67 Okanagan-Skaha
+* 53 [Okanagan-Similkameen](Okanagan-Similkameen/): 8 schools
+* 58 [Nicola-Similkameen](Nicola-Similkameen/): 10 schools
+* 67 [Okanagan-Skaha](Okanagan-Skaha/): 11 schools
 * 73 Kamloops-Thompson
 * 74 Gold Trail
 * 83 North Okanagan-Shuswap
