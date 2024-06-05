@@ -2,307 +2,232 @@ import os
 import pandas as pd
 
 schools = {
-    "Kamloops-Thompson": [
+    "Revelstoke": [
         {
-            "school_name": "Aberdeen Elementary",
-            "address": "2191 Van Horne Drive, Kamloops, V1S 1L9",
-            "phone": "250-372-5844",
-            "website": "https://aberdeen.sd73.bc.ca",
-            "students": 400
-        },
-        {
-            "school_name": "AE Perry Elementary",
-            "address": "1380 Sherbrooke Ave, Kamloops, V2B 1W9",
-            "phone": "250-376-6224",
-            "website": "https://aeperry.sd73.bc.ca",
-            "students": 300
-        },
-        {
-            "school_name": "Arthur Hatton Elementary",
-            "address": "315 Chestnut Ave, Kamloops, V2B 1L4",
-            "phone": "250-376-7217",
-            "website": "https://arthurhatton.sd73.bc.ca",
-            "students": 250
-        },
-        {
-            "school_name": "Arthur Stevenson Elementary",
-            "address": "2890 Bank Road, Kamloops, V2B 6Y7",
-            "phone": "250-579-9284",
-            "website": "https://arthurstevenson.sd73.bc.ca",
-            "students": 300
-        },
-        {
-            "school_name": "Barriere Elementary",
-            "address": "4475 Airfield Road, Barriere, V0E 1E0",
-            "phone": "250-672-9916",
-            "website": "https://barriere.sd73.bc.ca",
-            "students": 200
-        },
-        {
-            "school_name": "Barriere Secondary",
-            "address": "4811 Barriere Town Rd., Barriere, V0E 1E0",
-            "phone": "250-672-9943",
-            "website": "https://barrieresecondary.sd73.bc.ca",
-            "students": 200
-        },
-        {
-            "school_name": "Beattie Elementary",
-            "address": "492 McGlll Road, Kamloops, V2C 1M3",
-            "phone": "250-374-0608",
-            "website": "https://beattie.sd73.bc.ca",
-            "students": 300
-        },
-        {
-            "school_name": "Bert Edwards Science and Technology School",
-            "address": "711 Windsor Avenue, Kamloops, V2B 2B7",
-            "phone": "250-376-2205",
-            "website": "https://bert.sd73.bc.ca",
-            "students": 250
-        },
-        {
-            "school_name": "Blue River Elementary",
-            "address": "5913 3rd Ave, Blue River, V0E 1J0",
-            "phone": "250-673-8253",
-            "website": "https://blueriver.sd73.bc.ca",
-            "students": 10
-        }
-    ],
-    "Gold Trail": [
-        {
-            "school_name": "Cache Creek Elementary",
-            "address": "1260 Cariboo Highway, PO Box 128, Cache Creek, BC V0K 1H0",
-            "phone": "250-457-6248",
-            "website": "https://www.sd74.bc.ca/school/cces",
+            "school_name": "Columbia Park Elementary School",
+            "address": "120 Colbeck Road, Revelstoke, BC V0E 2S0",
+            "phone": "250-837-4744",
+            "website": "https://columbiapark.sd19.bc.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Cayoosh Elementary",
-            "address": "351 6th Avenue, Lillooet, BC V0K 1V0",
-            "phone": "250-256-4212",
-            "website": "https://www.sd74.bc.ca/school/cayoosh",
+            "school_name": "Arrow Heights Elementary School",
+            "address": "1950 Park Drive, Revelstoke, BC V0E 2S1",
+            "phone": "250-837-6360",
+            "website": "https://arrowheights.sd19.bc.ca",
             "students": "TODO"
         },
         {
-            "school_name": "George M. Murray Elementary",
-            "address": "281 Hollywood Crescent, PO Box 968, Lillooet, BC V0K 1V0",
-            "phone": "250-256-7543",
-            "website": "https://www.sd74.bc.ca/school/gmme",
+            "school_name": "Begbie View Elementary School",
+            "address": "1001 Mackenzie Avenue, Revelstoke, BC V0E 2S0",
+            "phone": "250-837-3085",
+            "website": "https://begbieview.sd19.bc.ca",
             "students": "TODO"
         },
         {
-            "school_name": "Gold Bridge Community School",
-            "address": "Haylmore Avenue, General Delivery, Gold Bridge, BC V0K 1P0",
-            "phone": "250-238-2255",
-            "website": "https://www.sd74.bc.ca/school/gbcs",
-            "students": "TODO"
-        },
-        {
-            "school_name": "David Stoddart School",
-            "address": "1203 Cariboo Avenue, Box 129, Clinton, BC V0K 1K0",
-            "phone": "250-459-2219",
-            "website": "https://www.sd74.bc.ca/school/davidstoddart",
-            "students": "TODO"
-        },
-        {
-            "school_name": "Desert Sands Community School",
-            "address": "435 Ranch Road, PO Box 669, Ashcroft, BC V0K 1A0",
-            "phone": "250-453-9144",
-            "website": "https://www.sd74.bc.ca/school/desertsands",
-            "students": "TODO"
-        },
-        {
-            "school_name": "Kumsheen ShchEma-meet School",
-            "address": "PO Box 60, Lytton, BC V0K 1Z0",
-            "phone": "250-455-2328",
-            "website": "https://www.sd74.bc.ca/school/kumsheen",
-            "students": "TODO"
-        },
-        {
-            "school_name": "Lillooet Secondary School",
-            "address": "920 Columbia, PO Box 760, Lillooet, BC V0K 1V0",
-            "phone": "250-256-4274",
-            "website": "https://www.sd74.bc.ca/school/lillooetsecondary",
+            "school_name": "Revelstoke Secondary School",
+            "address": "1007 Vernon Avenue, Revelstoke, BC V0E 2S0",
+            "phone": "250-837-2173",
+            "website": "https://revelstokesecondary.sd19.bc.ca",
             "students": "TODO"
         }
     ],
-    "North Okanagan-Shuswap": [
+    "Vernon": [
         {
-            "school_name": "A L Fortune Secondary",
-            "address": "500 Bass Ave, Enderby, BC",
-            "phone": "TODO",
-            "website": "https://sd83.bc.ca/al-fortune-secondary",
+            "school_name": "Alexis Park Elementary School",
+            "address": "4200 35th St, Vernon, BC V1T 6C5",
+            "phone": "250-545-7289",
+            "website": "https://www.sd22.bc.ca/school/alexispark",
             "students": "TODO"
         },
         {
-            "school_name": "Armstrong Elementary",
-            "address": "3010 Pleasant Valley Rd, Armstrong, BC",
-            "phone": "TODO",
-            "website": "https://sd83.bc.ca/armstrong-elementary",
+            "school_name": "BX Elementary School",
+            "address": "5849 Silver Star Rd, Vernon, BC V1B 3P5",
+            "phone": "250-542-4013",
+            "website": "https://www.sd22.bc.ca/school/bx",
             "students": "TODO"
         },
         {
-            "school_name": "Bastion Elementary",
-            "address": "2251 12 Ave NE, Salmon Arm, BC",
-            "phone": "TODO",
-            "website": "https://sd83.bc.ca/bastion-elementary",
+            "school_name": "Beairsto Elementary School",
+            "address": "3302 27th St, Vernon, BC V1T 4W7",
+            "phone": "250-542-1388",
+            "website": "https://www.sd22.bc.ca/school/beairsto",
             "students": "TODO"
         },
         {
-            "school_name": "Carlin Elementary Middle",
-            "address": "4005 Myers Frontage Rd, Tappen, BC",
-            "phone": "TODO",
-            "website": "https://sd83.bc.ca/carlin-elementary-middle",
+            "school_name": "Charles Bloom Secondary School",
+            "address": "1935 Bessette St, Lumby, BC V0E 2G0",
+            "phone": "250-547-2191",
+            "website": "https://www.sd22.bc.ca/school/charlesbloom",
             "students": "TODO"
         },
         {
-            "school_name": "Eagle River Secondary",
-            "address": "PO Box 9, Sicamous, BC",
-            "phone": "TODO",
-            "website": "https://sd83.bc.ca/eagle-river-secondary",
+            "school_name": "Cherryville Elementary School",
+            "address": "1128 Hwy 6, Cherryville, BC V0E 2G2",
+            "phone": "250-547-9334",
+            "website": "https://www.sd22.bc.ca/school/cherryville",
             "students": "TODO"
         },
         {
-            "school_name": "Falkland Elementary Junior School",
-            "address": "PO Box 10, Falkland, BC",
-            "phone": "TODO",
-            "website": "https://sd83.bc.ca/falkland-elementary-junior",
+            "school_name": "Clarence Fulton Secondary School",
+            "address": "2301 Fulton Rd, Vernon, BC V1H 1Y1",
+            "phone": "250-545-1348",
+            "website": "https://www.sd22.bc.ca/school/clarencefulton",
             "students": "TODO"
         },
         {
-            "school_name": "Grindrod Elementary",
-            "address": "PO Box 249, Grindrod, BC",
-            "phone": "TODO",
-            "website": "https://sd83.bc.ca/grindrod-elementary",
+            "school_name": "Coldstream Elementary School",
+            "address": "10104 Kalamalka Rd, Coldstream, BC V1B 1L7",
+            "phone": "250-545-1944",
+            "website": "https://www.sd22.bc.ca/school/coldstream",
             "students": "TODO"
         },
         {
-            "school_name": "Highland Park Elementary",
-            "address": "PO Box 647, Armstrong, BC",
-            "phone": "TODO",
-            "website": "https://sd83.bc.ca/highland-park-elementary",
+            "school_name": "Crossroads Alternate School",
+            "address": "2001 Bessette St, Lumby, BC V0E 2G0",
+            "phone": "250-547-9812",
+            "website": "https://www.sd22.bc.ca/school/crossroads",
             "students": "TODO"
         },
         {
-            "school_name": "Hillcrest Elementary",
-            "address": "1180 20 St SE, Salmon Arm, BC",
-            "phone": "TODO",
-            "website": "https://sd83.bc.ca/hillcrest-elementary",
+            "school_name": "Ellison Elementary School",
+            "address": "2400 Fulton Rd, Vernon, BC V1H 1Y1",
+            "phone": "250-542-0271",
+            "website": "https://www.sd22.bc.ca/school/ellison",
             "students": "TODO"
         },
         {
-            "school_name": "J.L. Jackson Secondary",
-            "address": "551 14 St NE, Salmon Arm, BC",
-            "phone": "TODO",
-            "website": "https://sd83.bc.ca/jl-jackson-secondary",
+            "school_name": "Harwood Elementary School",
+            "address": "4320 20th St, Vernon, BC V1T 4E3",
+            "phone": "250-542-5385",
+            "website": "https://www.sd22.bc.ca/school/harwood",
             "students": "TODO"
         },
         {
-            "school_name": "Len Wood Middle School",
-            "address": "3700 Patten Dr, Armstrong, BC",
-            "phone": "TODO",
-            "website": "https://sd83.bc.ca/len-wood-middle",
+            "school_name": "Hillview Elementary School",
+            "address": "6901 Harvest Rd, Vernon, BC V1B 3P2",
+            "phone": "250-545-5541",
+            "website": "https://www.sd22.bc.ca/school/hillview",
             "students": "TODO"
         },
         {
-            "school_name": "M.V. Beattie Elementary",
-            "address": "PO Box 249, Enderby, BC",
-            "phone": "TODO",
-            "website": "https://sd83.bc.ca/mv-beattie-elementary",
+            "school_name": "J W Inglis Elementary School",
+            "address": "2287 Shuswap Ave, Lumby, BC V0E 2G0",
+            "phone": "250-547-9231",
+            "website": "https://www.sd22.bc.ca/school/jwinglis",
             "students": "TODO"
         },
         {
-            "school_name": "North Canoe Elementary",
-            "address": "PO Box 78, Canoe, BC",
-            "phone": "TODO",
-            "website": "https://sd83.bc.ca/north-canoe-elementary",
+            "school_name": "Kalamalka Secondary School",
+            "address": "7900 McClounie Rd, Coldstream, BC V1B 1P8",
+            "phone": "250-545-1396",
+            "website": "https://www.sd22.bc.ca/school/kalamalka",
             "students": "TODO"
         },
         {
-            "school_name": "North Shuswap Elementary",
-            "address": "5295 Squilax-Anglemont Rd, Celista, BC",
-            "phone": "TODO",
-            "website": "https://sd83.bc.ca/north-shuswap-elementary",
+            "school_name": "Kidston Elementary School",
+            "address": "1212 Kidston Rd, Coldstream, BC V1B 1H3",
+            "phone": "250-545-1109",
+            "website": "https://www.sd22.bc.ca/school/kidston",
             "students": "TODO"
         },
         {
-            "school_name": "Parkview Elementary School",
-            "address": "PO Box 444, Sicamous, BC",
-            "phone": "TODO",
-            "website": "https://sd83.bc.ca/parkview-elementary",
+            "school_name": "Lavington Elementary School",
+            "address": "9715 School Rd, Coldstream, BC V1B 3G4",
+            "phone": "250-545-3516",
+            "website": "https://www.sd22.bc.ca/school/lavington",
             "students": "TODO"
         },
         {
-            "school_name": "Pleasant Valley Secondary",
-            "address": "2365 Pleasant Valley Rd, Armstrong, BC",
-            "phone": "TODO",
-            "website": "https://sd83.bc.ca/pleasant-valley-secondary",
+            "school_name": "Mission Hill Elementary School",
+            "address": "1510 36th St, Vernon, BC V1T 6C4",
+            "phone": "250-545-0639",
+            "website": "https://www.sd22.bc.ca/school/missionhill",
             "students": "TODO"
         },
         {
-            "school_name": "Ranchero Elementary Junior",
-            "address": "6285 Ranchero Dr E, Salmon Arm, BC",
-            "phone": "TODO",
-            "website": "https://sd83.bc.ca/ranchero-elementary-junior",
+            "school_name": "Okanagan Landing Elementary School",
+            "address": "9435 Okanagan Landing Rd, Vernon, BC V1H 1M5",
+            "phone": "250-542-1181",
+            "website": "https://www.sd22.bc.ca/school/okanaganlanding",
             "students": "TODO"
         },
         {
-            "school_name": "Salmon Arm Secondary",
-            "address": "PO Box 1000 Stn Main, Salmon Arm, BC",
-            "phone": "TODO",
-            "website": "https://sd83.bc.ca/salmon-arm-secondary",
+            "school_name": "Open Door School",
+            "address": "1801 35th St, Vernon, BC V1T 6C1",
+            "phone": "250-545-1506",
+            "website": "https://www.sd22.bc.ca/school/opendoor",
             "students": "TODO"
         },
         {
-            "school_name": "Salmon Arm Storefront",
-            "address": "PO Box 129, Salmon Arm, BC",
-            "phone": "TODO",
-            "website": "https://sd83.bc.ca/salmon-arm-storefront",
+            "school_name": "Silver Star Elementary School",
+            "address": "1404 35th Ave, Vernon, BC V1T 2R6",
+            "phone": "250-545-4409",
+            "website": "https://www.sd22.bc.ca/school/silverstar",
             "students": "TODO"
         },
         {
-            "school_name": "Salmon Arm West Elementary",
-            "address": "4750 10 Ave SW, Salmon Arm, BC",
-            "phone": "TODO",
-            "website": "https://sd83.bc.ca/salmon-arm-west-elementary",
+            "school_name": "Vernon Secondary School",
+            "address": "2100 15th St, Vernon, BC V1T 8Z8",
+            "phone": "250-545-0701",
+            "website": "https://www.sd22.bc.ca/school/vernonsecondary",
             "students": "TODO"
         },
         {
-            "school_name": "Shuswap Middle School",
-            "address": "PO Box 1090 Stn Main, Salmon Arm, BC",
-            "phone": "TODO",
-            "website": "https://sd83.bc.ca/shuswap-middle",
+            "school_name": "W L Seaton Secondary School",
+            "address": "2701 41st Ave, Vernon, BC V1T 6X3",
+            "phone": "250-542-3361",
+            "website": "https://www.sd22.bc.ca/school/wlseaton",
+            "students": "TODO"
+        }
+    ],
+    "Haida Gwaii - Queen Charlotte": [
+        {
+            "school_name": "Agnes L Mathers Elementary Secondary",
+            "address": "PO Box 227, Sandspit, BC",
+            "phone": "250-637-5403",
+            "website": "https://sd50.bc.ca/school/agnes-l-mathers",
             "students": "TODO"
         },
         {
-            "school_name": "Silver Creek Elementary Secondary",
-            "address": "935 Salmon River Rd, Salmon Arm, BC",
-            "phone": "TODO",
-            "website": "https://sd83.bc.ca/silver-creek-elementary-secondary",
+            "school_name": "Gidgalang Kuuyas Naay Secondary",
+            "address": "PO Box 70, Queen Charlotte, BC",
+            "phone": "250-559-8889",
+            "website": "https://sd50.bc.ca/school/gidgalang-kuuyas-naay",
             "students": "TODO"
         },
         {
-            "school_name": "Sorrento Elementary",
-            "address": "PO Box 220, Sorrento, BC",
-            "phone": "TODO",
-            "website": "https://sd83.bc.ca/sorrento-elementary",
+            "school_name": "Gudangaay Tlaats'gaa Naay Secondary",
+            "address": "PO Box 208, Masset, BC",
+            "phone": "250-626-3226",
+            "website": "https://sd50.bc.ca/school/gudangaay-tlaats-gaa-naay",
             "students": "TODO"
         },
         {
-            "school_name": "South Broadview Elementary",
-            "address": "3200 6 Ave NE, Salmon Arm, BC",
-            "phone": "TODO",
-            "website": "https://sd83.bc.ca/south-broadview-elementary",
+            "school_name": "Port Clements Elementary",
+            "address": "PO Box 288, Port Clements, BC",
+            "phone": "250-557-4344",
+            "website": "https://sd50.bc.ca/school/port-clements",
             "students": "TODO"
         },
         {
-            "school_name": "South Canoe",
-            "address": "5970 10 Ave SE, Salmon Arm, BC",
-            "phone": "TODO",
-            "website": "https://sd83.bc.ca/south-canoe",
+            "school_name": "Sk'aadgaa Naay Elementary",
+            "address": "PO Box 1252, Queen Charlotte, BC",
+            "phone": "250-559-8473",
+            "website": "https://sd50.bc.ca/school/skaadgaa-naay",
+            "students": "TODO"
+        },
+        {
+            "school_name": "Tahayghen Elementary",
+            "address": "PO Box 290, Masset, BC",
+            "phone": "250-626-5572",
+            "website": "https://sd50.bc.ca/school/tahayghen",
             "students": "TODO"
         }
     ]
 }
+
+
 
 
 

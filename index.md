@@ -71,8 +71,8 @@ Know that other diseases are airborne too: Measles (studies [1](https://www.ncbi
 
 ## Thompson-Okanagan Region
 
-* 19 Revelstoke
-* 22 Vernon
+* 19 [Revelstoke](Revelstoke/): 4 schools
+* 22 [Vernon](Vernon/): 21 schools
 * 23 [Central Okanagan](Central_Okanagan/): 30 schools
 * 53 [Okanagan-Similkameen](Okanagan-Similkameen/): 8 schools
 * 58 [Nicola-Similkameen](Nicola-Similkameen/): 10 schools
@@ -86,7 +86,7 @@ Know that other diseases are airborne too: Measles (studies [1](https://www.ncbi
 * 27 Cariboo-Chilcotin
 * 28 Quesnel
 * 49 Central Coast
-* 50 Queen Charlotte – Haida Gwaii
+* 50 [Haida Gwaii - Queen Charlotte](Haida_Gwaii_-_Queen_Charlotte/): 6 schools
 * 52 [Prince Rupert](Prince_Rupert/): 9 schools
 * 54 Bulkley Valley
 * 57 [Prince George](Prince_George/): 4 schools
