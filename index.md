@@ -107,6 +107,10 @@ Know that other diseases are airborne too: Measles (studies [1](https://www.ncbi
 * 20 [Kootenay-Columbia](Kootenay-Columbia/): 10 schools
 * 51 [Boundary](Boundary/): 10 schools
 
+# B.C. parent pressure
+
+* [Parents demand B.C. schools do more to improve air quality as triple epidemic rages](https://vancouversun.com/news/local-news/parents-demand-b-c-schools-do-more-to-improve-school-air-quality-as-triple-epidemic-rages) - Jan 2023
+
 # Work announced for B.C. Schools:
 
 [Ventilation upgrades for schools across B.C.](https://www.canada.ca/en/office-infrastructure/news/2024/03/ventilation-upgrades-for-schools-across-bc.html)
