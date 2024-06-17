@@ -4,6 +4,8 @@ title: Begbie View Elementary School
 ---
 # Navigation
 
+From <https://media.vsb.bc.ca/media/Default/medialib/vsb_ventilation_system_overview_sept_2023.394bd468066.pdf>
+
 [[All countries/states/provinces]](../../..) > [[All British Columbia Districts]](../..) > [[All In Revelstoke]](..)
 
 # Begbie View Elementary School (Revelstoke)
@@ -16,7 +18,9 @@ title: Begbie View Elementary School
 
 **Students**: TODO
 
-**School's overall airborne virus protection grade (0-5)**: 0
+**School's overall airborne virus protection grade (0-5)**: 3
+
+![image](https://github.com/ventilate-schools/BC/assets/125606732/68a347bf-9b13-4e38-8083-67e896fc413d)
 
 **Discord, Facebook, or WhatsApp group for discovery/advocacy for THIS school**: TODO
 
