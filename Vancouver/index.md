@@ -10,6 +10,25 @@ title: Schools in Vancouver
 
 {% include_relative grade.html %}
 
+From <https://www.vsb.bc.ca/_ci/p/19536>, "Looking forward to back-to-school" (Aug 31, 2021):
+
+"On August 24, the provincial government shared new health and safety information for the K-12 education system in anticipation of the return of school. A few days later, an update from the District was shared with families and students. That update provides important measures in place to help keep students and staff safe and healthy this school year. It also outlines the work of District staff to improve ventilation in schools."
+
+From that document <https://www.vsb.bc.ca/_ci/p/17041>. (Aug 10, 2021):
+
+"Clean air is essential for health and learning, and proper ventilation is an important part of COVID-19 health and safety measures in all Vancouver School District schools and workspaces.
+
+With the Provincial Government anticipating a return to in-class instruction for students in September, a Safe Return to School Grant and was announced to help school districts implement new health and safety measures. In addition, the Federal Government also announced a Federal Safe Return to Class Fund for each Province to support return-to-school plans. All schools and worksites in the District operate under health authority requirements, but with this funding, the District was able to invest $950,000 to further improve air ventilation in schools.
+
+In an effort to strengthen COVID-19 safety measures, the District implemented a program to increase outdoor air ventilation and improve air filtration in its facilities.  This included four primary activities:
+
+* Increasing ventilation times by starting equipment earlier in the day and running longer after occupancy. This required updating computerized controls or manually resetting systems.
+Increasing the amount of outdoor air to indoor spaces by resetting louvres and controls in ventilation equipment.
+* Upgrading and retrofitting ventilation equipment to “MERV-13” filters, as recommended by the Ministry of Education. Only a small number of units could not be retrofitted due to equipment incompatibility.
+* Ensuring all exterior windows are accessible and can be controlled by staff and students.
+* 
+Through this process, The District’s ventilation systems were inspected and updated at all 108 schools. Updates included rebuilding aging motors, replacing drive belts, repairing stuck louvres, updating controls and changing over 5000 filters district wide."
+
 **Schools:**
 
 - [¿uuqinak’uuh Grandview Elementary](¿uuqinak’uuh_Grandview_Elementary.md)
