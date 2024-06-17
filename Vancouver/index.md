@@ -8,26 +8,40 @@ title: Schools in Vancouver
 
 # Schools in Vancouver
 
+
 {% include_relative grade.html %}
 
-From <https://www.vsb.bc.ca/_ci/p/19536>, "Looking forward to back-to-school" (Aug 31, 2021):
+From <https://www.vsb.bc.ca/page/5017/ventilation> (2023 document)
 
-"On August 24, the provincial government shared new health and safety information for the K-12 education system in anticipation of the return of school. A few days later, an update from the District was shared with families and students. That update provides important measures in place to help keep students and staff safe and healthy this school year. It also outlines the work of District staff to improve ventilation in schools."
+(text below clipped from VSB site)
 
-From that document <https://www.vsb.bc.ca/_ci/p/17041>. (Aug 10, 2021):
+"Clean air is essential for health and learning, and proper ventilation is an important part of COVID-19 health and safety measures in all Vancouver School District schools and workspaces. By definition, ventilation is providing fresh, outdoor air in place of air that has been used. 
 
-"Clean air is essential for health and learning, and proper ventilation is an important part of COVID-19 health and safety measures in all Vancouver School District schools and workspaces.
-
-With the Provincial Government anticipating a return to in-class instruction for students in September, a Safe Return to School Grant and was announced to help school districts implement new health and safety measures. In addition, the Federal Government also announced a Federal Safe Return to Class Fund for each Province to support return-to-school plans. All schools and worksites in the District operate under health authority requirements, but with this funding, the District was able to invest $950,000 to further improve air ventilation in schools.
+**Ventilation in School Sites**
 
 In an effort to strengthen COVID-19 safety measures, the District implemented a program to increase outdoor air ventilation and improve air filtration in its facilities.  This included four primary activities:
 
-* Increasing ventilation times by starting equipment earlier in the day and running longer after occupancy. This required updating computerized controls or manually resetting systems.
 Increasing the amount of outdoor air to indoor spaces by resetting louvres and controls in ventilation equipment.
-* Upgrading and retrofitting ventilation equipment to “MERV-13” filters, as recommended by the Ministry of Education. Only a small number of units could not be retrofitted due to equipment incompatibility.
-* Ensuring all exterior windows are accessible and can be controlled by staff and students.
-* 
-Through this process, The District’s ventilation systems were inspected and updated at all 108 schools. Updates included rebuilding aging motors, replacing drive belts, repairing stuck louvres, updating controls and changing over 5000 filters district wide."
+
+Upgrading and retrofitting ventilation equipment to “MERV-13” filters, as recommended by the Ministry of Education. Filters are replaced three times a year.  This is continuing through 2023/24
+
+Ensuring all exterior windows are accessible and can be controlled by staff and students where available
+
+Through this process, The District’s ventilation systems were inspected and updated at all 108 schools. Updates included rebuilding aging motors, replacing drive belts, repairing stuck louvres, updating controls and changing approximately 7000 filters district wide.
+
+**Resources and Contact Information**
+
+[School Specific Ventilation Information - Sept 29, 2023](https://media.vsb.bc.ca/media/Default/medialib/vsb_ventilation_system_overview_sept_2023.394bd468066.pdf)
+
+[Indoor Air Quality in Schools | Vancouver Coastal Health (vch.ca) - March 2, 2023](https://www.vch.ca/en/resources-schools-and-childcare-facilities#text-image--126191)
+
+[Additional information is also available on our website, under COVID-19 Updates](https://www.vsb.bc.ca/page/5008).
+
+For specific questions about ventilation in your school, please email <info@vsb.bc.ca>"
+
+(end of text clippded from VSB site)
+
+See also **Older Vancouver Schoolboard documents** below.
 
 **Schools:**
 
@@ -140,3 +154,25 @@ Through this process, The District’s ventilation systems were inspected and up
 - [Windermere Secondary](Windermere_Secondary.md)
 - [Wolfe Elementary](Wolfe_Elementary.md)
 - [χpey̓ Elementary](χpey̓_Elementary.md)
+
+## Older Vancouver Schoolboard documents
+
+From <https://www.vsb.bc.ca/_ci/p/19536>, "Looking forward to back-to-school" (Aug 31, 2021):
+
+"On August 24, the provincial government shared new health and safety information for the K-12 education system in anticipation of the return of school. A few days later, an update from the District was shared with families and students. That update provides important measures in place to help keep students and staff safe and healthy this school year. It also outlines the work of District staff to improve ventilation in schools."
+
+From that document <https://www.vsb.bc.ca/_ci/p/17041>. (Aug 10, 2021):
+
+"Clean air is essential for health and learning, and proper ventilation is an important part of COVID-19 health and safety measures in all Vancouver School District schools and workspaces.
+
+With the Provincial Government anticipating a return to in-class instruction for students in September, a Safe Return to School Grant and was announced to help school districts implement new health and safety measures. In addition, the Federal Government also announced a Federal Safe Return to Class Fund for each Province to support return-to-school plans. All schools and worksites in the District operate under health authority requirements, but with this funding, the District was able to invest $950,000 to further improve air ventilation in schools.
+
+In an effort to strengthen COVID-19 safety measures, the District implemented a program to increase outdoor air ventilation and improve air filtration in its facilities.  This included four primary activities:
+
+* Increasing ventilation times by starting equipment earlier in the day and running longer after occupancy. This required updating computerized controls or manually resetting systems.
+Increasing the amount of outdoor air to indoor spaces by resetting louvres and controls in ventilation equipment.
+* Upgrading and retrofitting ventilation equipment to “MERV-13” filters, as recommended by the Ministry of Education. Only a small number of units could not be retrofitted due to equipment incompatibility.
+* Ensuring all exterior windows are accessible and can be controlled by staff and students.
+* 
+Through this process, The District’s ventilation systems were inspected and updated at all 108 schools. Updates included rebuilding aging motors, replacing drive belts, repairing stuck louvres, updating controls and changing over 5000 filters district wide."
+
