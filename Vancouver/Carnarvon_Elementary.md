@@ -16,7 +16,11 @@ title: Carnarvon Elementary
 
 **Website**: <https://www.vsb.bc.ca/carnarvon>
 
-**School's overall airborne virus protection grade (0-5)**: 0
+**School's overall airborne virus protection grade (0-5)**: 3
+
+From <https://media.vsb.bc.ca/media/Default/medialib/vsb_ventilation_system_overview_sept_2023.394bd468066.pdf>
+
+![image](https://github.com/ventilate-schools/BC/assets/125606732/844a9ff7-4e7d-4ed9-8abe-33149dccb8ee)
 
 **Discord, Facebook, or WhatsApp group for discovery/advocacy for THIS school**: TODO
 
