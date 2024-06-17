@@ -13,9 +13,9 @@ title: Schools in Vancouver
 
 From <https://www.vsb.bc.ca/page/5017/ventilation> (2023 document)
 
-(text below clipped from VSB site)
+`(text below clipped from VSB site)`
 
-"Clean air is essential for health and learning, and proper ventilation is an important part of COVID-19 health and safety measures in all Vancouver School District schools and workspaces. By definition, ventilation is providing fresh, outdoor air in place of air that has been used. 
+Clean air is essential for health and learning, and proper ventilation is an important part of COVID-19 health and safety measures in all Vancouver School District schools and workspaces. By definition, ventilation is providing fresh, outdoor air in place of air that has been used. 
 
 **Ventilation in School Sites**
 
@@ -33,13 +33,13 @@ Through this process, The District’s ventilation systems were inspected and up
 
 [School Specific Ventilation Information - Sept 29, 2023](https://media.vsb.bc.ca/media/Default/medialib/vsb_ventilation_system_overview_sept_2023.394bd468066.pdf)
 
-[Indoor Air Quality in Schools | Vancouver Coastal Health (vch.ca) - March 2, 2023](https://www.vch.ca/en/resources-schools-and-childcare-facilities#text-image--126191)
+[Indoor Air Quality in Schools - Vancouver Coastal Health - vch.ca - March 2, 2023](https://www.vch.ca/en/resources-schools-and-childcare-facilities#text-image--126191)
 
 [Additional information is also available on our website, under COVID-19 Updates](https://www.vsb.bc.ca/page/5008).
 
-For specific questions about ventilation in your school, please email <info@vsb.bc.ca>"
+For specific questions about ventilation in your school, please email <info@vsb.bc.ca>
 
-(end of text clippded from VSB site)
+`(end of text clippded from VSB site)`
 
 See also **Older Vancouver Schoolboard documents** below.
 
