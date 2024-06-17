@@ -24,33 +24,7 @@ title: Britannia Elementary
 
 From <https://media.vsb.bc.ca/media/Default/medialib/vsb_ventilation_system_overview_sept_2023.394bd468066.pdf>
 
-| **School District:**                          | 39 - Vancouver                                                                                                                                                                      |
-|-----------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **School Name:**                              | Britannia Elementary                                                                                                                                                                |
-| **REQUIREMENT:**                              | Regular inspection and maintenance of HVAC systems                                                                                                                                  |
-| **Yes/No:**                                   | Yes                                                                                                                                                                                 |
-| **Date of last inspection:**                  | Summer break.                                                                                                                                                                       |
-| **Note:**                                     | HVAC systems inspected by building engineers at time of filter replacement. Filters replaced at summer, winter, and spring breaks.                                                  |
-| **Date of next inspection:**                  | Winter break filter change.                                                                                                                                                         |
-| **Date and type of most recent maintenance:** | Routine inspection at filter changes.                                                                                                                                               |
-| **RECOMMENDATION:**                           | Increase supply of outside air                                                                                                                                                      |
-| **Yes/No:**                                   | Yes                                                                                                                                                                                 |
-| **Detail:**                                   | Actions implemented - Pneumatically controlled system. Mixed air thermostat setting lowered to increase outdoor air flow. - Windows reviewed to ensure operability where requested. |
-| **RECOMMENDATION:**                           | Upgrade filtration, including installing MERV-13 filters, where possible                                                                                                            |
-| **Yes/No:**                                   | Yes                                                                                                                                                                                 |
-| **Detail (Including filter grade):**          | Filters upgraded to MERV-13.                                                                                                                                                        |
-| **RECOMMENDATION:**                           | Use other air cleaning or treatment technologies                                                                                                                                    |
-| **Yes/No:**                                   | No                                                                                                                                                                                  |
-| **Detail:**                                   | None currently identified.                                                                                                                                                          |
-| **RECOMMENDATION:**                           | Manage energy use and air distribution through building automation control systems                                                                                                  |
-| **Yes/No:**                                   | Yes                                                                                                                                                                                 |
-| **Detail:**                                   | System is controlled and operated at the site. Building engineers start ventilation systems at the start of shift each morning.                                                     |
-| **Other Relevant Information:**               | School H&S committees should direct any ventilation concerns to the site-level building engineer for resolution and/or maintenance call out.                                        |
-| **District Contact for any Questions:**       | Name: Jason Webber                                                                                                                                                                  |
-|                                               | Phone Number: 604-713-4497                                                                                                                                                          |
-|                                               | Email: jwebber@vsb.bc.ca                                                                                                                                                            |
-| **Update September 2022**                     | Six (6) air handlers to be refurbished (motors / belts / bearings). Parts on order. Work to complete 2022/23.                                                                       |
-
+![image](https://github.com/ventilate-schools/BC/assets/125606732/cb0b2541-361e-450b-964a-ccf3f8801915)
 
 **School's Ventilation Work Completion**: TODO
 
