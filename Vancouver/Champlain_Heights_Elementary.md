@@ -16,7 +16,11 @@ title: Champlain Heights Elementary
 
 **Website**: <https://www.vsb.bc.ca/champlain-heights>
 
-**School's overall airborne virus protection grade (0-5)**: 0
+**School's overall airborne virus protection grade (0-5)**: 2
+
+![image](https://github.com/ventilate-schools/BC/assets/125606732/e9174a70-3fee-4da3-934e-fdf4a7c962f5)
+
+From: <https://media.vsb.bc.ca/media/Default/medialib/vsb_ventilation_system_overview_sept_2023.394bd468066.pdf>
 
 **Discord, Facebook, or WhatsApp group for discovery/advocacy for THIS school**: TODO
 
